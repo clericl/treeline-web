@@ -9,17 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@deck.gl/layers": "^8.9.4",
+    "@deck.gl/react": "^8.9.4",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mapbox/geo-viewport": "^0.5.0",
+    "@mui/material": "^5.14.8",
+    "@redis/client": "^1.5.9",
+    "@tanstack/react-query": "^4.35.0",
+    "@turf/distance": "^6.5.0",
     "@types/node": "20.5.7",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "lodash.debounce": "^4.0.8",
+    "mapbox-gl": "^2.15.0",
     "next": "13.4.19",
     "postcss": "8.4.29",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-map-gl": "^7.1.5",
+    "redis": "^4.6.8",
     "tailwindcss": "3.3.3",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/mapbox__geo-viewport": "^0.5.0"
   }
 }

@@ -1,0 +1,667 @@
+{
+  "": {
+    "commonNames": "",
+    "color": [0, 0, 0, 0.5],
+    "description": ""
+  },
+  "Acer buergerianum": {
+    "commonNames": "trident maple, three-toothed maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The trident maple is a deciduous tree native to East Asia. It has a small to medium-sized stature, reaching heights of 20 to 30 feet. It has a spreading crown and a trunk that often develops attractive, peeling bark, revealing shades of gray, orange, and brown. The name \"trident maple\" is derived from its leaves, which typically have three pointed lobes, resembling a trident. The trident maple is hardy and well-suited to urban conditions, including air pollution and compacted soils. Its flowers and seeds provide a valuable food source for various pollinators, such as bees and birds."
+  },
+  "Acer campestre": {
+    "commonNames": "field maple, hedge maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The field maple is a deciduous tree native to Europe, western Asia, and North Africa. It is small to medium-sized, typically growing up to 30 to 50 feet. It has a rounded crown with dense foliage. The leaves are palmate and typically have five lobes, and turn from green to vibrant yellow in the autumn. The field maple is adaptable and thrives in a wide range of soils, including chalky and clay soils. It provides a valuable habitat for wildlife with its dense foliage and branching structure, which offer nesting sites and shelter for birds. The bark and leaves are used in some traditional medicine, and the wood is popular for furniture, musical instruments, and tool handles."
+  },
+  "Acer ginnala": {
+    "commonNames": "Amur maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The Amur maple is a deciduous shrub or small tree native to eastern Asia, particularly Siberia, China, and Mongolia. It is named after the Amur River that flows through that region, along which it is commonly found. The Amur maple typically grows up to 20 feet in height and displays a rounded crown with dense foliage. The leaves are three-lobed and turn vibrant shades of red, orange, or yellow in the fall. The Amur maple is known for its rapid growth rate as well as its tolerance to drought and cold temperatures. The tree produces small red samaras, or winged seeds, which are eaten by birds and small mammals."
+  },
+  "Acer griseum": {
+    "commonNames": "paperbark maple, blood-bark maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The paperbark maple is renowned for its smooth, shiny, cinnamon-colored bark, which peels away in thin, papery curls. Its trifoliate leaves are dark green during the summer and turn vibrant shades of orange and red in the fall. This small to medium-sized maple is native to central China and is known for its relatively slow growth rate."
+  },
+  "Acer negundo": {
+    "commonNames": "box elder, boxelder maple, Manitoba maple, ash-leaved maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The boxelder maple is a fast-growing deciduous tree native to North America. Most maples have simple, palmately lobed leaves; the boxelder is one of the unusual species that have pinnately compound leaves, and of those is the only one whose leaves may have more than three leaflets (up to seven). The boxelder is a relatively short-lived tree that can grow up to 50 feet tall. It is a dioecious species, having separate male and female trees; the female trees produce clusters of samaras (winged seeds). The wood is occasionally used for making inexpensive furniture and crates."
+  },
+  "Acer nigrum": {
+    "commonNames": "black maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The black maple is a hardwood tree native to eastern North America. It closely resembles Acer saccharum (the sugar maple) and shares many of its characteristics; however, the black maple's three-lobed leaves distinguish it from the five-lobed leaves of the sugar maple. It is often used for its dense, close-grained wood, which is valuable for furniture, flooring, and cabinetry. Like the sugar maple, the black maple can also be used for maple syrup production."
+  },
+  "Acer palmatum": {
+    "commonNames": "Japanese maple, palmate maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The Japanese maple is a small, graceful tree native to Japan, Korea, and China. It grows to a height of 20 to 30 feet and may have multiple trunks joining close to the ground. The leaves are generally palmate with five, seven, or nine acutely pointed lobes, but the numerous cultivars of the species display a large variety of forms, leaf shapes, and foliage colors. The species has a centuries-long history of cultivation in Japan, being popular in gardens, as bonsai, and in art."
+  },
+  "Acer platanoides 'Crimson King'": {
+    "commonNames": "Norway maple, Crimson King",
+    "color": [118, 191, 84, 0.5],
+    "description": "A cultivar of Norway maple, 'Crimson King' is known for its richly colored dark purple leaves."
+  },
+  "Acer platanoides": {
+    "commonNames": "Norway maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The Norway maple is a deciduous tree native to Europe. It is medium to large in size, with a tall trunk, a dense, rounded crown, and dark green, palmate leaves with five lobes. It is extremely adaptable to various soil and climate conditions, contributing to its widespread cultivation as a shade tree in urban areas. In fact, it is considered an invasive species in some regions of North America, as it can outcompete native vegetation and dominate ecosystems."
+  },
+  "Acer pseudoplatanus": {
+    "commonNames": "sycamore maple, planetree maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The sycamore maple is a large deciduous tree native to central Europe and southwestern Asia. It is known for its broad-spreading crown, reaching heights of up to 100 feet. It grows rapidly, making it suitable for reforestation efforts. The sycamore maple has distinctive palmate leaves with five lobes that grow on long stalks, and the flowers are greenish-yellow and form drooping clusters. The wood is strong with an attractive, close grain and a creamy white color, and is used for musical instruments, furniture, joinery, flooring, and kitchen utensils."
+  },
+  "Acer rubrum": {
+    "commonNames": "red maple, swamp maple, water maple, soft maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The red maple is the most abundant native tree species in North America. It is a medium to large deciduous tree that can reach heights of up to 100 feet. It is a resilient and versatile species that adapts well to various soil conditions. Its flowers, petioles, twigs, and seeds are all red to varying degrees, but it is best known for its deep scarlet autumn foliage. The wood is medium to high quality like many maples, and like the sugar maple, the red maple can be used for maple syrup production."
+  },
+  "Acer saccharinum": {
+    "commonNames": "silver maple, creek maple, silverleaf maple, soft maple, large maple, water maple, swamp maple, white maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The silver maple is a fast-growing deciduous tree native to eastern North America. It is known for the distinctive silver undersides of its leaves, which shimmer in the breeze and give the species its common name. It has a spreading crown that offers generous shade, and its deeply lobed, palmate leaves turn pale yellow or golden in the fall. Though it tolerates wet and poorly drained soils well, such as in areas prone to flooding, the wood is relatively brittle and prone to storm damage."
+  },
+  "Acer saccharum": {
+    "commonNames": "sugar maple, rock maple, sugar tree, birds-eye maple, sweet maple, curly maple, hard maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The sugar maple is a large deciduous tree native to North America that is well known as the primary source of maple syrup, which is derived from the tree sap. The bright green leaves are palmate with five lobes and turn spectacular colors in fall, ranging from bright yellow to fluorescent red-orange to deep purple. The dense hardwood is also highly valued for furniture, flooring, and cabinetry. The seeds, young leaves, and inner bark are edible to some extent. The roots are deeper than most maples and draw water from lower soil to hydrate drier soil closer to the surface. It is one of the most important species in its native forests."
+  },
+  "Acer tataricum": {
+    "commonNames": "Tatar maple, Tatarian maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The Tatar maple is a deciduous tree native to central and western Asia. It is small to medium-sized and known for its showy display of small, fragrant, pink or red flowers in spring, which turn into reddish winged samaras that can persist into winter."
+  },
+  "Acer truncatum": {
+    "commonNames": "Shandong maple, Shantung maple, purpleblow maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The Shandong maple is native to eastern Asia, particularly China. It is a small to medium-sized tree that can grow up to 50 feet tall, and features a broad, rounded crown. The bark is smooth on young trees and becomes shallowly ridged with age. The leaves are palmate with five lobes and often have wavy margins."
+  },
+  "Acer": {
+    "commonNames": "maple",
+    "color": [118, 191, 84, 0.5],
+    "description": "The genus Acer, the maple trees, are deciduous trees and shrubs widely distributed across the Northern Hemisphere. They have an iconic leaf shape with palmate (resembling the fingers of a hand) lobes. They are known for their colorful fall foliage, with their leaves turning brilliant shades of yellow, red, and orange in the autumn. Many maples have strong, durable, and attractive wood. Many maples can also be tapped for their sweet sap, which is processed into maple syrup."
+  },
+  "Aesculus glabra": {
+    "commonNames": "Ohio buckeye",
+    "color": [126, 150, 60, 0.5],
+    "description": "The Ohio buckeye is a deciduous tree native to the eastern and central parts of the United States. The leaves are palmately compound with five long, broad leaflets. The flowers are small, have stamens longer than the petals, and are arranged in branched clusters. These flowers develop into inedible, nutlike, glossy brown fruits with a lighter beige spot. The fruits are called buckeyes, giving rise to the tree's common name."
+  },
+  "Aesculus hippocastanum": {
+    "commonNames": "horse chestnut, European horse chestnut, buckeye, conker tree",
+    "color": [126, 150, 60, 0.5],
+    "description": "The horse chestnut is a large deciduous tree native to the Balkan Peninsula in southeastern Europe. The leaves are palmately compound with five to seven leaflets. The flowers are white with a pink or yellow blotch at the base, and are produced in clusters of a few dozen. These develop into nutlike fruits covered by a spiky green capsule, historically fed to horses to treat respiratory ailments, thus giving rise to the common name. These fruits are poisonous to humans and should not be eaten."
+  },
+  "Aesculus x carnea": {
+    "commonNames": "red horse-chestnut",
+    "color": [126, 150, 60, 0.5],
+    "description": "The red horse-chestnut is a hybrid between Aesculus pavia, the red buckeye, and Aesculus hippocastanum, the horse chestnut tree. It grows up to 40 feet tall with a large, round canopy that casts dense shade. The leaves are dark green and palmately compound, divided into five large, toothed leaflets. The tree produces cone-shaped clusters of red flowers in spring."
+  },
+  "Ailanthus altissima": {
+    "commonNames": "tree of heaven, ailanthus, varnish tree",
+    "color": [146, 135, 32, 0.5],
+    "description": "The tree of heaven is a deciduous tree native to China. It features compound leaves composed of numerous large leaflets that have a long, tapering end, giving the tree a feathery appearance from afar. It is considered an invasive species, due to its rapid growth, aggressive spreading behavior, and ability to colonize disturbed and urban environments. All parts of the tree emit a distinguishing strong odor often compared to that of rotting peanuts."
+  },
+  "Albizia julibrissin": {
+    "commonNames": "silk tree, Persian silk tree, pink silk tree, mimosa tree",
+    "color": [12, 88, 57, 0.5],
+    "description": "The silk tree is a small to medium-sized deciduous tree native to Asia, particularly Iran, China, and Korea. It is distinguished by its unique, fluffy-looking flowers, which resemble starbursts of pink, silk-like threads. The leaves are large and frondlike, with each featuring 20 to 30 pairs of leaflets. These leaves fold and droop during the night, in periods of rain, and in response to touch, a mechanism to conserve water and protect the tree from potential threats."
+  },
+  "Alnus glutinosa": {
+    "commonNames": "black alder, common alder, European alder",
+    "color": [47, 140, 155, 0.5],
+    "description": "The common alder is a deciduous tree native to Europe, Asia, and North Africa. The tree can grow to a height of 100 feet or more. The leaves grow on short stalks and are medium sized, with a wedge-shaped base and a wavy, serrated margin. The tree produces slender, cylindrical male catkins and pinecone-like female catkins. It thrives in wet or waterlogged soil where it is able to fix nitrogen, and as such is well-suited for riparian areas, wetlands, and along riverbanks, where it is an important pioneer species."
+  },
+  "Amelanchier": {
+    "commonNames": "shadbush, shadblow, serviceberry, sugarplum, saskatoon, juneberry",
+    "color": [77, 157, 59, 0.5],
+    "description": "The genus Amelanchier, the serviceberries, are a group of deciduous shrubs and small trees that are valued for their ornamental beauty and edible berries. The leaves are simple, ovate, and often have a serrated margin. The flowers are small, white, five-petaled, and grow in small groups. Each flower grows into a round, dark purple berry that is sweet and almond-flavored."
+  },
+  "Betula nigra": {
+    "commonNames": "river birch, black birch, water birch",
+    "color": [94, 164, 176, 0.5],
+    "description": "The river birch is a deciduous tree native to eastern and central North America. It is known for its distinctive bark, which peels off in thin, papery scales. The leaves are diamond-shaped and serrated on the margin. The species occurs predominantly in wetland areas and riverbanks, giving rise to the common name."
+  },
+  "Betula papyrifera": {
+    "commonNames": "paper birch, canoe birch, American white birch",
+    "color": [94, 164, 176, 0.5],
+    "description": "The paper birch is a deciduous tree native to North America. It is known for its bright white bark, which peels from older trees in fine, papery strips. The bark commonly has small, black, horizontal marks and scars. The leaves are oval to triangular in shape and have a serrated margin. The sap can be boiled down to make birch syrup, much like the sap of maple trees can be turned into maple syrup, but birch syrup requires a much higher volume of sap. Stands of paper birch can be found recolonizing areas disturbed by wildfire or avalanche."
+  },
+  "Betula pendula": {
+    "commonNames": "silver birch, warty birch, European white birch, East Asian white birch",
+    "color": [94, 164, 176, 0.5],
+    "description": "The silver birch is a deciduous tree native to Europe and parts of Asia. The common name comes from the tree's white, peeling bark, and the Latin name from the drooping branches. The leaves have short, slender stalks, are triangular, and have coarsely serrated margins."
+  },
+  "Carpinus betulus": {
+    "commonNames": "European hornbeam, common hornbeam",
+    "color": [123, 188, 194, 0.5],
+    "description": "The European hornbeam is a deciduous tree native to Europe and parts of Asia. It is known for its distinctive fluted greenish-gray bark, dense foliage, and hard wood. The leaves have serrated margins and prominent veins that give a distinctive corrugated texture. The wood is heavy and strong and can be used for tools and building constructions."
+  },
+  "Carpinus caroliniana": {
+    "commonNames": "American hornbeam, musclewood, blue beech",
+    "color": [123, 188, 194, 0.5],
+    "description": "The American hornbeam is a deciduous tree native to eastern North America. The name \"musclewood\" comes from its distinctive trunk, which is smooth and fluted, giving the appearance of flexed sinews or muscles. The leaves are serrated and have prominent veins that give a distinctive corrugated texture. The wood is heavy and hard, close-grained and strong. The tree's flexible branches were historically used by Native tribes for crafting longbows."
+  },
+  "Carpinus japonica": {
+    "commonNames": "Japanese hornbeam",
+    "color": [123, 188, 194, 0.5],
+    "description": "The Japanese hornbeam is a deciduous tree native to Japan, Korea, and China. The leaves are dark, glossy, and slender, with prominent veins that give a corrugated appearance. The species is often used in bonsai as a result of its small size, elegant branching patterns, and interesting foliage."
+  },
+  "Carya glabra": {
+    "commonNames": "pignut hickory",
+    "color": [126, 150, 60, 0.5],
+    "description": "The pignut hickory is a deciduous tree native to eastern North America. It is known for its tall stature, strong wood, and edible nuts. The dark green leaves are pinnately compound with five leaflets. The fruit is a hard-shelled nut that is an important food source for wildlife. These nuts are edible to humans, but due to their small size, bitter taste, and thick shells, were historically not eaten by settlers but fed to pigs. The wood is strong and durable and used in the production of furniture, tool handles, and flooring."
+  },
+  "Castanea mollissima": {
+    "commonNames": "Chinese chestnut",
+    "color": [250, 92, 36, 0.5],
+    "description": "The Chinese chestnut is a deciduous tree native to China and other parts of East Asia. The fruit is spiny and contains two or three glossy brown nuts; these nuts are sweet and flavorful and are eaten both raw and cooked. The leaves are large and serrated and provide dense shade from the tree's broad, spreading canopy. The tree provides durable timber that is used in furniture and construction."
+  },
+  "Catalpa": {
+    "commonNames": "catalpa, catawba",
+    "color": [244, 121, 25, 0.5],
+    "description": "Catalpa is a genus of flowering plants, most of which are deciduous trees. They are characterized by their fast growth, large heart-shaped leaves, and clusters of ruffled, trumpet-shaped, white or yellow flowers in summer."
+  },
+  "Cedrus atlantica": {
+    "commonNames": "Atlas cedar",
+    "color": [96, 235, 218, 0.5],
+    "description": "The Atlas cedar is an evergreen tree native to the Atlas Mountains of Morocco and Algeria. It is a large tree with a pyramidal shape that can grow up to 115 feet tall. The needles are a silvery bluish-gray. The wood is aromatic, durable, and resistant to decay and insect damage."
+  },
+  "Cedrus deodara": {
+    "commonNames": "deodar cedar, Himalayan cedar, deodar",
+    "color": [96, 235, 218, 0.5],
+    "description": "The deodar cedar is an evergreen tree native to the western Himalayas. It has a graceful, pyramidal shape, pendulous (drooping) branches, and aromatic wood. The leaves are long, needle-like, and vary in color from blue-green to silvery-green. The wood is extremely durable and commonly used as a building material, and historically was used to construct religious temples. The common name comes from Sanskrit and translates to \"tree of the gods\"."
+  },
+  "Celtis occidentalis": {
+    "commonNames": "common hackberry, northern hackberry",
+    "color": [162, 84, 37, 0.5],
+    "description": "The common hackberry is a deciduous tree native to North America. Its distinctive bark is a gray-brown color and is broken on the surface into warty, scale-like ridges. The leaves are asymmetrical with serrated edges, and the fruits are small, dark purple berries that remain on the branches even through winter. These fruits are edible and are important food sources for birds and other wildlife."
+  },
+  "Cercidiphyllum japonicum": {
+    "commonNames": "katsura",
+    "color": [227, 139, 29, 0.5],
+    "description": "The katsura tree is a deciduous tree native to Japan and China. Its leaves are round with a heart-shaped base and turn a variety of pinks, yellows, and reds in autumn. Their fall coloration is sometimes accompanied by a distinctive sweet, caramel-like scent."
+  },
+  "Cercis canadensis": {
+    "commonNames": "eastern redbud",
+    "color": [118, 191, 84, 0.5],
+    "description": "The eastern redbud is a deciduous tree native to eastern North America. It is well known for its magenta flowers which appear on the bare stems before leaves bud in the spring. The leaves are heart-shaped and "
+  },
+  "Cercis reniformis": {
+    "commonNames": "Oklahoma redbud",
+    "color": [118, 191, 84, 0.5],
+    "description": "The Oklahoma redbud is a deciduous tree native to the United States. Its distinctive heart- or kidney-like leaf shape gives rise to the Latin name (reniformis, \"kidney-shaped\"). The tree has a rounded crown and matures at 20 to 30 feet tall. It has showy, deep pink flowers that emerge in clusters of four to ten in early spring before the foliage, and as the flowers fade, the heart-shaped leaves unfurl. The flowers are a food source for bees and other pollinators, and the wood is occasionally used in small-scale carpentry or to make ornamental objects."
+  },
+  "Chamaecyparis pisifera": {
+    "commonNames": "Sawara cypress, Japanese false cypress",
+    "color": [32, 147, 47, 0.5],
+    "description": "The Sawara cypress is a coniferous tree native to Japan. It typically grows to 30 to 50 feet tall. The foliage consists of delicate, scale-like leaves that are arranged in flattened sprays, giving the tree a feathery appearance. Different cultivars have leaf colors ranging from vibrant green to silvery-blue or golden-yellow. The leaves emit a pleasant aroma when crushed. The wood is durable and decay-resistant, making it suitable for outdoor construction and, traditionally, Japanese temples."
+  },
+  "Chamaecyparis thyoides": {
+    "commonNames": "Atlantic white cedar, Atlantic white cypress, southern white cedar, whitecedar, white cypress",
+    "color": [32, 147, 47, 0.5],
+    "description": "The Atlantic white cedar is an evergreen tree native to the eastern United States. It reaches heights between 40 to 75 feet and is slender and pyrimidal. The foliage consists of scale-like leaves that are arranged in flattened sprays, giving the tree a delicate and feathery appearance. The species is well-adapted to wetland environments and can often be found in swamps and bogs. The wood is highly resistant to decay and is used for fences, shingles, and boats. Atlantic white cedar has been overharvested in the past and is now a threatened species in some areas."
+  },
+  "Chionanthus retusus": {
+    "commonNames": "Chinese fringetree",
+    "color": [126, 214, 187, 0.5],
+    "description": "The Chinese fringetree is a deciduous tree native to China and Korea. The tree is small and grows to a height of about 15 to 25 feet. The leaves are oval-shaped with a pointed tip and a glossy green color. In late spring to early summer, the tree blooms with an abundance of fragrant, fringe-like flowers with slim white petals, giving rise to the common name. The wood is occassionally used for crafting small objects, and various parts of the tree have been used in traditional Chinese medicine."
+  },
+  "Cladrastis kentukea": {
+    "commonNames": "Kentucky yellowwood, American yellowwood",
+    "color": [118, 191, 84, 0.5],
+    "description": "The Kentucky yellowwood is a small to medium-sized deciduous tree native to the southeastern United States. It grows to a height of 30 to 50 feet and has a spread nearly as broad. The leaves are pinnately compound, consisting of multiple leaflets arranged along a central stalk. These leaflets are oval-shaped and have a smooth, dark green appearance, turning a vibrant yellow in autumn. In late spring to early summer, the tree produces clusters of fragrant white flowers. The wood is hard and durable and has historically been used for various woodworking applications, but such use has diminished due to conservation efforts."
+  },
+  "Cornus alternifolia": {
+    "commonNames": "alternate-leaved dogwood, alternateleaf dogwood, pagoda dogwood, green osier",
+    "color": [189, 80, 21, 0.5],
+    "description": "The pagoda dogwood is a deciduous tree native to North america. It is a small to medium-sized tree that grows to about 25 feet. The leaves are oval and pointed at the tip with distinctive, long, slightly arced veins. The branches are arranged in horizontal layers with an apparent amount of separation between each layer, resembling the tiers of a pagoda (hence the common name). The flowers bloom in late spring to early summer and are small, clustered, and creamy white with long stamens, and turn into small bluish-black berries commonly eaten by birds."
+  },
+  "Cornus florida": {
+    "commonNames": "flowering dogwood",
+    "color": [189, 80, 21, 0.5],
+    "description": "The flowering dogwood is a deciduous tree native to eastern North America. It typically grows to a height of 15 to 30 feet. The leaves are oval-shaped with pointed tips and turn red in the autumn. The \"flowers\" have four petals, each indented or notched on the tip; these are not true flowers but inflorescences or flower heads that surround the actual flowers, which are tiny, also four-petaled, and are in groups of about 20 at the center of each inflorescence."
+  },
+  "Cornus kousa": {
+    "commonNames": "kousa, kousa dogwood, Chinese dogwood, Korean dogwood, Japanese dogwood",
+    "color": [189, 80, 21, 0.5],
+    "description": "The kousa dogwood is a deciduous tree native to East Asia. It is small to medium in size, growing to a height of 15 to 25 feet with a spread of 20 to 30 feet. The leaves are oval-shaped, pointed at the tip, and deep green in color, turning shades of red and purple in the fall. In late spring to early summer, the tree produces four-petaled \"flowers\" in shades of creamy white. These are actually specialized leaves called bracts that surround the actual tiny flowers in the center of the inflorescence. The inflorescences grow above the leaves and face upwards, and turn into edible berries with a sweet and creamy flavor."
+  },
+  "Cornus mas": {
+    "commonNames": "Cornelian cherry, cornel, Cornelian cherry dogwood",
+    "color": [189, 80, 21, 0.5],
+    "description": "The Cornelian cherry tree is a small deciduous tree native to Europe and Western Asia. It grows to a height of 15 to 25 feet with a spread of 10 to 15 feet. The leaves are oval-shaped and arranged opposite each other on the branches. The small yellow flowers bloom in late winter in clusters of 10 to 25. The small red berries ripen in mid to late summer and are edible, with a tart flavor similar to cranberries or sour cherries. The wood is dense and hard and has been used in the past for tool handles and small woodworking projects."
+  },
+  "Corylus colurna": {
+    "commonNames": "Turkish hazel, Turkish filbert",
+    "color": [99, 34, 12, 0.5],
+    "description": "The Turkish hazel tree is a medium to large deciduous tree native to southeastern Europe and southwestern Asia. It can grow to a height of 40 to 60 feet, with a broad, rounded crown and attractive grayish-brown bark with a distinctive flaky texture. The leaves are round to oval-shaped with a pointed tip, softly hairy, and slightly jagged on the edges. The nuts are enclosed in a protective, spiny husk but are edible and known as filberts or Turkish nuts. Because these filberts are smaller than common hazelnuts and the husk is hard and thick, they are not harvested commercially."
+  },
+  "Cotinus coggygria": {
+    "commonNames": "smoketree, European smoketree, Eurasian smoketree, smoke tree, smoke bush, Venetian sumac",
+    "color": [125, 164, 107, 0.5],
+    "description": "The smoke tree is a small tree native to southern Europe and central Asia. It grows to a height of 10 or 15 feet. The name comes from its unique flowering display, where clusters of tiny, feathery flowers emerge in large, billowy inflorescences that resemble puffs of smoke or cloud-like plumes. These inflorescences range in color from creamy white to pink or purplish hues. The leaves are long, rounded ovals with a waxy sheen and range in color from green to purple. The wood was traditionally used in the past to make dyes and small crafts."
+  },
+  "Crataegus crusgalli var. inermis": {
+    "commonNames": "cockspur thorn, cockspur hawthorn",
+    "color": [127, 125, 108, 0.5],
+    "description": "The cockspur hawthorn is a small deciduous tree native to North America. It typically grows to a height of 15 to 30 feet tall. The leaves are serrated and glossy dark green in color, turning gold to red in the fall. The tree produces clusters of white flowers in spring that give way to small, bright red, edible fruits known as haws. Wild varieties of the cockspur hawthorn have stout thorns up to three inches long, giving the common name. This variety is thornless."
+  },
+  "Crataegus": {
+    "commonNames": "hawthorn",
+    "color": [127, 125, 108, 0.5],
+    "description": "The genus Crataegus, the hawthorns, are a group of small to medium-sized shrubs and trees distributed throughout North America, Europe, and Asia. They are so named for their dense, thorny branches, but certain varieties used as street trees are thornless. Hawthorns produce clusters of small, fragrant flowers that develop into small berries called haws, which can be red, orange, yellow, or black."
+  },
+  "Eucommia ulmoides": {
+    "commonNames": "Chinese rubber tree, hardy rubber tree",
+    "color": [221, 124, 81, 0.5],
+    "description": "The hardy rubber tree is a deciduous tree native to China that grows to a height of 30 to 60 feet. The leaves are elliptical, pointed, serrate, and a glossy dark green color. The tree produces a latex-like sap that was historically used as a natural rubber, but the volume is too small for large-scale production. Tearing a leaf, breaking a twig, or peeling off some of the inner bark will all release some of the stringy, sticky sap."
+  },
+  "Fagus grandifolia": {
+    "commonNames": "American beech",
+    "color": [170, 114, 65, 0.5],
+    "description": "The American beech is a large deciduous tree native to eastern North America. It grows to a height of 50 to 80 feet, and the graceful branching structure creates a dense, rounded canopy. The leaves are oval-shaped and have a wavy margin. The tree has a smooth, silver-gray bark that develops distinctive horizontal ridges with age and is popular for carving words or symbols into. Beech wood is strong and durable and is used for furniture, flooring, and tool handles. The tree also produces edible nuts that are a valuable source of food for wildlife and can be eaten raw or cooked by humans, or roasted and ground as a coffee substitute."
+  },
+  "Fagus sylvatica": {
+    "commonNames": "European beech, common beech",
+    "color": [170, 114, 65, 0.5],
+    "description": "The European beech is a large deciduous tree native to Europe. It can grow to a height of 50 to 100 feet, and the dense, rounded canopy provides shade and shelter. The leaves are elliptical and have a wavy margin. The tree has a smooth gray bark that develops distinctive horizontal ridges with age. The wood is strong, straight-grained, and durable, making it suitable for furniture, flooring, cabinetry, and veneer. The nuts are an important food source for wildlife and edible by humans in small quantities."
+  },
+  "Fraxinus americana": {
+    "commonNames": "white ash, American ash",
+    "color": [126, 214, 187, 0.5],
+    "description": "The white ash is a large deciduous tree native to North America. It typically grows to a height of 50 to 80 feet and has a relatively straight trunk and a rounded crown. The leaves are compound and pinnate with 5, 7, or 9 leaflets, each leaflet being oval to oblong and dark green above and whitish green below. The gray bark develops distinctive deep, diamond-shaped ridging on mature trees. The wood is sturdy, resilient, versatile, and known for an attractive grain pattern. This wood is often used in furniture, flooring, cabinetry, and sports equipment such as baseball bats."
+  },
+  "Fraxinus pennsylvanica": {
+    "commonNames": "green ash, red ash",
+    "color": [126, 214, 187, 0.5],
+    "description": "The green ash is a medium to large deciduous tree native to North America. It typically grows to a height of 50 to 70 feet. The tree has a straight trunk and an open, rounded canopy. The bark is smooth and gray on young trees and becomes thick and fissured with age. The leaves are pinnately compound with seven to nine (occasionally five or eleven) leaflets, each with serrated margins and a green color that turns golden in autumn. Fallen green ash leaves are a choice food source for North American frogs and other wildlife. The wood is similar to white ash and popular in furniture, flooring, tool handles, and instruments."
+  },
+  "Fraxinus": {
+    "commonNames": "ash",
+    "color": [126, 214, 187, 0.5],
+    "description": "Fraxinus, the ash trees, is a genus of deciduous trees that encompasses species distributed across North America, Europe, and Asia. They generally range from medium to large in size, with heights averaging between 50 to 80 feet. The leaves are typically pinnately compound and the trunks are sturdy, relatively straight and cylindrical. Their branching structure often forms a rounded or oval-shaped crown. Ash wood is high valued for its strength, durability, and attractive grain patterns. The genus is direly threatened by the emerald ash borer, an invasive insect that has caused widespread mortality in ash populations."
+  },
+  "Ginkgo biloba": {
+    "commonNames": "ginkgo, maidenhair tree",
+    "color": [3, 85, 5, 0.5],
+    "description": "The gingko is a unique and ancient tree originating in China. It is typically medium-sized, growing to a height of 50 to 80 feet, and has an angular crown with long, somewhat erratic branches. The leaves have a distinct fan shape that can be notched in the middle. They are a vibrant green in summer and turn a striking golden yellow in autumn. The nuts are eaten in various cooked preparations for their distinctive flavor, and the nuts, seeds, and leaves have a long history in traditional Chinese medicine. The species is a living fossil: it is the only surviving species of its botanical family and dates back over 290 million years."
+  },
+  "Gleditsia triacanthos var. inermis": {
+    "commonNames": "honey locust, thorny locust, thorny honeylocust",
+    "color": [125, 164, 34, 0.5],
+    "description": "The honey locust tree is a deciduous tree native to North America. It is a medium sized tree that grows to a height of 30 to 70 feet. The leaves are pinnately compound, consisting of numerous small leaflets that give the tree a feathery appearance from a distance. The leaflets are typically oval-shaped and arranged in pairs along the branches. The tree has a relatively open and airy crown. This cultivar is thornless, but the wild species is characterized by the long, sharp thonrns on its branches. The wood is strong and durable and historicallly used for furniture, flooring, and fence posts. The seed pods are long and twisted and contain an edible, sweet, sticky pulp."
+  },
+  "Gymnocladus dioicus": {
+    "commonNames": "Kentucky coffeetree, coffeetree, American coffee berry, Kentucky mahogany, nicker tree, stump tree",
+    "color": [3, 85, 5, 0.5],
+    "description": "The Kentucky coffeetree is a large deciduous tree native to North America. It can reach heights of up to 60 to 75 feet. The leaves are bipinnately compound, meaning that each leaf is divided into multiple small branchlets, each one carrying multiple leaflets. The leaflets themselves are oval-shaped and pointed. The branches are rugged and often contorted with a scaly, deeply fissured bark, often with prominent narrow ridges. The fruit is a hard-shelled bean in heavy, woody, thick-walled pods that are filled with sweet, thick, gooey pulp. These beans may be roasted and eaten or ground and steeped in a hot beverage, similar to coffee."
+  },
+  "Halesia diptera": {
+    "commonNames": "two-wing silverbell, two-winged snowdrop tree",
+    "color": [146, 135, 32, 0.5],
+    "description": "The two-winged silverbell is a deciduous tree native to eastern North America. It is a small to medium-sized tree that grows to a height of 20 to 40 feet. The leaves are simple and ovate, dark green in the spring and summer, and turn to shades of yellow in the fall. The flowers bloom in early spring and are showy and fragrant; they resemble drooping white or pale pink bells. These give way to small, pear-shaped fruit capsules with two wings down the sides, hence the name."
+  },
+  "Ilex": {
+    "commonNames": "holly",
+    "color": [97, 88, 88, 0.5],
+    "description": "Ilex is a genus of both evergreen and deciduous shrubs and small trees, a prominent example of which is holly. Ilex plants have simple, glossy leaves, frequently with a spiny leaf margin. They produce small berries that range from red, brown, and black to green and yellow; these berries are generally toxic to humans."
+  },
+  "Juglans nigra": {
+    "commonNames": "black walnut, eastern black walnut, American black walnut",
+    "color": [126, 150, 60, 0.5],
+    "description": "The black walnut is a large deciduous tree native to North America. It can grow to heights of 70 to 100 feet, and has a straight trunk, grayish-black bark with deep furrows, and a broad, spreading crown. The leaves are compound and pinnately divided into 15 to 23 leaflets, which each leaflet having a rounded base, a long, pointed tip, and a serrated edge. The nuts have rich and flavorful meat, which can be used in baking, cooking, and confectionery, but the shells contain tannins that stain whatever they touch with a brown-black color. The wood is a beautiful dark hardwood that is used in furniture making, cabinetry, and flooring."
+  },
+  "Juniperus virginiana": {
+    "commonNames": "eastern red cedar, red cedar, Virginian juniper, eastern juniper, red juniper",
+    "color": [32, 147, 47, 0.5],
+    "description": "The eastern red cedar is a medium-sized evergreen tree native to North America. In poor soil, it remains a bush, but otherwise grows to a height of 40 to 60 feet and presents with a dense, pyrimidal or columnar shape. Young plants produce sharp, spreading, needle-like leaves up to a half-inch long, and mature plants produce tightly pressed, scale-like leaves up to a quarter inch long. The reddish-brown, fibrous bark exfoliates in narrow strips. The wood is highly durable, resistant to decay, and produces an aroma that repels moths. This wood is valuable for fence posts, decking, outdoor furniture, and clothes closets and chests. The fruits, called juniper berries, are used in gin production and give the spirit its characteristic flavor."
+  },
+  "Koelreuteria paniculata": {
+    "commonNames": "goldenrain tree, pride of India, China tree, varnish tree",
+    "color": [146, 135, 32, 0.5],
+    "description": "The goldenrain tree is a deciduous tree native to East Asia. It is small to medium-sized and grows to a height of 30 to 40 feet, with pinnately compound leaves divided into oval-shaped, deeply serrated leaflets. The tree blooms in mid to late summer, displaying clusters of small, bright yellow flowers, which then give way to papery, lantern-shaped seed pods that turn from green to a deep reddish-brown."
+  },
+  "Lagerstroemia": {
+    "commonNames": "crape myrtle, crepe myrtle",
+    "color": [90, 229, 129, 0.5],
+    "description": "The crape or crepe myrtles are a genus of flowering shrubs and small trees native to Asia, particularly China, Korea, and India, generally valued for their attractive flowers and ornamental foliage. The leaves range from circular to oval-shaped, with smooth edges. The flowers bloom in showy clusters in shades of pink, purple, red, or white; these flowers seem to be crinkled or ruffled in a way that resembles streamers made of tissue paper. The stems and branches often have a mottled appearance due to the bark's tendency to shed throughout the year."
+  },
+  "Larix laricina": {
+    "commonNames": "tamarack, hackmatack, eastern larch, black larch, red larch, American larch",
+    "color": [73, 152, 194, 0.5],
+    "description": "The tamarack is a deciduous, coniferous tre native to North America. It typically grows to a height of 40 to 70 feet and has a narrow, pyramidal shape. The leaves are short, light blue-green, needle-like, and borne in clusters on short spur-like shoots. The species is one of the few coniferous trees that lose their needles in the winter, leaving the pale pinkish-brown shoots bare until spring. The bark is scaly, pink to reddish-brown, and becomes rough and furrowed with age. The wood is lightweight, strong, and durable, and is often used in construction, utility poles, as fuel, and historically to make snowshoes by the Algonquian peoples."
+  },
+  "Liquidambar styraciflua": {
+    "commonNames": "sweetgum, American sweet gum, American storax, hazel pine, bilsted, redgum, satin-walnut, star-leaved gum, alligatorwood",
+    "color": [3, 85, 5, 0.5],
+    "description": "The sweetgum is a deciduous tree native to eastern North America. It grows to a height of 60 to 80 feet tall and has leaves that are palmately lobed into a distinctive star shape, resembling maple leaves. These leaves are glossy green and turn rich autumn colors. The bark on the trunk is corky and becomes furrowed with age. Ridges of bark stand upright along small branches and twigs, giving the appearance of reptile scales (hence \"alligatorwood\"). The wood is highly valued for furniture making, veneers, and flooring due to its attractive grain patterns and durability. The fruits of the tree are brown, spiny, spherical capsules that contain small, hard seeds. The tree produces resin, or storax, from the bark when wounded; this storax is aromatic and used traditionally as medicine and as chewing gum."
+  },
+  "Liriodendron tulipifera": {
+    "commonNames": "American tulip tree, tuliptree, tulipwood, tulip poplar, yellow poplar",
+    "color": [176, 201, 121, 0.5],
+    "description": "The tulip tree is a large deciduous tree native to eastern North America. It reaches heights of 80 to 120 feet and has a tall, straight trunk and pyramidal crown. The leaves are bright green and lobed with a square-shaped tip, giving the effect of an abstract tulip shape. The flowers are cup-shaped with six white, yellow, or green petals with orange markings, and also resemble tulips. The wood is high-quality and used in furniture, cabinetry, veneers, and musical instruments such as organs."
+  },
+  "Maackia amurensis": {
+    "commonNames": "Amur maackia",
+    "color": [3, 85, 5, 0.5],
+    "description": "The Amur maackia is a deciduous tree native to eastern Asia, particularly the Amur River region. It is a medium-sized tree that grows to a height of 30 to 50 feet. The leaves are pinnately compound and oval with a pointed tip. The bark is grayish-brown and flakes off to reveal the inner bark in distinctive diamond patterns. The flowers are small, creamy white, and bloom in spike-like clusters in the late spring."
+  },
+  "Maclura pomifera": {
+    "commonNames": "Osage orange",
+    "color": [176, 201, 121, 0.5],
+    "description": "The Osage orange is a deciduous tree native to the central United States. It grows to a medium size of 30 to 60 feet and has a spreading, rounded crown. The leaves are a shiny dark green, simple, long ovals in shape, and come to a long, slender point The bark is deeply furrowed and orange-brown, and the branches have sharp thorns. The tree is known for its large, spherical fruits, which are yellow-green, bumpy, and resemble an oversize orange or a brain. However, they exude a sticky white latex when damaged and have a woody pulp, making them undesirable as food for humans. The wood is dense and durable, making it suitable for fence posts, tool handles, and other outdoor applications. Historically, this wood was used to make bows."
+  },
+  "Magnolia acuminata": {
+    "commonNames": "cucumber tree, cucumber magnolia, blue magnolia",
+    "color": [176, 201, 1, 0.5],
+    "description": "The cucumber tree is a deciduous tree native to eastern North America. It typically grows to a height of 60 to 80 feet and has a narrow, pyramidal shape when young that matures into a more rounded crown. The leaves are large, oval to oblong in shape, and have a small, fine point. The flowers are not showy, unlike most magnolias, and are small, yellow-green, and borne high in the tree from mid-spring to early summer. The fruits, when unripe, are green and often shaped like a small cucumber (though inedible), giving the common name. As they mature, they turn a dark red and split open to release 10 to 60 bright red seeds. The wood is useful for many of the same applications as that of its cousin, the tulip tree."
+  },
+  "Magnolia grandiflora": {
+    "commonNames": "southern magnolia, bull bay",
+    "color": [176, 201, 1, 0.5],
+    "description": "The southern magnolia is a large evergreen tree native to the southeastern United States. It is a large tree that grows to a height of 60 to 80 feet or more. The leaves are glossy, leathery, and elliptical in shape, with a deep green color on the upper surface and a rusty brown fuzz underneath. The flowers are white and showy, measuring up to 12 inches in diameter. These flowers are citrus-scented and have six to twelve waxy-textured petals. The fruits are cone-like, produce bright red seeds, and serve as a food source for birds and other wildlife. The timber is hard and heavy and used commercially for furniture, pallets, and veneer."
+  },
+  "Magnolia": {
+    "commonNames": "magnolia",
+    "color": [176, 201, 1, 0.5],
+    "description": "The Magnolia genus comprises a diverse group of flowering trees and shrubs that are known for their attractive and fragrant flowers. The species vary in size from small shrubs to large trees, and the leaves are generally broad, ovate to elliptical in shape, and have a glossy green color. The bark, flower buds, or flowers of various species have been used in traditional medicines or eaten as delicacies. The genus is one of the oldest flowering plant lineages, with fossils of modern species dating back 20 million years."
+  },
+  "Malus": {
+    "commonNames": "apple",
+    "color": [77, 157, 59, 0.5],
+    "description": "The Malus genus, the apple trees, includes a wide variety of species and cultivars that are known for their edible fruits and attractive flowers. The size of Malus trees can vary greatly from dwarf varieties to large, spreading trees. The leaves are typically ovate or elliptical with serrated edges and a glossy green color. The five-petaled flowers are borne in loose clusters and can be white, pink, or red. The fruits of domesticated apple trees are sweet, juicy, and crisp, but wild apple and crabapple species produce extremely sour and sometimes woody fruit that is generally unpalatable. The wood gives off a pleasant scent when burned and is often used to smoke foods."
+  },
+  "Metasequoia glyptostroboides": {
+    "commonNames": "dawn redwood",
+    "color": [189, 80, 21, 0.5],
+    "description": "The dawn redwood is a deciduous, coniferous tree native to China. It is known for its remarkable size and rapid growth; capable of growing over 100 feet tall, it is one of the tallest deciduous trees in the world. The leaves are feathery and needle-like in shape, resembling those of other coniferous trees. In the autumn, these needles turn an attractive reddish-brown color before they fall. The tree has a straight trunk, pyramidal crown, and reddish-brown bark that peels off in strips. It is highly valued for its timber, which is used in construction, furniture-making, and other woodworking applications. The genus is ancient, with fossils dating back over 150 million years, and was believed extinct until the 1940s, when thriving specimens of the dawn redwood were discovered in China."
+  },
+  "Morus": {
+    "commonNames": "mulberry",
+    "color": [171, 218, 171, 0.5],
+    "description": "The Morus genus, commonly called the mulberries, comprises several species of deciduous trees and shrubs. They range in size from small shrubs to medium-sized trees. The leaves have a serrated margin, may be lobed, and are typically green, but some species have variegated or purple foliage. The fruits are small to medium-sized berries that come in black, red, white, or other colors. These berries are sweet and juicy and often eaten fresh or made into jams, jellies, pies, or other preparations. Mulberry trees are also the sole food source for silkworms, which feed exclusively on mulberry leaves."
+  },
+  "Nyssa sylvatica": {
+    "commonNames": "black tupelo, tupelo, black gum, sour gum",
+    "color": [221, 172, 96, 0.5],
+    "description": "The black gum is a deciduous tree native to North America and is known for its impressive size, reaching hights of up to 80 feet or more. The glossy leaves are oval to elliptical, with a lustrous dark green color that turns brilliant shades of red, orange, and purple in the fall. The tree has a straight trunk, a pyramidal shape in youth that spreads with age, and dark gray bark that becomes scaly and deeply fissured with age. The timber is heavy, hard, and resistant to splitting, and as such is valuable in many woodworking applications. The fruits are small, dark blue to black berries that are sought out by birds and other wildlife."
+  },
+  "Ostrya virginiana": {
+    "commonNames": "American hophornbeam, hop hornbeam, eastern hophornbeam, hardhack, ironwood, leverwood",
+    "color": [196, 51, 0, 0.5],
+    "description": "The American hop hornbeam is a small to medium-sized deciduous tree native to eastern North America. It typically reaches a height of 30 to 50 feet and has a rounded or irregular crown. The leaf shape is a narrow oval with a pointed tip, with doubly serrated margins. The leaves are dark green in summer and turn yellow or bronze in fall. The gray-brown bark develops narrow shaggy plates with age. The wood is extremely dense and hard, hence the common name \"ironwood\". The name comes from the fruits, which closely resemble hop flowers."
+  },
+  "Parrotia persica": {
+    "commonNames": "Persian ironwood",
+    "color": [56, 103, 3, 0.5],
+    "description": "The Persian ironwood is a small to medium-sized deciduous tree native to Iran. It typically reaches a height of 20 to 40 feet and has a rounded or spreading crown. The leaf shape is ovoid and often slightly lopsided, with wavy margins and a glossy green color that turns into rich orange, red, or purple in autumn. The tree often grows multiple trunks, each with smooth, pinkish-brown bark that flakes in patches to reveal a mosaic of cinnamon, pink, light green, or yellow colors. The wood is hard and durable, but the tree is rarely used for timber."
+  },
+  "Paulownia tomentosa": {
+    "commonNames": "empress tree, princess tree, foxglove-tree",
+    "color": [146, 135, 32, 0.5],
+    "description": "The empress tree is a fast-growing deciduous tree native to China. It grows to a size of 40 to 60 feet tall and may grow several feet in a single year, making it a popular choice for reforestation and landscaping projects. The leaves are large and heart-shaped, with a velvety texture on the underside. The tree produces showy, fragrant, lavender to purple flowers in early spring before the leaves emerge. These flowers are arranged in upright clusters but tend to droop and face downward, like those a foxglove cluster."
+  },
+  "Phellodendron amurense": {
+    "commonNames": "Amur cork tree",
+    "color": [77, 157, 59, 0.5],
+    "description": "The Amur cork tree is a deciduous tree native to northeastern Asia, particularly China and Korea. It typically grows to a size of 40 to 60 feet and has a rounded crown. The leaves are pinnately compound with a lanceolate shape narrowing to a pointed tip. The distinctive, grayish-brown, corky bark of the tree is highly textured with deep fissures and crisscrossed ridges. This bark is used in traditional Chinese medicine."
+  },
+  "Picea abies": {
+    "commonNames": "Norway spruce, European spruce",
+    "color": [76, 198, 70, 0.5],
+    "description": "The Norway spruce is a large evergreen tree native to northern and central Europe. It can reach impressive heights of up to 130 feet and has a conical shape when young, gradually becoming more broadly pyramidal with age. The leaves are needle-like and measure about one half to one inch long. These needles are dark green in color and are arranged spirally along the branches. The bark is thin, scaly, and grayish-brown. The fresh, young shoots can be eaten raw or brewed into tea and spruce beer. The tree is widely used in forestry for timber production as the wood is strong, lightweight, and resistant to decay. Because of its classic pyramid shape and ability to retain its needles for a long time, the species is widely used as a Christmas tree."
+  },
+  "Picea pungens": {
+    "commonNames": "blue spruce, green spruce, Colorado spruce",
+    "color": [76, 198, 70, 0.5],
+    "description": "The Colorado blue spruce is an evergreen tree native to the Rocky Mountains of North America. The needles are waxy, stiff and sharp, measure around 1 to 1.5 inches, and are a striking blue-gray to silver-blue color, giving rise to the common name. The tree grows to a height of 50 to 75 feet, has a pyramidal shape, and grows dense branches that extend horizontally."
+  },
+  "Picea": {
+    "commonNames": "spruce",
+    "color": [76, 198, 70, 0.5],
+    "description": "The Picea genus is a group of evergreen, coniferous trees commonly known as spruces. They are widely distributed throughout the Northern Hemisphere and are known for their tall and stately growth, with mature trees reaching heights of 60 to 200 feet depending on the species. The leaves of spruces are generally needle-like, attached individually to the branches, and arranged in a spiral fashion. These needles can vary in color from dark green to bluish-green or silvery-gray. The branches of spruces are typically dense and form a conical or pyramidal shape. Spruce wood is highly valued in construction, for musical instruments, and to make paper."
+  },
+  "Pinus nigra": {
+    "commonNames": "Austrian pine, black pine",
+    "color": [76, 198, 70, 0.5],
+    "description": "The Austrian pine is a species of evergreen coniferous tree that is native to the mountainous regions of Europe, including the Alps and the Balkans. It is a medium to large tree that reaches heights of 60 to 180 feet. The needles are long, dark green, and occur in pairs, which each needle growing up to 4 to 6 inches in length. The bark is thick and gray to yellow-brown and becomes deeply fissured with age, splitting into wide, scaly plates. The tree is a source of resin that was historically used for adhesive and medical purposes."
+  },
+  "Pinus resinosa": {
+    "commonNames": "red pine",
+    "color": [76, 198, 70, 0.5],
+    "description": "The red pine is a species of evergreen coniferous tree. It is native to northeastern and north-central parts of North America, as well as parts of eastern Canada. It is a large-sized tree, typically reaching heights of 70 to 115 feet. The dark green needles are long and slender, measuring around 4 to 6 inches in length and occurring in bundles of two. The bark is reddish-brown and develops thick scales as it matures. The wood is commercially valuable in forestry for timber and paper pulp."
+  },
+  "Pinus rigida": {
+    "commonNames": "pitch pine",
+    "color": [76, 198, 70, 0.5],
+    "description": "The pitch pine is an evergreen coniferous tree native to eastern North America. It is a small to medium-sized member of the pine family, growing to a height of 40 to 100 feet. The trunk is usually straight with a slight curve, but the bark is distinctively irregular and fissured into large, thick, layered plates. The needles are dark green, occur in bundles of three, and are often slightly twisted. The pitch pine is well known for its ability to regenerate after cutting or fire damage. The pitch (resin) was historically widely used in shipbuilding."
+  },
+  "Pinus strobus": {
+    "commonNames": "eastern white pine, northern white pine, white pine, Weymouth pine, soft pine",
+    "color": [76, 198, 70, 0.5],
+    "description": "The eastern white pine is a large, evergreen, coniferous tree native to eastern North America. It is one of the tallest and largest pine species, capable of reaching heights of 100 to 150 feet or more. The tree has a straight trunk with smooth, grayish-brown bark that becomes furrowed with age. The needles are soft and flexible, measure around 2.5 to 5 inches in length, and are arranged in bundles of five. The cones are cylindrical and elongated, typically measuring around four to eight inches long. The wood is lightweight, durable, and easy to work, and as such is popular in construction, cabinetry, paneling, and, historically, shipbuilding."
+  },
+  "Pinus sylvestris": {
+    "commonNames": "Scots pine, Scotch pine, Baltic pine",
+    "color": [76, 198, 70, 0.5],
+    "description": "The Scots pine is a medium-sized, evergreen, coniferous tree native to Europe and parts of Asia. It typically reaches a height of 50 to 80 feet and has a distinctive conical shape with a straight trunk. The needles are dark green, measure around 1.5 to 3 inches long, and are arranged in pairs. The Scots pine is an important tree in forestry, with wood that is used for pulp and timber. Historically, it was also a source of tar, rosin, and turpentine. It is the national tree of Scotland and is featured on the country's flag."
+  },
+  "Pinus virginiana": {
+    "commonNames": "Virginia pine, scrub pine, Jersey pine",
+    "color": [76, 198, 70, 0.5],
+    "description": "The scrub pine is a small to medium-sized, evergreen, coniferous tree native to the eastern United States. It typically grows to a height of 30 to 60 feet, with a pyramidal or irregular crown. The needles are short, measuring around 1.5 to 3 inches long, and are arranged in pairs. These needles are dark green in color and have a twisted appearance. The wood of scrub pine is used for lumber, pulpwood, and as a source of resin. The scrub pine is also a popular Christmas tree, due to its pleasing aroma and attractive form."
+  },
+  "Pinus": {
+    "commonNames": "pine",
+    "color": [76, 198, 70, 0.5],
+    "description": "The genus Pinus, the pine trees, encompasses a diverse group of evergreen conifers found worldwide. Their sizes vary greatly, ranging from small shrubs to towering giants. They can reach heights of 50 to 260 feet, depending on the species. Pine trees are characterized by their long and needlelike leaves, which are arranged in clusters called fascicles. Pine trees have straight trunks often covered in a rough bark that may exhibit distinctive patterns. The wood of pines has various uses as lumber, in construction, and for paper making. Pine trees also produce resin, used traditionally to seal boats and make varnishes."
+  },
+  "Platanus x acerifolia": {
+    "commonNames": "London plane, London planetree, hybrid plane",
+    "color": [6, 128, 5, 0.5],
+    "description": "The London plane tree is a large deciduous tree known for its impressive size, reaching heights of 80 to 100 feet. The leaves are palmate with five lobes, resembling the shape of an open hand. These leaves are bright green in color and turn yellow or brown in the autumn before falling. The tree has a distinctive mottled bark that exfoliates in large patches, revealing an abstract pattern of white, tan, green, and gray colors. It is widely used as a shade tree in urban environments for its dense foliage and large canopy, which reduce heat and provide shelter."
+  },
+  "Populus deltoides": {
+    "commonNames": "eastern cottonwood, necklace poplar",
+    "color": [77, 157, 59, 0.5],
+    "description": "The eastern cottonwood is a large deciduous tree native to North America. It is known for its rapid growth and impressive size, reaching heights of 80 to 100 feet with a spread of 50 to 70 feet. The leaves are triangular or deltoid in shape, giving the Latin name. These leaves are light green in color and have toothed edges. The bark is smooth and light gray when young, but becomes rough and deeply furrowed with age. The tree has a broad, open canopy and the branches often droop, giving it a graceful appearance. The species prefers moist soil and can be found near rivers, streams, and wetland areas. The wood is lightweight and soft, making it suitable for pallets, crates, and paper pulp."
+  },
+  "Populus grandidentata": {
+    "commonNames": "bigtooth aspen, large-tooth aspen, American aspen, Canadian poplar, white poplar",
+    "color": [77, 157, 59, 0.5],
+    "description": "The bigtooth aspen is a deciduous tree native to North America. It is medium-sized, typically reaching heights of 40 to 60 feet. The leaves are triangular in shape and have large teeth, giving rise to both the common and the Latin name (grandidentata, \"big teeth\")."
+  },
+  "Populus tremuloides": {
+    "commonNames": "quaking aspen, trembling aspen, American aspen, mountain aspen, golden aspen, trembling poplar, white poplar, popple",
+    "color": [77, 157, 59, 0.5],
+    "description": "The quaking aspen is a deciduous tree native to North America. It is medium-sized and reaches heights of 40 to 80 feet. Its overall appearance is unique, with a tall, slender trunk and a conical crown that "
+  },
+  "Prunus cerasifera": {
+    "commonNames": "cherry plum, myrobalan plum, purple leaf plum",
+    "color": [77, 157, 59, 0.5],
+    "description": ""
+  },
+  "Prunus serotina": {
+    "commonNames": "black cherry, wild black cherry, rum cherry, mountain black cherry",
+    "color": [77, 157, 59, 0.5],
+    "description": ""
+  },
+  "Prunus virginiana": {
+    "commonNames": "bitter-berry, chokecherry, Virginia bird cherry, western chokecherry",
+    "color": [77, 157, 59, 0.5],
+    "description": ""
+  },
+  "Prunus": {
+    "commonNames": "plum, cherry blossom",
+    "color": [77, 157, 59, 0.5],
+    "description": ""
+  },
+  "Pseudotsuga menziesii": {
+    "commonNames": "Douglas fir, Douglas spruce, Oregon pine, Columbian pine",
+    "color": [6, 128, 5, 0.5],
+    "description": ""
+  },
+  "Pyrus calleryana": {
+    "commonNames": "Callery pear",
+    "color": [77, 157, 59, 0.5],
+    "description": ""
+  },
+  "Quercus acutissima": {
+    "commonNames": "sawtooth oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus alba": {
+    "commonNames": "white oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus bicolor": {
+    "commonNames": "swamp white oak, bicolor oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus coccinea": {
+    "commonNames": "scarlet oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus falcata": {
+    "commonNames": "southern red oak, Spanish oak, bottomland red oak, three-lobed red oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus imbricaria": {
+    "commonNames": "shingle oak, laurel oak, small-leaved oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus macrocarpa": {
+    "commonNames": "bur oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus palustris": {
+    "commonNames": "pin oak, swamp Spanish oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus phellos": {
+    "commonNames": "willow oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus robur": {
+    "commonNames": "English oak, pedunculate oak, common oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus rubra": {
+    "commonNames": "northern red oak, red oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus shumardii": {
+    "commonNames": "Shumard oak, spotted oak, Schneck oak, swamp red oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Quercus velutina": {
+    "commonNames": "black oak, eastern black oak",
+    "color": [56, 103, 3, 0.5],
+    "description": ""
+  },
+  "Robinia pseudoacacia": {
+    "commonNames": "black locust, false acacia",
+    "color": [125, 164, 107, 0.5],
+    "description": ""
+  },
+  "Salix babylonica": {
+    "commonNames": "weeping willow, Babylon willow",
+    "color": [77, 157, 59, 0.5],
+    "description": ""
+  },
+  "Sassafras albidum": {
+    "commonNames": "sassafras, white sassafras, red sassafras, silky sassafras",
+    "color": [90, 229, 129, 0.5],
+    "description": ""
+  },
+  "Styphnolobium japonicum": {
+    "commonNames": "Japanese pagoda tree, Chinese scholar tree, pagoda tree",
+    "color": [145, 170, 117, 0.5],
+    "description": ""
+  },
+  "Styrax japonicus": {
+    "commonNames": "Japanese snowbell",
+    "color": [162, 84, 37, 0.5],
+    "description": ""
+  },
+  "Syringa pekinensis": {
+    "commonNames": "Chinese tree lilac, Peking lilac",
+    "color": [162, 84, 37, 0.5],
+    "description": ""
+  },
+  "Syringa reticulata": {
+    "commonNames": "Japanese tree lilac",
+    "color": [162, 84, 37, 0.5],
+    "description": ""
+  },
+  "Taxodium ascendens": {
+    "commonNames": "pond cypress",
+    "color": [162, 84, 37, 0.5],
+    "description": ""
+  },
+  "Taxodium distichum": {
+    "commonNames": "bald cypress, swamp cypress, white cypress, tidewater red cypress, gulf cypress",
+    "color": [162, 84, 37, 0.5],
+    "description": ""
+  },
+  "Thuja occidentalis": {
+    "commonNames": "arborvitae, northern white-cedar, eastern white-cedar",
+    "color": [196, 51, 0, 0.5],
+    "description": ""
+  },
+  "Tilia americana": {
+    "commonNames": "American basswood, American linden",
+    "color": [162, 84, 37, 0.5],
+    "description": ""
+  },
+  "Tilia cordata": {
+    "commonNames": "littleleaf linden, small-leaved lime, small-leaved linden",
+    "color": [162, 84, 37, 0.5],
+    "description": ""
+  },
+  "Tilia tomentosa": {
+    "commonNames": "silver linden, silver lime, European white linden",
+    "color": [162, 84, 37, 0.5],
+    "description": ""
+  },
+  "Tsuga canadensis": {
+    "commonNames": "eastern hemlock, eastern hemlock-spruce, Canadian hemlock",
+    "color": [224, 183, 69, 0.5],
+    "description": ""
+  },
+  "Ulmus americana": {
+    "commonNames": "American elm, white elm, water elm",
+    "color": [9, 153, 34, 0.5],
+    "description": ""
+  },
+  "Ulmus parvifolia": {
+    "commonNames": "Chinese elm, lacebark elm",
+    "color": [9, 153, 34, 0.5],
+    "description": ""
+  },
+  "Ulmus pumila": {
+    "commonNames": "Siberian elm, Asiatic elm, dwarf elm",
+    "color": [9, 153, 34, 0.5],
+    "description": ""
+  },
+  "Zelkova serrata": {
+    "commonNames": "Japanese zelkova, Japanese elm, keyaki",
+    "color": [9, 153, 34, 0.5],
+    "description": ""
+  }
+}
