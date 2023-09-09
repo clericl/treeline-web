@@ -8,10 +8,10 @@ export async function GET(request: NextRequest) {
   const longitude = Number(searchParams.get('longitude'))
   const radius = Number(searchParams.get('radius'))
 
-  const redisInstance = new Redis()
-
   try {
+    const redisInstance = new Redis()
     const data = await redisInstance.getTrees({ latitude, longitude, radius })
+    await redisInstance.disconnectClient()
     const transformed = data.map(
       ({ member, coordinates }: RedisGeoSearchType) => {
         const returnObj = JSON.parse(member);
