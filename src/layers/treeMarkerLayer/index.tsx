@@ -28,10 +28,8 @@ function getRadiusFromDatum(
   treeMarkerDatum: TreeMarkerType,
   mapParams: MapParams,
 ) {
-  // console.log(mapParams.zoom)
-  // const factor = 40075016.686 * Math.cos(mapParams.latitude * (Math.PI / 180)) / Math.pow(2, mapParams.zoom + 1)
-  // return ((treeMarkerDatum.diameter + 8) * 8) / factor
-  return treeMarkerDatum.diameter
+  const scaledDiameter = (Math.pow(1.2, mapParams.zoom)) / (treeMarkerDatum.diameter + 5)
+  return scaledDiameter
 }
  
 export default function createTreeMarkerLayer(
@@ -46,12 +44,13 @@ export default function createTreeMarkerLayer(
     getPosition: getPositionFromDatum as any,
     getLineWidth: 2,
     getRadius: (d) => getRadiusFromDatum(d, mapParams),
-    radiusScale: 0.00001,
+    radiusScale: 6,
     filled: true,
     stroked: true,
-    radiusUnits: 'meters',
+    radiusUnits: 'pixels',
     pickable: true,
     radiusMinPixels: 5,
     lineWidthMaxPixels: 2,
+    lineWidthMinPixels: 2,
   })
 }
