@@ -1,15 +1,15 @@
 'use client'
 
 import createTreeMarkerLayer from '../../layers/treeMarkerLayer'
-import debounce from 'lodash.debounce'
+//@ts-expect-error
 import distance from '@turf/distance'
 import geoViewport from '@mapbox/geo-viewport'
-import { DeckGL } from '@deck.gl/react/typed'
-import { Map } from 'react-map-gl'
+import { GeolocateControl, Map, MapRef, ViewStateChangeEvent, useControl } from 'react-map-gl'
+import { MapboxOverlay, MapboxOverlayProps } from '@deck.gl/mapbox/typed'
 import { StylesList, useMapStyle } from '../../zustand'
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useTreesQuery } from '@/hooks/useTreesQuery'
-import type { ViewStateChangeParameters } from '@/types'
+import { GeolocateControl as GeolocateControlBase } from 'mapbox-gl'
 
 const MAPBOX_ACCESS_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
 
@@ -39,50 +39,69 @@ export type MapParams = {
   zoom: number;
 }
 
+function DeckGLOverlay(props: MapboxOverlayProps & {
+  interleaved?: boolean;
+}) {
+  const overlay = useControl<MapboxOverlay>(() => new MapboxOverlay(props))
+  overlay.setProps(props)
+  
+  return null
+}
+
 export default function ReactMap() {
   const [mapParams, setMapParams] = useState<MapParams>({
     latitude: INITIAL_VIEW_STATE.latitude,
     longitude: INITIAL_VIEW_STATE.longitude,
-    radius: 0.2,
+    radius: 1.04232281904622,
     zoom: 15,
   })
   const [treeData, setTreeData] = useState([])
   const { data } = useTreesQuery(mapParams)
+  const mapRef = useRef<MapRef>(null)
   const mapStyle = useMapStyle.use.mapStyle()
+  const geocontrolRef = useRef<GeolocateControlBase>(null)
 
   const layers = useMemo(() => ([
     createTreeMarkerLayer(treeData, mapParams)
   ]), [treeData, mapParams])
 
-  const handleViewStateChange = useMemo(() => {
-    return debounce(
-      ({ viewState }: ViewStateChangeParameters) => {
-        const { longitude, latitude, zoom, width, length } = viewState
-        
-        const bounds = geoViewport.bounds(
-          { lon: longitude, lat: latitude },
-          zoom,
-          [width, length],
-          512,
-        )
-        const distanceBetween = distance(
-          [bounds[0], latitude],
-          [bounds[2], latitude],
-        )
-        const radius = Math.min(
-          distanceBetween / 2,
-          2
-        )
+  const handleMapLoad = useCallback(() => {
+    geocontrolRef.current?.trigger()
+  }, [])
 
-        setMapParams({
-          latitude,
-          longitude,
-          radius,
-          zoom,
-        })
-      },
-      500,
+  const handleViewStateChange = useCallback(({ viewState }: ViewStateChangeEvent) => {
+    const { longitude, latitude, zoom } = viewState
+    const canvas = mapRef.current?.getCanvas()
+
+    let width = 1
+    let height = 1
+
+    if (canvas) {
+      width = canvas.width
+      height = canvas.height
+    }
+    
+    const bounds = geoViewport.bounds(
+      { lon: longitude, lat: latitude },
+      zoom,
+      [width, height],
+      512,
     )
+    const distanceBetween = distance(
+      [bounds[0], latitude],
+      [bounds[2], latitude],
+    )
+    const radius = Math.min(
+      distanceBetween / 2,
+      2
+    )
+
+    setMapParams({
+      latitude,
+      longitude,
+      radius,
+      zoom,
+    })
   }, [])
 
   useEffect(() => {
@@ -92,17 +111,23 @@ export default function ReactMap() {
   }, [data])
 
   return (
-    <DeckGL
-      controller={true}
+    <Map
       initialViewState={INITIAL_VIEW_STATE}
-      layers={layers}
-      onViewStateChange={handleViewStateChange}
+      mapboxAccessToken={MAPBOX_ACCESS_TOKEN}
+      mapStyle={MAP_STYLES[mapStyle]}
+      onLoad={handleMapLoad}
+      onMoveEnd={handleViewStateChange}
+      ref={mapRef}
     >
-      <Map
-        initialViewState={INITIAL_VIEW_STATE}
-        mapboxAccessToken={MAPBOX_ACCESS_TOKEN}
-        mapStyle={MAP_STYLES[mapStyle]}
+      <DeckGLOverlay layers={layers} />
+      <GeolocateControl
+        positionOptions={{
+          enableHighAccuracy: true,
+        }}
+        showUserHeading={true}
+        trackUserLocation={true}
+        ref={geocontrolRef}
       />
-    </DeckGL>
+    </Map>
   )
 }

@@ -3,7 +3,7 @@ import { Box } from '@mui/material'
 
 function Layout() {
   return (
-    <Box>
+    <Box sx={{ height: '100vh', width: '1' }}>
       <ReactMap />
     </Box>
   )

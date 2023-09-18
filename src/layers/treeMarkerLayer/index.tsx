@@ -1,8 +1,7 @@
-import { ScatterplotLayer } from '@deck.gl/layers/typed'
-import { speciesDetails } from '@/data'
-
-import type { SpeciesDetailsType, TreeMarkerType } from "@/types"
 import { MapParams } from '@/components/ReactMap'
+import { ScatterplotLayer } from '@deck.gl/layers/typed'
+import { SpeciesDetailsType, TreeMarkerType } from "@/types"
+import { speciesDetails } from '@/data'
 
 const typedSpeciesDetails: SpeciesDetailsType = speciesDetails
 
