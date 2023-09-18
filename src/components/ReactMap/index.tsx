@@ -119,7 +119,7 @@ export default function ReactMap() {
       onMoveEnd={handleViewStateChange}
       ref={mapRef}
     >
-      <DeckGLOverlay layers={layers} />
+      <DeckGLOverlay interleaved={true} layers={layers} />
       <GeolocateControl
         positionOptions={{
           enableHighAccuracy: true,
