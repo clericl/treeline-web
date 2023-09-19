@@ -1,15 +1,15 @@
 'use client'
 
+import Geocontrol from '../Geocontrol'
 import createTreeMarkerLayer from '../../layers/treeMarkerLayer'
 //@ts-expect-error
 import distance from '@turf/distance'
 import geoViewport from '@mapbox/geo-viewport'
-import { GeolocateControl, Map, MapRef, ViewStateChangeEvent, useControl } from 'react-map-gl'
+import { Map, MapRef, ViewStateChangeEvent, useControl } from 'react-map-gl'
 import { MapboxOverlay, MapboxOverlayProps } from '@deck.gl/mapbox/typed'
 import { StylesList, useMapStyle } from '../../zustand'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useTreesQuery } from '@/hooks/useTreesQuery'
-import { GeolocateControl as GeolocateControlBase } from 'mapbox-gl'
 
 const MAPBOX_ACCESS_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
 
@@ -59,15 +59,10 @@ export default function ReactMap() {
   const { data } = useTreesQuery(mapParams)
   const mapRef = useRef<MapRef>(null)
   const mapStyle = useMapStyle.use.mapStyle()
-  const geocontrolRef = useRef<GeolocateControlBase>(null)
 
   const layers = useMemo(() => ([
     createTreeMarkerLayer(treeData, mapParams)
   ]), [treeData, mapParams])
-
-  const handleMapLoad = useCallback(() => {
-    geocontrolRef.current?.trigger()
-  }, [])
 
   const handleViewStateChange = useCallback(({ viewState }: ViewStateChangeEvent) => {
     const { longitude, latitude, zoom } = viewState
@@ -115,19 +110,11 @@ export default function ReactMap() {
       initialViewState={INITIAL_VIEW_STATE}
       mapboxAccessToken={MAPBOX_ACCESS_TOKEN}
       mapStyle={MAP_STYLES[mapStyle]}
-      onLoad={handleMapLoad}
       onMoveEnd={handleViewStateChange}
       ref={mapRef}
     >
       <DeckGLOverlay interleaved={true} layers={layers} />
-      <GeolocateControl
-        positionOptions={{
-          enableHighAccuracy: true,
-        }}
-        showUserHeading={true}
-        trackUserLocation={true}
-        ref={geocontrolRef}
-      />
+      <Geocontrol />
     </Map>
   )
 }

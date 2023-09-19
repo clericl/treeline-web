@@ -1,11 +1,15 @@
 import ReactMap from "../ReactMap";
-import { Box } from '@mui/material'
+import { Box, Paper, Stack } from '@mui/material'
 
 function Layout() {
   return (
-    <Box sx={{ height: '100vh', width: '1' }}>
-      <ReactMap />
-    </Box>
+    <Stack justifyContent="center" sx={{ height: 1 }}>
+      <Paper sx={{ height: 1, overflow: 'hidden' }}>
+        <Box sx={{ height: 1, width: 1 }}>
+          <ReactMap />
+        </Box>
+      </Paper>
+    </Stack>
   )
 }
 

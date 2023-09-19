@@ -1,15 +1,15 @@
+import DrawerMenu from '@/components/DrawerMenu';
 import Layout from '../components/Layout';
-import { Container, CssBaseline, Paper } from '@mui/material';
+import { Container, CssBaseline } from '@mui/material';
 
 export default function Home() {
   return (
     <>
       <CssBaseline />
-      <Paper>
-        <Container>
-          <Layout />
-        </Container>
-      </Paper>
+      <Container disableGutters={true} maxWidth={false} sx={{ height: '100vh' }}>
+        <Layout />
+        <DrawerMenu />
+      </Container>
     </>
   )
 }
