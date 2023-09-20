@@ -2,32 +2,12 @@
 
 import {
   Box,
-  Divider,
   IconButton,
-  List,
-  ListItem,
   SwipeableDrawer,
-  Toolbar,
 } from '@mui/material'
 import { KeyboardEvent, MouseEvent, useCallback, useState } from 'react';
+import MapStyleList from '../MapStyleList';
 import MenuIcon from '@mui/icons-material/Menu'
-
-function DrawerContent() {
-  return (
-    <div>
-      <Toolbar />
-      <Divider />
-      <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            hello world
-          </ListItem>
-        ))}
-      </List>
-      <Divider />
-    </div>
-  );
-}
 
 export default function DrawerMenu() {
   const [drawerOpen, setDrawerOpen] = useState<boolean>(false)
@@ -50,7 +30,7 @@ export default function DrawerMenu() {
       <IconButton
         aria-label="menu"
         onClick={toggleDrawer(true)}
-        style={{ backgroundColor: 'rgba(0 0 0 / 0.7)' }}
+        style={{ backgroundColor: 'rgba(0 0 0 / 0.6)' }}
         sx={{
           position: 'absolute',
           left: 10,
@@ -72,21 +52,7 @@ export default function DrawerMenu() {
           onClick={toggleDrawer(false)}
           onKeyDown={toggleDrawer(false)}
         >
-          <List>
-            {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-              <ListItem key={text} disablePadding>
-                hello world
-              </ListItem>
-            ))}
-          </List>
-          <Divider />
-          <List>
-            {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-              <ListItem key={text} disablePadding>
-                hello world
-              </ListItem>
-            ))}
-          </List>
+          <MapStyleList />
         </Box>
       </SwipeableDrawer>
     </>

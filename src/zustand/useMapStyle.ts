@@ -8,7 +8,7 @@ export type MapStyle =
   | 'Light'
   | 'Dark'
   | 'Satellite'
-  | 'Satellite + Streets'
+  | 'Satellite & Streets'
   | 'Navigation (Day)'
   | 'Navigation (Night)'
 
@@ -17,10 +17,11 @@ export type StylesList = {
 }
 
 export interface MapStyleState {
-  mapStyle: MapStyle
+  mapStyle: MapStyle,
+  setMapStyle: (newMapStyle: MapStyle) => void,
 }
 
-const useMapStyleBase = create<MapStyleState>((set) => ({
+const useMapStyleBase = create<MapStyleState>()((set) => ({
   mapStyle: 'Navigation (Night)',
   setMapStyle: (newMapStyle: MapStyle) => set(() => ({ mapStyle: newMapStyle }))
 }))

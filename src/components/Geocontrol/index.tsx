@@ -1,9 +1,9 @@
 import classnames from 'classnames'
-import { RefObject, useCallback, useEffect, useRef, useState } from "react"
+import { CircularProgress } from "@mui/material"
 import { GeolocateControl, useMap } from "react-map-gl"
 import { GeolocateControl as GeolocateControlBase } from 'mapbox-gl'
 import { createPortal } from "react-dom"
-import { CircularProgress } from "@mui/material"
+import { useCallback, useEffect, useRef, useState } from "react"
 
 type GeocontrolModalProps = {
   open: boolean
