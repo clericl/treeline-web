@@ -2,6 +2,7 @@ import {
   List,
   ListItemButton,
   ListItemText,
+  ListSubheader,
 } from '@mui/material'
 import { MAP_STYLES } from '../ReactMap';
 import { MapStyle, useMapStyle } from '@/zustand';
@@ -16,7 +17,14 @@ export default function MapStyleList() {
   }, [setMapStyle])
 
   return (
-    <List dense={true}>
+    <List
+      dense={true}
+      subheader={
+        <ListSubheader sx={{ fontWeight: 700 }}>
+          Map Styles
+        </ListSubheader>
+      }
+    >
       {Object.keys(MAP_STYLES).map((mapStyleName) => (
         <ListItemButton
           key={mapStyleName}

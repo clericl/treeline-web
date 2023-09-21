@@ -2,6 +2,7 @@ import { MapParams } from '@/components/ReactMap'
 import { ScatterplotLayer } from '@deck.gl/layers/typed'
 import { SpeciesDetailsType, TreeMarkerType } from "@/types"
 import { speciesDetails } from '@/data'
+import { MapStyle } from '@/zustand'
 
 const typedSpeciesDetails: SpeciesDetailsType = speciesDetails
 
@@ -34,11 +35,18 @@ function getRadiusFromDatum(
 export default function createTreeMarkerLayer(
   data: TreeMarkerType[] = [],
   mapParams: MapParams,
+  mapStyle: MapStyle,
 ) {
+  let lineColor = [25, 25, 25]
+
+  if (['Dark', 'Navigation (Night)'].includes(mapStyle)) {
+    lineColor = [255, 255, 255]
+  }
+
   return new ScatterplotLayer({
     id: 'tree-point-layer',
     data,
-    getLineColor: [255, 255, 255],
+    getLineColor: lineColor as any,
     getFillColor: getColorFromDatum as any,
     getPosition: getPositionFromDatum as any,
     getLineWidth: 2,

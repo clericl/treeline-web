@@ -61,8 +61,8 @@ export default function ReactMap() {
   const mapStyle = useMapStyle.use.mapStyle()
 
   const layers = useMemo(() => ([
-    createTreeMarkerLayer(treeData, mapParams)
-  ]), [treeData, mapParams])
+    createTreeMarkerLayer(treeData, mapParams, mapStyle)
+  ]), [treeData, mapParams, mapStyle])
 
   const handleViewStateChange = useCallback(({ viewState }: ViewStateChangeEvent) => {
     const { longitude, latitude, zoom } = viewState
