@@ -1,8 +1,7 @@
-import { MapParams } from '@/components/ReactMap'
+import { MapStyle } from '@/zustand'
 import { ScatterplotLayer } from '@deck.gl/layers/typed'
 import { SpeciesDetailsType, TreeMarkerType } from "@/types"
 import { speciesDetails } from '@/data'
-import { MapStyle } from '@/zustand'
 
 const typedSpeciesDetails: SpeciesDetailsType = speciesDetails
 
@@ -24,17 +23,12 @@ function getPositionFromDatum(treeMarkerDatum: TreeMarkerType) {
   ]
 }
 
-function getRadiusFromDatum(
-  treeMarkerDatum: TreeMarkerType,
-  mapParams: MapParams,
-) {
-  const scaledDiameter = (Math.pow(1.2, mapParams.zoom)) / (treeMarkerDatum.diameter + 5)
-  return scaledDiameter
+function getRadiusFromDatum(treeMarkerDatum: TreeMarkerType) {
+  return Math.pow(treeMarkerDatum.diameter / 2.5, 1 / 2)
 }
  
 export default function createTreeMarkerLayer(
   data: TreeMarkerType[] = [],
-  mapParams: MapParams,
   mapStyle: MapStyle,
 ) {
   let lineColor = [25, 25, 25]
@@ -50,13 +44,13 @@ export default function createTreeMarkerLayer(
     getFillColor: getColorFromDatum as any,
     getPosition: getPositionFromDatum as any,
     getLineWidth: 2,
-    getRadius: (d) => getRadiusFromDatum(d, mapParams),
+    getRadius: (d) => getRadiusFromDatum(d),
     radiusScale: 6,
     filled: true,
     stroked: true,
     radiusUnits: 'pixels',
     pickable: true,
-    radiusMinPixels: 5,
+    radiusMinPixels: 8,
     lineWidthMaxPixels: 2,
     lineWidthMinPixels: 2,
   })
