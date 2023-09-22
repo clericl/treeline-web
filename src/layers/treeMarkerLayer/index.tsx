@@ -44,7 +44,7 @@ export default function createTreeMarkerLayer(
     getFillColor: getColorFromDatum as any,
     getPosition: getPositionFromDatum as any,
     getLineWidth: 2,
-    getRadius: (d) => getRadiusFromDatum(d),
+    getRadius: getRadiusFromDatum as any,
     radiusScale: 6,
     filled: true,
     stroked: true,

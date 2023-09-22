@@ -41,13 +41,13 @@ export default function Geocontrol() {
 
   useEffect(() => {
     map.current?.on('load', handleMapLoad)
-  }, [handleMapLoad])
+  }, [handleMapLoad, map])
 
   useEffect(() => {
     if (canvasElement) {
       canvasElement.style.pointerEvents = open ? 'none' : 'all'
     }
-  }, [open])
+  }, [canvasElement, open])
 
   return (
     <>

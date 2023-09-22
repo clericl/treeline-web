@@ -4,6 +4,7 @@ import {
   Box,
   IconButton,
   SwipeableDrawer,
+  useTheme,
 } from '@mui/material'
 import { KeyboardEvent, MouseEvent, useCallback, useState } from 'react';
 import MapStyleList from '../MapStyleList';
@@ -11,6 +12,9 @@ import MenuIcon from '@mui/icons-material/Menu'
 
 export default function DrawerMenu() {
   const [drawerOpen, setDrawerOpen] = useState<boolean>(false)
+  const theme = useTheme()
+
+  const colorMode = theme.palette.mode
 
   const toggleDrawer = useCallback((open: boolean) =>
     (e: KeyboardEvent | MouseEvent) => {
@@ -30,7 +34,7 @@ export default function DrawerMenu() {
       <IconButton
         aria-label="menu"
         onClick={toggleDrawer(true)}
-        style={{ backgroundColor: 'rgba(0 0 0 / 0.6)' }}
+        style={{ backgroundColor: colorMode === 'dark' ? 'rgba(0 0 0 / 0.6)' : 'rgba(255 255 255 / 0.8)' }}
         sx={{
           position: 'absolute',
           left: 10,
@@ -39,7 +43,7 @@ export default function DrawerMenu() {
           borderRadius: 2,
         }}
       >
-        <MenuIcon fontSize="medium" sx={{ color: 'white' }} />
+        <MenuIcon fontSize="medium" sx={{ color: colorMode === 'dark' ? 'white' : 'black' }} />
       </IconButton>
       <SwipeableDrawer
         open={drawerOpen}
