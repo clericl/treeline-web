@@ -17,6 +17,9 @@ const config: Config = {
       boxShadow: {
         'icon-button': '0 0 0 2px rgb(0 0 0 / 0.1)',
       },
+      fontFamily: {
+        mui: ['var(--font-mui)'],
+      },
     },
   },
   plugins: [],

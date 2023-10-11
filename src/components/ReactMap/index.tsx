@@ -58,7 +58,7 @@ export default function ReactMap() {
   const [treeData, setTreeData] = useState([])
   const { data } = useTreesQuery(mapParams)
   const mapRef = useRef<MapRef>(null)
-  const mapStyle = useMapStyle.use.mapStyle()
+  const mapStyle = useMapStyle.use.style()
 
   const layers = useMemo(() => ([
     createTreeMarkerLayer(treeData, mapStyle)

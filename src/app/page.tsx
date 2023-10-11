@@ -12,7 +12,7 @@ const ColorModeContext = createContext({
 
 export default function Home() {
   const [mode, setMode] = useState<'light' | 'dark'>('dark')
-  const mapStyle = useMapStyle.use.mapStyle()
+  const mapStyle = useMapStyle.use.style()
   const colorMode = useMemo(() => ({
     toggleColorMode: () => {
       setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'))

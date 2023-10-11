@@ -9,8 +9,8 @@ import { MapStyle, useMapStyle } from '@/zustand';
 import { useCallback } from 'react';
 
 export default function MapStyleList() {
-  const mapStyle = useMapStyle.use.mapStyle()
-  const setMapStyle = useMapStyle.use.setMapStyle()
+  const mapStyle = useMapStyle.use.style()
+  const setMapStyle = useMapStyle.use.set()
 
   const handleListItemClick = useCallback((newMapStyle: MapStyle) => {
     setMapStyle(newMapStyle)

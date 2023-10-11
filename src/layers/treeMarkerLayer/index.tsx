@@ -5,14 +5,13 @@ import { speciesDetails } from '@/data'
 
 const typedSpeciesDetails: SpeciesDetailsType = speciesDetails
 
-function getColorFromDatum(treeMarkerDatum: TreeMarkerType): [number, number, number, [number]] {
+function getColorFromDatum(treeMarkerDatum: TreeMarkerType): [number, number, number] {
   const colorArr = typedSpeciesDetails[treeMarkerDatum.species].color
 
   return [
     colorArr[0],
     colorArr[1],
     colorArr[2],
-    [colorArr[3]],
   ]
 }
 
@@ -24,7 +23,7 @@ function getPositionFromDatum(treeMarkerDatum: TreeMarkerType) {
 }
 
 function getRadiusFromDatum(treeMarkerDatum: TreeMarkerType) {
-  return Math.pow(treeMarkerDatum.diameter / 2.5, 1 / 2)
+  return Math.pow(treeMarkerDatum.diameter / 3, 1 / 2)
 }
  
 export default function createTreeMarkerLayer(
@@ -46,6 +45,7 @@ export default function createTreeMarkerLayer(
     getLineWidth: 2,
     getRadius: getRadiusFromDatum as any,
     radiusScale: 6,
+    opacity: 0.7,
     filled: true,
     stroked: true,
     radiusUnits: 'pixels',

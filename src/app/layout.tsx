@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 import type { Metadata } from 'next'
@@ -9,7 +9,12 @@ import type { Metadata } from 'next'
 import './globals.css'
 import '@/styles/mapbox.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: ['400', '700', '900'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  variable: '--font-mui',
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -25,7 +30,7 @@ export default function RootLayout({
   
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${roboto.variable} font-mui`}>
         <QueryClientProvider client={queryClient}>
           {children}
         </QueryClientProvider>

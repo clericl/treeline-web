@@ -16,13 +16,13 @@ export type StylesList = {
 }
 
 export interface MapStyleState {
-  mapStyle: MapStyle,
-  setMapStyle: (newMapStyle: MapStyle) => void,
+  style: MapStyle,
+  set: (newMapStyle: MapStyle) => void,
 }
 
 const useMapStyleBase = create<MapStyleState>()((set) => ({
-  mapStyle: 'Navigation (Night)',
-  setMapStyle: (newMapStyle: MapStyle) => set(() => ({ mapStyle: newMapStyle }))
+  style: 'Navigation (Night)',
+  set: (newMapStyle: MapStyle) => set(() => ({ style: newMapStyle }))
 }))
 
 export const useMapStyle = createSelectors(useMapStyleBase)

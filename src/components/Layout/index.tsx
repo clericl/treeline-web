@@ -1,13 +1,15 @@
+import BaseballCard from "../BaseballCard";
 import ReactMap from "../ReactMap";
-import { Box, Paper, Stack } from '@mui/material'
+import { Paper, Stack } from '@mui/material'
 
 function Layout() {
   return (
-    <Stack justifyContent="center" sx={{ height: 1 }}>
-      <Paper sx={{ height: 1, overflow: 'hidden' }}>
-        <Box sx={{ height: 1, width: 1 }}>
-          <ReactMap />
-        </Box>
+    <Stack justifyContent="center" sx={{ height: 1, position: 'relative' }}>
+      <Paper sx={{ width: 1, height: 1 }}>
+        <ReactMap />
+        <div className="absolute top-1/2 right-[10px]">
+          <BaseballCard />
+        </div>
       </Paper>
     </Stack>
   )

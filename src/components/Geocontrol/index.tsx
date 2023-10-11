@@ -13,7 +13,7 @@ function GeocontrolModal({ open }: GeocontrolModalProps) {
   return (
     <div className={
       classnames(
-        'absolute top-0 left-0 w-full h-full bg-black/60 flex justify-center items-center transition-opacity duration-700 ease-in-out',
+        'absolute top-0 left-0 w-full h-full bg-black/60 flex justify-center items-center transition-opacity duration-700 ease-in-out font-mui',
         {
           'opacity-1': open,
           'opacity-0': !open,
