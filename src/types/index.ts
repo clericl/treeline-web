@@ -31,6 +31,7 @@ export interface RedisGeoSearchType {
     longitude: string;
     latitude: string;
   };
+  species: string;
 }
 
 export type TreeMarkerType = {

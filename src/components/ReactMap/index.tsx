@@ -8,7 +8,9 @@ import geoViewport from '@mapbox/geo-viewport'
 import { Map, MapRef, ViewStateChangeEvent, useControl } from 'react-map-gl'
 import { MapboxOverlay, MapboxOverlayProps } from '@deck.gl/mapbox/typed'
 import { StylesList, useMapStyle } from '../../zustand'
+import { TreeMarkerType } from '@/types'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useSelectedSpecies } from '@/zustand/useSelectedSpecies'
 import { useTreesQuery } from '@/hooks/useTreesQuery'
 
 const MAPBOX_ACCESS_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
@@ -55,14 +57,11 @@ export default function ReactMap() {
     radius: 1.04232281904622,
     zoom: 15,
   })
-  const [treeData, setTreeData] = useState([])
+  const [treeData, setTreeData] = useState<TreeMarkerType[]>([])
   const { data } = useTreesQuery(mapParams)
   const mapRef = useRef<MapRef>(null)
   const mapStyle = useMapStyle.use.style()
-
-  const layers = useMemo(() => ([
-    createTreeMarkerLayer(treeData, mapStyle)
-  ]), [treeData, mapStyle])
+  const selectedSpecies = useSelectedSpecies.use.species()
 
   const handleViewStateChange = useCallback(({ viewState }: ViewStateChangeEvent) => {
     const { longitude, latitude, zoom } = viewState
@@ -86,10 +85,9 @@ export default function ReactMap() {
       [bounds[0], latitude],
       [bounds[2], latitude],
     )
-    const radius = Math.min(
-      distanceBetween / 2,
-      2
-    )
+    const radius = selectedSpecies.size ?
+      distanceBetween / 2 :
+      Math.min(distanceBetween / 2, 2)
 
     setMapParams({
       latitude,
@@ -97,10 +95,14 @@ export default function ReactMap() {
       radius,
       zoom,
     })
-  }, [])
+  }, [selectedSpecies])
+
+  const layers = useMemo(() => ([
+    createTreeMarkerLayer(treeData, mapStyle)
+  ]), [treeData, mapStyle])
 
   useEffect(() => {
-    if (data && data.length) {
+    if (typeof data !== 'undefined') {
       setTreeData(data)
     }
   }, [data])
