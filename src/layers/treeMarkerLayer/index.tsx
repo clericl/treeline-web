@@ -25,15 +25,17 @@ function getPositionFromDatum(treeMarkerDatum: TreeMarkerType) {
 function getRadiusFromDatum(treeMarkerDatum: TreeMarkerType) {
   return Math.pow(treeMarkerDatum.diameter / 3, 1 / 2)
 }
- 
+
 export default function createTreeMarkerLayer(
   data: TreeMarkerType[] = [],
   mapStyle: MapStyle,
 ) {
   let lineColor = [25, 25, 25]
+  let highlightColor = [0, 0, 0, 100]
 
   if (['Dark', 'Navigation (Night)'].includes(mapStyle)) {
     lineColor = [255, 255, 255]
+    highlightColor = [255, 255, 255, 100]
   }
 
   return new ScatterplotLayer({
@@ -53,5 +55,7 @@ export default function createTreeMarkerLayer(
     radiusMinPixels: 8,
     lineWidthMaxPixels: 2,
     lineWidthMinPixels: 2,
+    autoHighlight: true,
+    highlightColor,
   })
 }

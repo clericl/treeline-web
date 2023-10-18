@@ -70,6 +70,7 @@ export default function SpeciesSelect() {
         sx={{
           backgroundColor: `rgba(${color[0]} ${color[1]} ${color[2]} / ${color[3]})`,
           border: 'none',
+          fontFamily: 'var(--font-mui)',
         }}
       />
     ))
@@ -78,7 +79,7 @@ export default function SpeciesSelect() {
   }, [handleDelete, selectedSpecies])
 
   return (
-    <Box>
+    <Box sx={{ paddingLeft: 0, paddingRight: 0 }}>
       <Autocomplete
         disablePortal
         inputValue={inputValue}
@@ -102,7 +103,7 @@ export default function SpeciesSelect() {
       <Stack
         direction="row"
         spacing={1}
-        sx={{ marginTop: '8px' }}
+        sx={{ marginTop: 1 }}
         useFlexGap
         flexWrap="wrap"
       >

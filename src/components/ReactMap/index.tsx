@@ -7,13 +7,17 @@ import distance from '@turf/distance'
 import geoViewport from '@mapbox/geo-viewport'
 import { Map, MapRef, ViewStateChangeEvent, useControl } from 'react-map-gl'
 import { MapboxOverlay, MapboxOverlayProps } from '@deck.gl/mapbox/typed'
+import { PickingInfo } from '@deck.gl/core/typed'
 import { StylesList, useMapStyle } from '../../zustand'
-import { TreeMarkerType } from '@/types'
+import { SpeciesDetailsType, TreeMarkerType } from '@/types'
+import { speciesDetails } from "@/data"
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useSelectedSpecies } from '@/zustand/useSelectedSpecies'
 import { useTreesQuery } from '@/hooks/useTreesQuery'
 
 const MAPBOX_ACCESS_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
+
+const typedSpeciesDetails: SpeciesDetailsType = speciesDetails
 
 export const MAP_STYLES: StylesList = {
   'Streets': 'mapbox://styles/mapbox/streets-v12',
@@ -62,6 +66,26 @@ export default function ReactMap() {
   const mapRef = useRef<MapRef>(null)
   const mapStyle = useMapStyle.use.style()
   const selectedSpecies = useSelectedSpecies.use.species()
+
+  const getTooltip = useCallback(({ object }: PickingInfo) => {
+    if (!object) return null
+
+    const speciesDetail = typedSpeciesDetails[object.species]
+    
+    return {
+      html: `
+        <div>
+          <p class="text-base"><i>${object.species}</i></p>
+          <p>${speciesDetail.commonNames}</p>
+        </div>
+      `,
+      className: '',
+      style: {
+        borderRadius: '5px',
+        backgroundColor: 'black',
+      },
+    }
+  }, [])
 
   const handleViewStateChange = useCallback(({ viewState }: ViewStateChangeEvent) => {
     const { longitude, latitude, zoom } = viewState
@@ -115,7 +139,11 @@ export default function ReactMap() {
       onMoveEnd={handleViewStateChange}
       ref={mapRef}
     >
-      <DeckGLOverlay interleaved={true} layers={layers} />
+      <DeckGLOverlay
+        getTooltip={getTooltip}
+        interleaved={true}
+        layers={layers}
+      />
       <Geocontrol />
     </Map>
   )
