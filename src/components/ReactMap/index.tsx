@@ -8,12 +8,17 @@ import geoViewport from '@mapbox/geo-viewport'
 import { Map, MapRef, ViewStateChangeEvent, useControl } from 'react-map-gl'
 import { MapboxOverlay, MapboxOverlayProps } from '@deck.gl/mapbox/typed'
 import { PickingInfo } from '@deck.gl/core/typed'
-import { StylesList, useMapStyle } from '../../zustand'
 import { SpeciesDetailsType, TreeMarkerType } from '@/types'
+import {
+  StylesList,
+  useMapStyle,
+  useSelectedSpecies,
+  useSelectedTree,
+} from '@/zustand'
+import { alpha, useTheme } from '@mui/material'
 import { speciesDetails } from "@/data"
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { useSelectedSpecies } from '@/zustand/useSelectedSpecies'
-import { useTreesQuery } from '@/hooks/useTreesQuery'
+import { useTreesQuery } from '@/hooks'
 
 const MAPBOX_ACCESS_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
 
@@ -66,6 +71,8 @@ export default function ReactMap() {
   const mapRef = useRef<MapRef>(null)
   const mapStyle = useMapStyle.use.style()
   const selectedSpecies = useSelectedSpecies.use.species()
+  const setSelectedTree = useSelectedTree.use.set()
+  const theme = useTheme()
 
   const getTooltip = useCallback(({ object }: PickingInfo) => {
     if (!object) return null
@@ -74,18 +81,29 @@ export default function ReactMap() {
     
     return {
       html: `
-        <div>
-          <p class="text-base"><i>${object.species}</i></p>
+        <div class="font-mui">
+          <p class="text-base">${object.species ? `<i>${object.species}</i>` : 'Stump'}</p>
           <p>${speciesDetail.commonNames}</p>
         </div>
       `,
       className: '',
       style: {
         borderRadius: '5px',
-        backgroundColor: 'black',
+        backgroundColor: alpha(theme.palette.grey[900], 0.8),
+        color: 'white',
       },
     }
-  }, [])
+  }, [theme])
+
+  const handleTreeMarkerClick = useCallback(({ object }: PickingInfo) => {
+    if (object && object.id) {
+      setSelectedTree(object.id)
+
+      return true
+    }
+
+    return false
+  }, [setSelectedTree])
 
   const handleViewStateChange = useCallback(({ viewState }: ViewStateChangeEvent) => {
     const { longitude, latitude, zoom } = viewState
@@ -122,8 +140,14 @@ export default function ReactMap() {
   }, [selectedSpecies])
 
   const layers = useMemo(() => ([
-    createTreeMarkerLayer(treeData, mapStyle)
-  ]), [treeData, mapStyle])
+    createTreeMarkerLayer(
+      treeData,
+      mapStyle,
+      {
+        onClick: handleTreeMarkerClick,
+      }
+    )
+  ]), [treeData, mapStyle, handleTreeMarkerClick])
 
   useEffect(() => {
     if (typeof data !== 'undefined') {

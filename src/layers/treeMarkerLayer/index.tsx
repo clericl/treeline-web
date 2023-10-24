@@ -29,6 +29,7 @@ function getRadiusFromDatum(treeMarkerDatum: TreeMarkerType) {
 export default function createTreeMarkerLayer(
   data: TreeMarkerType[] = [],
   mapStyle: MapStyle,
+  props?: Partial<ScatterplotLayer>,
 ) {
   let lineColor = [25, 25, 25]
   let highlightColor = [0, 0, 0, 100]
@@ -39,23 +40,24 @@ export default function createTreeMarkerLayer(
   }
 
   return new ScatterplotLayer({
-    id: 'tree-point-layer',
+    ...props,
+    autoHighlight: true,
     data,
+    filled: true,
     getLineColor: lineColor as any,
     getFillColor: getColorFromDatum as any,
     getPosition: getPositionFromDatum as any,
     getLineWidth: 2,
     getRadius: getRadiusFromDatum as any,
-    radiusScale: 6,
-    opacity: 0.7,
-    filled: true,
-    stroked: true,
-    radiusUnits: 'pixels',
-    pickable: true,
-    radiusMinPixels: 8,
+    highlightColor,
+    id: 'tree-point-layer',
     lineWidthMaxPixels: 2,
     lineWidthMinPixels: 2,
-    autoHighlight: true,
-    highlightColor,
+    opacity: 0.7,
+    pickable: true,
+    radiusMinPixels: 8,
+    radiusScale: 6,
+    radiusUnits: 'pixels',
+    stroked: true,
   })
 }

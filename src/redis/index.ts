@@ -61,7 +61,7 @@ export default class Redis {
     const nearbyTreesOfSpecies = await transaction.exec()    
     return nearbyTreesOfSpecies || []
   }
-
+  
   async getTrees({ latitude, longitude, radius }: GetTreesRequest) {
     if (!isValidRequest(latitude, longitude)) {
       throw new Error('invalid request parameters')

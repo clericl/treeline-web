@@ -9,7 +9,7 @@ import {
 } from "@mui/material"
 import { HTMLAttributes, ReactNode, useCallback, useMemo, useState } from "react"
 import { speciesDetails } from "@/data"
-import { SpeciesOption, useSelectedSpecies } from "@/zustand/useSelectedSpecies"
+import { SpeciesOption, useSelectedSpecies } from "@/zustand"
 
 const nameData = Object.entries(speciesDetails).map(([scientific, detail]) => ({
   id: scientific,

@@ -1,6 +1,6 @@
 import { MapParams } from "@/components/ReactMap"
 import { useQuery } from "@tanstack/react-query"
-import { useSelectedSpecies } from "@/zustand/useSelectedSpecies"
+import { useSelectedSpecies } from "@/zustand"
 
 export function useTreesQuery(mapParams: MapParams) {
   const { latitude, longitude, radius } = mapParams
