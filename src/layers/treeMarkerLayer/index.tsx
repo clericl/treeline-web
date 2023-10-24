@@ -26,6 +26,10 @@ function getRadiusFromDatum(treeMarkerDatum: TreeMarkerType) {
   return Math.pow(treeMarkerDatum.diameter / 3, 1 / 2)
 }
 
+function getLineColor(treeMarkerDatum: TreeMarkerType) {
+
+}
+
 export default function createTreeMarkerLayer(
   data: TreeMarkerType[] = [],
   mapStyle: MapStyle,

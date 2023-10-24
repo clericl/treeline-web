@@ -70,6 +70,7 @@ export interface SpeciesDetailsType {
     commonNames: string;
     color: number[];
     description: string;
+    wikiTitle?: string;
   };
 }
 

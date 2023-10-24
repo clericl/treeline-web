@@ -42,7 +42,8 @@
   "Acer platanoides 'Crimson King'": {
     "commonNames": "Norway maple, Crimson King",
     "color": [118, 191, 84, 0.5],
-    "description": "A cultivar of Norway maple, 'Crimson King' is known for its richly colored dark purple leaves."
+    "description": "A cultivar of Norway maple, 'Crimson King' is known for its richly colored dark purple leaves.",
+    "wikiTitle": "Acer platanoides"
   },
   "Acer platanoides": {
     "commonNames": "Norway maple",
@@ -82,7 +83,8 @@
   "Acer": {
     "commonNames": "maple",
     "color": [118, 191, 84, 0.5],
-    "description": "The genus Acer, the maple trees, are deciduous trees and shrubs widely distributed across the Northern Hemisphere. They have an iconic leaf shape with palmate (resembling the fingers of a hand) lobes. They are known for their colorful fall foliage, with their leaves turning brilliant shades of yellow, red, and orange in the autumn. Many maples have strong, durable, and attractive wood. Many maples can also be tapped for their sweet sap, which is processed into maple syrup."
+    "description": "The genus Acer, the maple trees, are deciduous trees and shrubs widely distributed across the Northern Hemisphere. They have an iconic leaf shape with palmate (resembling the fingers of a hand) lobes. They are known for their colorful fall foliage, with their leaves turning brilliant shades of yellow, red, and orange in the autumn. Many maples have strong, durable, and attractive wood. Many maples can also be tapped for their sweet sap, which is processed into maple syrup.",
+    "wikiTitle": "Maple"
   },
   "Aesculus glabra": {
     "commonNames": "Ohio buckeye",
@@ -192,7 +194,8 @@
   "Cercis reniformis": {
     "commonNames": "Oklahoma redbud",
     "color": [118, 191, 84, 0.5],
-    "description": "The Oklahoma redbud is a deciduous tree native to the United States. Its distinctive heart- or kidney-like leaf shape gives rise to the Latin name (reniformis, \"kidney-shaped\"). The tree has a rounded crown and matures at 20 to 30 feet tall. It has showy, deep pink flowers that emerge in clusters of four to ten in early spring before the foliage, and as the flowers fade, the heart-shaped leaves unfurl. The flowers are a food source for bees and other pollinators, and the wood is occasionally used in small-scale carpentry or to make ornamental objects."
+    "description": "The Oklahoma redbud is a deciduous tree native to the United States. Its distinctive heart- or kidney-like leaf shape gives rise to the Latin name (reniformis, \"kidney-shaped\"). The tree has a rounded crown and matures at 20 to 30 feet tall. It has showy, deep pink flowers that emerge in clusters of four to ten in early spring before the foliage, and as the flowers fade, the heart-shaped leaves unfurl. The flowers are a food source for bees and other pollinators, and the wood is occasionally used in small-scale carpentry or to make ornamental objects.",
+    "wikiTitle": "Cercis_canadensis#Subspecies"
   },
   "Chamaecyparis pisifera": {
     "commonNames": "Sawara cypress, Japanese false cypress",
@@ -247,7 +250,8 @@
   "Crataegus crusgalli var. inermis": {
     "commonNames": "cockspur thorn, cockspur hawthorn",
     "color": [127, 125, 108, 0.5],
-    "description": "The cockspur hawthorn is a small deciduous tree native to North America. It typically grows to a height of 15 to 30 feet tall. The leaves are serrated and glossy dark green in color, turning gold to red in the fall. The tree produces clusters of white flowers in spring that give way to small, bright red, edible fruits known as haws. Wild varieties of the cockspur hawthorn have stout thorns up to three inches long, giving the common name. This variety is thornless."
+    "description": "The cockspur hawthorn is a small deciduous tree native to North America. It typically grows to a height of 15 to 30 feet tall. The leaves are serrated and glossy dark green in color, turning gold to red in the fall. The tree produces clusters of white flowers in spring that give way to small, bright red, edible fruits known as haws. Wild varieties of the cockspur hawthorn have stout thorns up to three inches long, giving the common name. This variety is thornless.",
+    "wikiTitle": "Crataegus_crus-galli"
   },
   "Crataegus": {
     "commonNames": "hawthorn",
@@ -292,7 +296,8 @@
   "Gleditsia triacanthos var. inermis": {
     "commonNames": "honey locust, thorny locust, thorny honeylocust",
     "color": [125, 164, 34, 0.5],
-    "description": "The honey locust tree is a deciduous tree native to North America. It is a medium sized tree that grows to a height of 30 to 70 feet. The leaves are pinnately compound, consisting of numerous small leaflets that give the tree a feathery appearance from a distance. The leaflets are typically oval-shaped and arranged in pairs along the branches. The tree has a relatively open and airy crown. This cultivar is thornless, but the wild species is characterized by the long, sharp thonrns on its branches. The wood is strong and durable and historicallly used for furniture, flooring, and fence posts. The seed pods are long and twisted and contain an edible, sweet, sticky pulp."
+    "description": "The honey locust tree is a deciduous tree native to North America. It is a medium sized tree that grows to a height of 30 to 70 feet. The leaves are pinnately compound, consisting of numerous small leaflets that give the tree a feathery appearance from a distance. The leaflets are typically oval-shaped and arranged in pairs along the branches. The tree has a relatively open and airy crown. This cultivar is thornless, but the wild species is characterized by the long, sharp thonrns on its branches. The wood is strong and durable and historicallly used for furniture, flooring, and fence posts. The seed pods are long and twisted and contain an edible, sweet, sticky pulp.",
+    "wikiTitle": "Gleditsia triacanthos"
   },
   "Gymnocladus dioicus": {
     "commonNames": "Kentucky coffeetree, coffeetree, American coffee berry, Kentucky mahogany, nicker tree, stump tree",
@@ -382,7 +387,8 @@
   "Morus": {
     "commonNames": "mulberry",
     "color": [171, 218, 171, 0.5],
-    "description": "The Morus genus, commonly called the mulberries, comprises several species of deciduous trees and shrubs. They range in size from small shrubs to medium-sized trees. The leaves have a serrated margin, may be lobed, and are typically green, but some species have variegated or purple foliage. The fruits are small to medium-sized berries that come in black, red, white, or other colors. These berries are sweet and juicy and often eaten fresh or made into jams, jellies, pies, or other preparations. Mulberry trees are also the sole food source for silkworms, which feed exclusively on mulberry leaves."
+    "description": "The Morus genus, commonly called the mulberries, comprises several species of deciduous trees and shrubs. They range in size from small shrubs to medium-sized trees. The leaves have a serrated margin, may be lobed, and are typically green, but some species have variegated or purple foliage. The fruits are small to medium-sized berries that come in black, red, white, or other colors. These berries are sweet and juicy and often eaten fresh or made into jams, jellies, pies, or other preparations. Mulberry trees are also the sole food source for silkworms, which feed exclusively on mulberry leaves.",
+    "wikiTitle": "Morus_(plant)"
   },
   "Nyssa sylvatica": {
     "commonNames": "black tupelo, tupelo, black gum, sour gum",

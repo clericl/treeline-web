@@ -11,7 +11,7 @@ import { HTMLAttributes, ReactNode, useCallback, useMemo, useState } from "react
 import { speciesDetails } from "@/data"
 import { SpeciesOption, useSelectedSpecies } from "@/zustand"
 
-const nameData = Object.entries(speciesDetails).map(([scientific, detail]) => ({
+const nameData = Object.entries(speciesDetails).slice(1).map(([scientific, detail]) => ({
   id: scientific,
   title: detail.commonNames,
   color: detail.color,
@@ -49,10 +49,21 @@ export default function SpeciesSelect() {
     } = props
 
     return (
-      <Box component="li" sx={{ '& > img': { mr: 2, flexShrink: 0 } }} key={key} {...spreadableProps}>
+      <Box
+        component="li"
+        sx={{ '& > img': { mr: 2, flexShrink: 0 } }}
+        key={key}
+        {...spreadableProps}
+      >
         <Stack>
-          <Typography variant="body1">{option.id}</Typography>
-          <Typography variant="body2">{option.title}</Typography>
+          <Typography
+            variant="body1"
+            sx={{ fontStyle: 'italic', lineHeight: 1.2 }}
+          >{option.id}</Typography>
+          <Typography
+            variant="body2"
+            sx={{ lineHeight: 1.2, marginTop: '3px' }}
+          >{option.title}</Typography>
         </Stack>
       </Box>
     )

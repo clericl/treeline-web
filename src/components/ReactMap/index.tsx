@@ -71,6 +71,7 @@ export default function ReactMap() {
   const mapRef = useRef<MapRef>(null)
   const mapStyle = useMapStyle.use.style()
   const selectedSpecies = useSelectedSpecies.use.species()
+  const selectedTree = useSelectedTree.use.tree()
   const setSelectedTree = useSelectedTree.use.set()
   const theme = useTheme()
 
@@ -96,8 +97,8 @@ export default function ReactMap() {
   }, [theme])
 
   const handleTreeMarkerClick = useCallback(({ object }: PickingInfo) => {
-    if (object && object.id) {
-      setSelectedTree(object.id)
+    if (object) {
+      setSelectedTree(object)
 
       return true
     }
@@ -154,6 +155,13 @@ export default function ReactMap() {
       setTreeData(data)
     }
   }, [data])
+
+  useEffect(() => {
+    if (mapRef.current && selectedTree) {
+      const { location } = selectedTree
+      mapRef.current.panTo([location.longitude, location.latitude])
+    }
+  }, [selectedTree])
 
   return (
     <Map

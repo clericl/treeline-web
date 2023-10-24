@@ -1,4 +1,4 @@
-import { Box, CircularProgress, Link, Typography } from "@mui/material"
+import { Box, CircularProgress, Link, Typography, useTheme } from "@mui/material"
 import { SpeciesDetailsType } from "@/types"
 import { speciesDetails } from "@/data"
 import { useMemo } from "react"
@@ -17,6 +17,7 @@ function toTitleCase(str: string) {
 
 export default function TreeDetail() {
   const { data, isLoading } = useTreeQuery()
+  const theme = useTheme()
 
   const {
     closestAddress,
@@ -40,13 +41,22 @@ export default function TreeDetail() {
     stumpDiameter: data['stump_diam'],
   } : {}), [data])
 
-  const { data: wikiData, isLoading: wikiLoading } = useWikiQuery(latinName)
+  const wikiTitle = useMemo(() => {
+    if (latinName) {
+      const speciesDetail = typedSpeciesDetails[latinName]
+      return speciesDetail.wikiTitle || latinName
+    }
+
+    return ''
+  }, [latinName])
+
+  const { data: wikiData, isLoading: wikiLoading } = useWikiQuery(wikiTitle)
 
   return (
     <Box sx={{ height: '100%', paddingLeft: 0, paddingRight: 0 }}>
       {isLoading ? (
         <Box display="flex" justifyContent="center" alignItems="center" sx={{ height: '129px' }}>
-          <CircularProgress sx={{ color: 'white' }} />
+          <CircularProgress sx={{ color: theme.palette.primary.main }} />
         </Box>
       ) : (
         <Box>
@@ -55,6 +65,7 @@ export default function TreeDetail() {
             sx={{
               fontFamily: 'var(--font-mui)',
               fontStyle: latinName ? 'italic' : 'normal',
+              lineHeight: 1.1,
             }}
           >{data ? (latinName || 'Stump') : 'Unknown'}</Typography>
           {latinName && (
@@ -63,10 +74,12 @@ export default function TreeDetail() {
               sx={{
                 fontFamily: 'var(--font-mui)',
                 lineHeight: 1.1,
+                marginTop: 1,
               }}
             >{typedSpeciesDetails[latinName].commonNames}</Typography>
           )}
           <Typography
+            component="div"
             variant="body2"
             sx={{
               fontFamily: 'var(--font-mui)',
@@ -74,12 +87,13 @@ export default function TreeDetail() {
               marginTop: 2,
             }}
           >
-            <p>Diameter: {diameter ? diameter : stumpDiameter} in.</p>
             {closestAddress && (<p>Closest address: {closestAddress}</p>)}
+            <p>Diameter: {diameter ? diameter : stumpDiameter} in.</p>
+            {health && <p>Condition: {health}</p>}
             <p>Longitude: {longitude}</p>
             <p>Latitude: {latitude}</p>
           </Typography>
-          {(wikiLoading || !latinName) ? (
+          {(wikiLoading || !wikiData) ? (
             <Box display="flex" justifyContent="center" alignItems="center" sx={{ height: '100%' }}>
               <CircularProgress size="small" sx={{ color: 'white' }} />
             </Box>

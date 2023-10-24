@@ -4,6 +4,8 @@ import {
   CardContent,
   Tab,
   Tabs,
+  alpha,
+  useTheme,
 } from "@mui/material"
 import SpeciesSelect from "../SpeciesSelect"
 import TreeDetail from "../TreeDetail";
@@ -36,22 +38,31 @@ function CustomTabPanel(props: TabPanelProps) {
 
 export default function BaseballCard() {
   const [tabValue, setTabValue] = useState(0)
-  const selectedTreeId = useSelectedTree.use.id()
+  const selectedTree = useSelectedTree.use.tree()
+  const theme = useTheme()
 
   const handleTabChange = useCallback((_: unknown, newValue: number) => {
     setTabValue(newValue)
   }, [])
 
   useEffect(() => {
-    setTabValue(selectedTreeId ? 1 : 0)
-  }, [selectedTreeId])
+    setTabValue(selectedTree ? 1 : 0)
+  }, [selectedTree])
 
   return (
-    <Card elevation={3} variant="outlined" sx={{ width: '20vw', minHeight: '250px' }}>
+    <Card
+      elevation={3}
+      variant="elevation"
+      sx={{
+        backgroundColor: alpha(theme.palette.background.default, 0.95),
+        minHeight: '250px',
+        width: '20vw',
+      }}
+    >
       <CardContent sx={{ height: '100%', paddingTop: 0 }}>
         <Tabs onChange={handleTabChange} value={tabValue} variant="fullWidth">
           <Tab label="Map Filters" id="map filters tab" />
-          <Tab label="Tree Detail" id="tree detail tab" disabled={!selectedTreeId} />
+          <Tab label="Tree Detail" id="tree detail tab" disabled={!selectedTree} />
         </Tabs>
         <CustomTabPanel index={0} value={tabValue} id="map filters panel">
           <SpeciesSelect />
