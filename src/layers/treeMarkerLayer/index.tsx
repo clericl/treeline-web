@@ -2,6 +2,7 @@ import { MapStyle } from '@/zustand'
 import { ScatterplotLayer } from '@deck.gl/layers/typed'
 import { SpeciesDetailsType, TreeMarkerType } from "@/types"
 import { speciesDetails } from '@/data'
+import SelectedTreeLayer from '../selectedTreeLayer'
 
 const typedSpeciesDetails: SpeciesDetailsType = speciesDetails
 
@@ -26,13 +27,17 @@ function getRadiusFromDatum(treeMarkerDatum: TreeMarkerType) {
   return Math.pow(treeMarkerDatum.diameter / 3, 1 / 2)
 }
 
-function getLineColor(treeMarkerDatum: TreeMarkerType) {
-
+function getSelectedStatus(
+  selectedId: number,
+  treeMarkerDatum: TreeMarkerType,
+) {
+  return selectedId === treeMarkerDatum.id
 }
 
 export default function createTreeMarkerLayer(
   data: TreeMarkerType[] = [],
   mapStyle: MapStyle,
+  selectedTreeId?: number,
   props?: Partial<ScatterplotLayer>,
 ) {
   let lineColor = [25, 25, 25]
@@ -43,7 +48,7 @@ export default function createTreeMarkerLayer(
     highlightColor = [255, 255, 255, 100]
   }
 
-  return new ScatterplotLayer({
+  return new SelectedTreeLayer({
     ...props,
     autoHighlight: true,
     data,
@@ -63,5 +68,7 @@ export default function createTreeMarkerLayer(
     radiusScale: 6,
     radiusUnits: 'pixels',
     stroked: true,
+    // @ts-ignore
+    selected: getSelectedStatus,
   })
 }

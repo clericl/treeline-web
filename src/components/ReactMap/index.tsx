@@ -144,11 +144,12 @@ export default function ReactMap() {
     createTreeMarkerLayer(
       treeData,
       mapStyle,
+      selectedTree?.id,
       {
         onClick: handleTreeMarkerClick,
-      }
+      },
     )
-  ]), [treeData, mapStyle, handleTreeMarkerClick])
+  ]), [treeData, mapStyle, handleTreeMarkerClick, selectedTree?.id])
 
   useEffect(() => {
     if (typeof data !== 'undefined') {
@@ -172,6 +173,7 @@ export default function ReactMap() {
       ref={mapRef}
     >
       <DeckGLOverlay
+        _animate={true}
         getTooltip={getTooltip}
         interleaved={true}
         layers={layers}
