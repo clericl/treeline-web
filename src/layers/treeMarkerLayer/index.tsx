@@ -26,13 +26,26 @@ function getRadiusFromDatum(treeMarkerDatum: TreeMarkerType) {
   return Math.pow(treeMarkerDatum.diameter / 3, 1 / 2)
 }
 
-function getLineColor(treeMarkerDatum: TreeMarkerType) {
+function getLineColor(
+  treeMarkerDatum: TreeMarkerType,
+  baseLineColor: number[],
+  animationCycle: number,
+  selectedMarkerId?: number,
+) {
+  console.log(animationCycle)
+  
+  if (selectedMarkerId !== treeMarkerDatum.id) {
+    return baseLineColor
+  }
 
+  // return animationCycle % 2 === 0 ? baseLineColor : [128, 128, 255]
+  return [0, 0, 0]
 }
 
 export default function createTreeMarkerLayer(
   data: TreeMarkerType[] = [],
   mapStyle: MapStyle,
+  selectedMarkerId?: number,
   props?: Partial<ScatterplotLayer>,
 ) {
   let lineColor = [25, 25, 25]
@@ -43,12 +56,14 @@ export default function createTreeMarkerLayer(
     highlightColor = [255, 255, 255, 100]
   }
 
+  let animationCycle = 0
+
   return new ScatterplotLayer({
     ...props,
     autoHighlight: true,
     data,
     filled: true,
-    getLineColor: lineColor as any,
+    getLineColor: (d) => getLineColor(d, lineColor, animationCycle, selectedMarkerId) as any,
     getFillColor: getColorFromDatum as any,
     getPosition: getPositionFromDatum as any,
     getLineWidth: 2,
@@ -63,5 +78,17 @@ export default function createTreeMarkerLayer(
     radiusScale: 6,
     radiusUnits: 'pixels',
     stroked: true,
+    transitions: {
+      getLineColor: {
+        duration: 10000,
+        onEnd: () => {
+          animationCycle += 1
+          console.log(animationCycle)
+        },
+      }
+    },
+    updateTriggers: {
+      getLineColor: [selectedMarkerId],
+    },
   })
 }
