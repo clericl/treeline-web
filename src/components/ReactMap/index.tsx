@@ -173,7 +173,6 @@ export default function ReactMap() {
       ref={mapRef}
     >
       <DeckGLOverlay
-        _animate={true}
         getTooltip={getTooltip}
         interleaved={true}
         layers={layers}

@@ -9,7 +9,7 @@ import {
 } from "@mui/material"
 import SpeciesSelect from "../SpeciesSelect"
 import TreeDetail from "../TreeDetail";
-import { useCallback, useEffect, useState } from "react"
+import { useCallback, useEffect, useMemo, useState } from "react"
 import { useSelectedTree } from "@/zustand";
 
 interface TabPanelProps {
@@ -45,6 +45,21 @@ export default function BaseballCard() {
     setTabValue(newValue)
   }, [])
 
+  const innerContent = useMemo(() => (
+    <>
+      <Tabs onChange={handleTabChange} value={tabValue} variant="fullWidth">
+        <Tab label="Map Filters" id="map filters tab" />
+        <Tab label="Tree Detail" id="tree detail tab" disabled={!selectedTree} />
+      </Tabs>
+      <CustomTabPanel index={0} value={tabValue} id="map filters panel">
+        <SpeciesSelect />
+      </CustomTabPanel>
+      <CustomTabPanel index={1} value={tabValue} id="tree detail panel">
+        <TreeDetail />
+      </CustomTabPanel>
+    </>
+  ), [handleTabChange, selectedTree, tabValue])
+
   useEffect(() => {
     setTabValue(selectedTree ? 1 : 0)
   }, [selectedTree])
@@ -60,16 +75,7 @@ export default function BaseballCard() {
       }}
     >
       <CardContent sx={{ height: '100%', paddingTop: 0 }}>
-        <Tabs onChange={handleTabChange} value={tabValue} variant="fullWidth">
-          <Tab label="Map Filters" id="map filters tab" />
-          <Tab label="Tree Detail" id="tree detail tab" disabled={!selectedTree} />
-        </Tabs>
-        <CustomTabPanel index={0} value={tabValue} id="map filters panel">
-          <SpeciesSelect />
-        </CustomTabPanel>
-        <CustomTabPanel index={1} value={tabValue} id="tree detail panel">
-          <TreeDetail />
-        </CustomTabPanel>
+        {innerContent}
       </CardContent>
     </Card>
   )
