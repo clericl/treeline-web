@@ -5,14 +5,20 @@ import { speciesDetails } from '@/data'
 
 const typedSpeciesDetails: SpeciesDetailsType = speciesDetails
 
-function getColorFromDatum(treeMarkerDatum: TreeMarkerType): [number, number, number] {
+function getColorFromDatum(
+  treeMarkerDatum: TreeMarkerType,
+  baseLineColor: number[],
+  selectedMarkerId?: number,
+): number[] {
   const colorArr = typedSpeciesDetails[treeMarkerDatum.species].color
 
-  return [
-    colorArr[0],
-    colorArr[1],
-    colorArr[2],
-  ]
+  return selectedMarkerId === treeMarkerDatum.id
+    ? baseLineColor
+    : [
+        colorArr[0],
+        colorArr[1],
+        colorArr[2],
+      ]
 }
 
 function getPositionFromDatum(treeMarkerDatum: TreeMarkerType) {
@@ -29,17 +35,17 @@ function getRadiusFromDatum(treeMarkerDatum: TreeMarkerType) {
 function getLineColor(
   treeMarkerDatum: TreeMarkerType,
   baseLineColor: number[],
-  animationCycle: number,
   selectedMarkerId?: number,
 ) {
-  console.log(animationCycle)
-  
-  if (selectedMarkerId !== treeMarkerDatum.id) {
-    return baseLineColor
-  }
+  const colorArr = typedSpeciesDetails[treeMarkerDatum.species].color
 
-  // return animationCycle % 2 === 0 ? baseLineColor : [128, 128, 255]
-  return [0, 0, 0]
+  return selectedMarkerId === treeMarkerDatum.id
+    ? [
+        colorArr[0],
+        colorArr[1],
+        colorArr[2],
+      ]
+    : baseLineColor
 }
 
 export default function createTreeMarkerLayer(
@@ -56,17 +62,14 @@ export default function createTreeMarkerLayer(
     highlightColor = [255, 255, 255, 100]
   }
 
-  let animationCycle = 0
-
   return new ScatterplotLayer({
     ...props,
     autoHighlight: true,
     data,
     filled: true,
-    getLineColor: (d) => getLineColor(d, lineColor, animationCycle, selectedMarkerId) as any,
-    getFillColor: getColorFromDatum as any,
+    getLineColor: (d) => getLineColor(d, lineColor, selectedMarkerId) as any,
+    getFillColor: (d) => getColorFromDatum(d, lineColor, selectedMarkerId) as any,
     getPosition: getPositionFromDatum as any,
-    getLineWidth: 2,
     getRadius: getRadiusFromDatum as any,
     highlightColor,
     id: 'tree-point-layer',
@@ -78,17 +81,5 @@ export default function createTreeMarkerLayer(
     radiusScale: 6,
     radiusUnits: 'pixels',
     stroked: true,
-    transitions: {
-      getLineColor: {
-        duration: 10000,
-        onEnd: () => {
-          animationCycle += 1
-          console.log(animationCycle)
-        },
-      }
-    },
-    updateTriggers: {
-      getLineColor: [selectedMarkerId],
-    },
   })
 }

@@ -56,6 +56,7 @@ export default function Geocontrol() {
         onGeolocate={() => setOpen(false)}
         onTrackUserLocationEnd={() => setOpen(false)}
         onTrackUserLocationStart={() => setOpen(true)}
+        showAccuracyCircle={false}
         positionOptions={{
           enableHighAccuracy: true,
         }}
