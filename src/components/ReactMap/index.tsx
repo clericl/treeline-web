@@ -149,7 +149,12 @@ export default function ReactMap() {
         onClick: handleTreeMarkerClick,
       }
     )
-  ]), [treeData, mapStyle, selectedTree, handleTreeMarkerClick])
+  ]), [
+    mapStyle,
+    selectedTree,
+    treeData,
+    handleTreeMarkerClick,
+  ])
 
   useEffect(() => {
     if (typeof data !== 'undefined') {
@@ -173,6 +178,7 @@ export default function ReactMap() {
       ref={mapRef}
     >
       <DeckGLOverlay
+        getCursor={() => 'inherit'}
         getTooltip={getTooltip}
         interleaved={true}
         layers={layers}
