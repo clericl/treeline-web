@@ -169,10 +169,13 @@ export default function ReactMap() {
 
       setTimeout(() => {
         if (mapRef.current) {
-          const offsetY = isMobile ? 100 : 0
+          const offsetY = isMobile ? -mapRef.current.getCanvas().clientHeight / 4 : 0
+
           mapRef.current.panTo(
-            [location.longitude, location.latitude - 0.001],
-            { offset: [0, offsetY] }
+            [location.longitude, location.latitude],
+            {
+              offset: [0, offsetY],
+            },
           )
         }
       }, 50)
