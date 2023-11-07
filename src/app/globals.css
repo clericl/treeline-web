@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.side-drawer.MuiDrawer-root {
+  z-index: 1201;
+}
+
+.bottom-drawer.MuiDrawer-root > .MuiPaper-root {
+  height: calc(50% - 56px);
+  overflow: visible;
+}

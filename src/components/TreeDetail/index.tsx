@@ -1,4 +1,4 @@
-import { Box, CircularProgress, Link, Typography, useTheme } from "@mui/material"
+import { Box, CircularProgress, Link, Typography, useMediaQuery, useTheme } from "@mui/material"
 import { SpeciesDetailsType } from "@/types"
 import { speciesDetails } from "@/data"
 import { useMemo } from "react"
@@ -18,6 +18,7 @@ function toTitleCase(str: string) {
 export default function TreeDetail() {
   const { data, isLoading } = useTreeQuery()
   const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
 
   const {
     closestAddress,
@@ -26,8 +27,6 @@ export default function TreeDetail() {
     latinName,
     latitude,
     longitude,
-    problems,
-    status,
     stumpDiameter,
   } = useMemo(() => (data ? {
     closestAddress: toTitleCase(data['address']),
@@ -59,7 +58,7 @@ export default function TreeDetail() {
           <CircularProgress sx={{ color: theme.palette.primary.main }} />
         </Box>
       ) : (
-        <Box>
+        <Box sx={{ pb: 3, pt: isMobile ? 1 : 3 }}>
           <Typography
             variant="h6"
             sx={{

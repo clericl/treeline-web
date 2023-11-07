@@ -46,6 +46,7 @@ export default function DrawerMenu() {
         <MenuIcon fontSize="medium" sx={{ color: colorMode === 'dark' ? 'white' : 'black' }} />
       </IconButton>
       <SwipeableDrawer
+        className="side-drawer"
         open={drawerOpen}
         onClose={toggleDrawer(false)}
         onOpen={toggleDrawer(true)}

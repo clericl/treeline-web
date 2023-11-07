@@ -15,7 +15,7 @@ import {
   useSelectedSpecies,
   useSelectedTree,
 } from '@/zustand'
-import { alpha, useTheme } from '@mui/material'
+import { alpha, useMediaQuery, useTheme } from '@mui/material'
 import { speciesDetails } from "@/data"
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useTreesQuery } from '@/hooks'
@@ -74,6 +74,7 @@ export default function ReactMap() {
   const selectedTree = useSelectedTree.use.tree()
   const setSelectedTree = useSelectedTree.use.set()
   const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
 
   const getTooltip = useCallback(({ object }: PickingInfo) => {
     if (!object) return null
@@ -165,9 +166,18 @@ export default function ReactMap() {
   useEffect(() => {
     if (mapRef.current && selectedTree) {
       const { location } = selectedTree
-      mapRef.current.panTo([location.longitude, location.latitude])
+
+      setTimeout(() => {
+        if (mapRef.current) {
+          const offsetY = isMobile ? 100 : 0
+          mapRef.current.panTo(
+            [location.longitude, location.latitude - 0.001],
+            { offset: [0, offsetY] }
+          )
+        }
+      }, 50)
     }
-  }, [selectedTree])
+  }, [isMobile, selectedTree])
 
   return (
     <Map

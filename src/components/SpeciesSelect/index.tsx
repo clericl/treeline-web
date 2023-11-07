@@ -6,6 +6,8 @@ import {
   TextField,
   Typography,
   createFilterOptions,
+  useMediaQuery,
+  useTheme,
 } from "@mui/material"
 import { HTMLAttributes, ReactNode, useCallback, useMemo, useState } from "react"
 import { speciesDetails } from "@/data"
@@ -23,6 +25,8 @@ const autocompleteOptions = createFilterOptions({
 
 export default function SpeciesSelect() {
   const [inputValue, setInputValue] = useState('')
+  const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
   
   const addSelectedSpecies = useSelectedSpecies.use.add()
   const removeSelectedSpecies = useSelectedSpecies.use.remove()
@@ -90,7 +94,7 @@ export default function SpeciesSelect() {
   }, [handleDelete, selectedSpecies])
 
   return (
-    <Box sx={{ paddingLeft: 0, paddingRight: 0 }}>
+    <Box sx={{ pl: 0, pr: 0, pt: isMobile ? 1 : 3, pb: 3 }}>
       <Autocomplete
         disablePortal
         inputValue={inputValue}
