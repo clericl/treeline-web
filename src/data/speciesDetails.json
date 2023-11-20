@@ -1,2279 +1,5689 @@
 {
   "": {
     "commonNames": "",
-    "color": [0, 0, 0, 0.5]
+    "color": [
+      0,
+      0,
+      0,
+      0.5
+    ],
+    "count": 24
   },
   "Abies alba": {
     "commonNames": "silver fir, European silver fir",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 34
   },
   "Abies balsamea": {
     "commonNames": "balsam fir",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 74
   },
   "Abies fraseri": {
     "commonNames": "Fraser fir",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 12
   },
   "Abies concolor": {
     "commonNames": "white fir, concolor fir, Colorado fir",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 45
   },
   "Acer buergerianum": {
     "commonNames": "trident maple, three-toothed maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 165
   },
   "Acer campestre 'Evelyn'": {
     "commonNames": "field maple, hedge maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 13
   },
   "Acer campestre 'Metro Gold'": {
     "commonNames": "field maple, hedge maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 4
   },
   "Acer campestre 'Panacek'": {
     "commonNames": "field maple, hedge maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 1
   },
   "Acer campestre": {
     "commonNames": "field maple, hedge maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 3243
   },
   "Acer ginnala 'Flame'": {
     "commonNames": "Amur maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 192
   },
   "Acer ginnala 'Ruby Slippers'": {
     "commonNames": "Amur maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 10
   },
   "Acer ginnala": {
     "commonNames": "Amur maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 1936
+  },
+  "Acer glabrum": {
+    "commonNames": "Rocky Mountain maple",
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 3
   },
   "Acer griseum": {
     "commonNames": "paperbark maple, blood-bark maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 740
   },
   "Acer japonicum": {
     "commonNames": "Amur maple, full moon maple, peacock maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 47
   },
   "Acer maximowiczianum": {
     "commonNames": "Nikko maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 1
   },
   "Acer miyabei 'Rugged Ridge'": {
     "commonNames": "Miyabe maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 44
   },
   "Acer miyabei 'State Street'": {
     "commonNames": "Miyabe maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 87
   },
   "Acer negundo": {
     "commonNames": "box elder, boxelder maple, Manitoba maple, ash-leaved maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 504
   },
   "Acer nigrum": {
     "commonNames": "black maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 63
   },
   "Acer palmatum": {
     "commonNames": "Japanese maple, palmate maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 1420
   },
-  "Acer pensylvicanium": {
+  "Acer pensylvanicum": {
     "commonNames": "striped maple, moosewood, goosefoot maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 8
   },
   "Acer platanoides 'Crimson King'": {
     "commonNames": "Norway maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 526
   },
-  "Acer platanoides 'Not Green Leaf'": {
+  "Acer platanoides 'not green-leaved'": {
     "commonNames": "Norway maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 5196
   },
   "Acer platanoides": {
     "commonNames": "Norway maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 34166
   },
   "Acer pseudoplatanus 'Atropurpureum'": {
     "commonNames": "sycamore maple, planetree maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 8
   },
   "Acer pseudoplatanus": {
     "commonNames": "sycamore maple, planetree maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 3427
   },
   "Acer rubrum 'Armstrong'": {
     "commonNames": "red maple, swamp maple, water maple, soft maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 117
   },
   "Acer rubrum 'Autumn Blaze'": {
     "commonNames": "red maple, swamp maple, water maple, soft maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 113
   },
   "Acer rubrum 'Bowhall'": {
     "commonNames": "red maple, swamp maple, water maple, soft maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 10
   },
   "Acer rubrum 'Frank Jr.'": {
     "commonNames": "red maple, swamp maple, water maple, soft maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 9
   },
   "Acer rubrum 'Karpick'": {
     "commonNames": "red maple, swamp maple, water maple, soft maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 25
   },
   "Acer rubrum 'New World'": {
     "commonNames": "red maple, swamp maple, water maple, soft maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 5
   },
   "Acer rubrum 'October Glory'": {
     "commonNames": "red maple, swamp maple, water maple, soft maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 223
   },
   "Acer rubrum 'Red Sunset'": {
     "commonNames": "red maple, swamp maple, water maple, soft maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 411
   },
   "Acer rubrum 'Redpointe'": {
     "commonNames": "red maple, swamp maple, water maple, soft maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 272
   },
   "Acer rubrum 'Sun Valley'": {
     "commonNames": "red maple, swamp maple, water maple, soft maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 23
   },
   "Acer rubrum": {
     "commonNames": "red maple, swamp maple, water maple, soft maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 22567
   },
   "Acer saccharinum": {
     "commonNames": "silver maple, creek maple, silverleaf maple, soft maple, large maple, water maple, swamp maple, white maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 12072
   },
   "Acer saccharum 'Commemoration'": {
     "commonNames": "sugar maple, rock maple, sugar tree, birds-eye maple, sweet maple, curly maple, hard maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 17
   },
   "Acer saccharum 'Fall Fiesta'": {
     "commonNames": "sugar maple, rock maple, sugar tree, birds-eye maple, sweet maple, curly maple, hard maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 9
   },
   "Acer saccharum 'Green Mountain'": {
     "commonNames": "sugar maple, rock maple, sugar tree, birds-eye maple, sweet maple, curly maple, hard maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 1
   },
   "Acer saccharum": {
     "commonNames": "sugar maple, rock maple, sugar tree, birds-eye maple, sweet maple, curly maple, hard maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 2829
   },
   "Acer tataricum 'Flame'": {
     "commonNames": "Tatar maple, Tatarian maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 1
   },
   "Acer tataricum 'Hot Wings'": {
     "commonNames": "Tatar maple, Tatarian maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 41
   },
   "Acer tataricum 'Pattern Perfect'": {
     "commonNames": "Tatar maple, Tatarian maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 13
+  },
+  "Acer tataricum 'Rugged Charm'": {
+    "commonNames": "Tatar maple, Tatarian maple",
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 4
   },
   "Acer tataricum": {
     "commonNames": "Tatar maple, Tatarian maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 151
   },
   "Acer truncatum 'Crimson Sunset'": {
     "commonNames": "Shandong maple, Shantung maple, purpleblow maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 13
   },
   "Acer truncatum 'Norwegian Sunset'": {
     "commonNames": "Shandong maple, Shantung maple, purpleblow maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 6
   },
   "Acer truncatum 'Pacific Sunset'": {
     "commonNames": "Shandong maple, Shantung maple, purpleblow maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 22
   },
   "Acer truncatum": {
     "commonNames": "Shandong maple, Shantung maple, purpleblow maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 119
   },
   "Acer x freemanii 'Autumn Blaze'": {
     "commonNames": "Freeman maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 576
   },
   "Acer x freemanii 'Scarsen'": {
     "commonNames": "Freeman maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 7
   },
   "Acer x freemanii": {
     "commonNames": "Freeman maple",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 270
   },
   "Acer": {
     "commonNames": "maple",
-    "color": [118, 191, 84, 0.5],
-    "wikiTitle": "Maple"
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "wikiTitle": "Maple",
+    "count": 6973
   },
   "Aesculus flava": {
     "commonNames": "common buckeye, sweet buckeye, yellow buckeye",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 22
   },
   "Aesculus glabra": {
     "commonNames": "Ohio buckeye",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 78
   },
   "Aesculus hippocastanum 'Baumannii'": {
     "commonNames": "horse chestnut, European horse chestnut, buckeye, conker tree",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 36
   },
   "Aesculus hippocastanum": {
     "commonNames": "horse chestnut, European horse chestnut, buckeye, conker tree",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 1441
   },
   "Aesculus parviflora": {
     "commonNames": "bottlebrush buckeye",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 1
   },
   "Aesculus pavia": {
     "commonNames": "red buckeye, firecracker plant",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 25
   },
   "Aesculus x carnea 'Briotii'": {
     "commonNames": "red horse-chestnut",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 47
   },
   "Aesculus x carnea 'Fort Mcnair'": {
     "commonNames": "red horse-chestnut",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 117
   },
   "Aesculus x carnea": {
     "commonNames": "red horse-chestnut",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 296
   },
   "Aesculus x hybrida": {
     "commonNames": "hybrid buckeye",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 14
   },
-  "Aesculus": {
+  "Aesculus sp.": {
     "commonNames": "horse-chestnut",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 97
   },
   "Ailanthus altissima": {
     "commonNames": "tree of heaven, ailanthus, varnish tree",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 3065
   },
   "Albizia julibrissin": {
     "commonNames": "silk tree, Persian silk tree, pink silk tree, mimosa tree",
-    "color": [12, 88, 57, 0.5]
+    "color": [
+      12,
+      88,
+      57,
+      0.5
+    ],
+    "count": 124
   },
   "Alnus glutinosa": {
     "commonNames": "black alder, common alder, European alder",
-    "color": [47, 140, 155, 0.5]
+    "color": [
+      47,
+      140,
+      155,
+      0.5
+    ],
+    "count": 91
   },
   "Amelanchier alnifolia": {
     "commonNames": "saskatoon serviceberry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 3
   },
   "Amelanchier arborea": {
     "commonNames": "common serviceberry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 185
   },
   "Amelanchier canadensis 'Robin Hill'": {
     "commonNames": "Canadian serviceberry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 19
   },
   "Amelanchier canadensis": {
     "commonNames": "Canadian serviceberry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 354
   },
   "Amelanchier laevis 'Spring Flurry'": {
     "commonNames": "Allegheny serviceberry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1
   },
   "Amelanchier laevis": {
     "commonNames": "Allegheny serviceberry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 499
   },
   "Amelanchier x intermedia": {
     "commonNames": "intermediate serviceberry",
-    "color": [77, 157, 59, 0.5],
-    "wikiTitle": "Amelanchier intermedia"
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "wikiTitle": "Amelanchier_intermedia",
+    "count": 12
   },
   "Amelanchier x lamarckii": {
     "commonNames": "serviceberry, juneberry, shadbush",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1
   },
   "Amelanchier 'Autumn Brilliance'": {
     "commonNames": "shadbush, shadblow, serviceberry, sugarplum, saskatoon, juneberry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 401
   },
   "Amelanchier": {
     "commonNames": "shadbush, shadblow, serviceberry, sugarplum, saskatoon, juneberry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 2795
   },
   "Aralia spinosa": {
     "commonNames": "devil's walkingstick",
-    "color": [97, 88, 88, 0.5]
+    "color": [
+      97,
+      88,
+      88,
+      0.5
+    ],
+    "count": 11
   },
   "Asimina triloba": {
     "commonNames": "pawpaw, American pawpaw",
-    "color": [88, 89, 91, 0.5]
+    "color": [
+      88,
+      89,
+      91,
+      0.5
+    ],
+    "count": 7
   },
   "Betula alleghaniensis": {
     "commonNames": "yellow birch, golden birch, swamp birch",
-    "color": [94, 164, 176, 0.5]
+    "color": [
+      94,
+      164,
+      176,
+      0.5
+    ],
+    "count": 34
   },
   "Betula lenta": {
     "commonNames": "sweet birch",
-    "color": [94, 164, 176, 0.5]
+    "color": [
+      94,
+      164,
+      176,
+      0.5
+    ],
+    "count": 125
   },
   "Betula nigra 'Duraheat'": {
     "commonNames": "river birch, black birch, water birch",
-    "color": [94, 164, 176, 0.5]
+    "color": [
+      94,
+      164,
+      176,
+      0.5
+    ],
+    "count": 110
   },
   "Betula nigra 'Heritage'": {
     "commonNames": "river birch, black birch, water birch",
-    "color": [94, 164, 176, 0.5]
+    "color": [
+      94,
+      164,
+      176,
+      0.5
+    ],
+    "count": 674
   },
   "Betula nigra": {
     "commonNames": "river birch, black birch, water birch",
-    "color": [94, 164, 176, 0.5]
+    "color": [
+      94,
+      164,
+      176,
+      0.5
+    ],
+    "count": 1728
   },
   "Betula papyrifera": {
     "commonNames": "paper birch, canoe birch, American white birch",
-    "color": [94, 164, 176, 0.5]
+    "color": [
+      94,
+      164,
+      176,
+      0.5
+    ],
+    "count": 514
   },
   "Betula pendula": {
     "commonNames": "silver birch, warty birch, European white birch, East Asian white birch",
-    "color": [94, 164, 176, 0.5]
+    "color": [
+      94,
+      164,
+      176,
+      0.5
+    ],
+    "count": 262
   },
   "Betula platyphylla": {
     "commonNames": "Asian white birch, Japanese white birch",
-    "color": [94, 164, 176, 0.5]
+    "color": [
+      94,
+      164,
+      176,
+      0.5
+    ],
+    "count": 16
   },
   "Betula populifolia": {
     "commonNames": "gray birch",
-    "color": [94, 164, 176, 0.5]
+    "color": [
+      94,
+      164,
+      176,
+      0.5
+    ],
+    "count": 137
   },
   "Camellia japonica": {
     "commonNames": "common camellia, Japanese camellia",
-    "color": [184, 231, 96, 0.5]
+    "color": [
+      184,
+      231,
+      96,
+      0.5
+    ],
+    "count": 3
   },
   "Camellia sinensis": {
     "commonNames": "tea, tea plant",
-    "color": [184, 231, 96, 0.5]
+    "color": [
+      184,
+      231,
+      96,
+      0.5
+    ],
+    "count": 5
   },
   "Carpinus betulus 'Emerald Avenue'": {
     "commonNames": "European hornbeam, common hornbeam",
-    "color": [123, 188, 194, 0.5]
+    "color": [
+      123,
+      188,
+      194,
+      0.5
+    ],
+    "count": 412
   },
   "Carpinus betulus 'Fastigiata'": {
     "commonNames": "European hornbeam, common hornbeam",
-    "color": [123, 188, 194, 0.5]
+    "color": [
+      123,
+      188,
+      194,
+      0.5
+    ],
+    "count": 777
   },
   "Carpinus betulus": {
     "commonNames": "European hornbeam, common hornbeam",
-    "color": [123, 188, 194, 0.5]
+    "color": [
+      123,
+      188,
+      194,
+      0.5
+    ],
+    "count": 4632
   },
   "Carpinus caroliniana 'Native Flame'": {
     "commonNames": "American hornbeam, musclewood, blue beech",
-    "color": [123, 188, 194, 0.5]
+    "color": [
+      123,
+      188,
+      194,
+      0.5
+    ],
+    "count": 9
   },
   "Carpinus caroliniana": {
     "commonNames": "American hornbeam, musclewood, blue beech",
-    "color": [123, 188, 194, 0.5]
+    "color": [
+      123,
+      188,
+      194,
+      0.5
+    ],
+    "count": 3432
   },
   "Carpinus japonica": {
     "commonNames": "Japanese hornbeam",
-    "color": [123, 188, 194, 0.5]
+    "color": [
+      123,
+      188,
+      194,
+      0.5
+    ],
+    "count": 278
   },
   "Carya cordiformis": {
     "commonNames": "bitternut hickory",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 282
   },
   "Carya glabra": {
     "commonNames": "pignut hickory",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 450
   },
   "Carya illinoinensis": {
     "commonNames": "pecan",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 9
   },
   "Carya laciniosa": {
     "commonNames": "shellbark hickory",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 13
   },
   "Carya ovata": {
     "commonNames": "shagbark hickory",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 125
   },
   "Carya": {
     "commonNames": "hickory",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 10
   },
   "Castanea dentata": {
     "commonNames": "American chestnut",
-    "color": [250, 92, 36, 0.5]
+    "color": [
+      250,
+      92,
+      36,
+      0.5
+    ],
+    "count": 32
   },
   "Castanea mollissima": {
     "commonNames": "Chinese chestnut",
-    "color": [250, 92, 36, 0.5]
+    "color": [
+      250,
+      92,
+      36,
+      0.5
+    ],
+    "count": 116
   },
   "Catalpa bignonioides": {
     "commonNames": "southern catalpa",
-    "color": [244, 121, 25, 0.5]
+    "color": [
+      244,
+      121,
+      25,
+      0.5
+    ],
+    "count": 16
   },
   "Catalpa ovata": {
     "commonNames": "yellow catalpa, Chinese catalpa",
-    "color": [244, 121, 25, 0.5]
+    "color": [
+      244,
+      121,
+      25,
+      0.5
+    ],
+    "count": 2
   },
   "Catalpa speciosa": {
     "commonNames": "northern catalpa",
-    "color": [244, 121, 25, 0.5]
+    "color": [
+      244,
+      121,
+      25,
+      0.5
+    ],
+    "count": 183
   },
   "Catalpa x erubescens 'Purpurea'": {
     "commonNames": "hybrid catalpa",
-    "color": [244, 121, 25, 0.5]
+    "color": [
+      244,
+      121,
+      25,
+      0.5
+    ],
+    "count": 0
   },
   "Catalpa": {
     "commonNames": "catalpa, catawba",
-    "color": [244, 121, 25, 0.5]
+    "color": [
+      244,
+      121,
+      25,
+      0.5
+    ],
+    "count": 805
   },
   "Cedrus atlantica": {
     "commonNames": "Atlas cedar",
-    "color": [96, 235, 218, 0.5]
+    "color": [
+      96,
+      235,
+      218,
+      0.5
+    ],
+    "count": 355
   },
   "Cedrus deodara 'Kashmir'": {
     "commonNames": "deodar cedar, Himalayan cedar, deodar",
-    "color": [96, 235, 218, 0.5]
+    "color": [
+      96,
+      235,
+      218,
+      0.5
+    ],
+    "count": 1
   },
   "Cedrus deodara 'June Snow'": {
     "commonNames": "deodar cedar, Himalayan cedar, deodar",
-    "color": [96, 235, 218, 0.5]
+    "color": [
+      96,
+      235,
+      218,
+      0.5
+    ],
+    "count": 0
   },
   "Cedrus deodara": {
     "commonNames": "deodar cedar, Himalayan cedar, deodar",
-    "color": [96, 235, 218, 0.5]
+    "color": [
+      96,
+      235,
+      218,
+      0.5
+    ],
+    "count": 157
   },
   "Cedrus libani": {
     "commonNames": "cedar of Lebanon, Lebanese cedar",
-    "color": [96, 235, 218, 0.5]
+    "color": [
+      96,
+      235,
+      218,
+      0.5
+    ],
+    "count": 2
   },
   "Celtis australis": {
     "commonNames": "European hackberry",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 56
   },
   "Celtis laevigata": {
     "commonNames": "sugarberry, southern hackberry",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 5
   },
   "Celtis occidentalis 'Chicagoland'": {
     "commonNames": "common hackberry, northern hackberry",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 67
   },
   "Celtis occidentalis 'Magnifica'": {
     "commonNames": "common hackberry, northern hackberry",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 87
   },
   "Celtis occidentalis 'Prairie Sentinel'": {
     "commonNames": "common hackberry, northern hackberry",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 67
   },
   "Celtis occidentalis 'Ultrazam'": {
     "commonNames": "common hackberry, northern hackberry",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 48
   },
   "Celtis occidentalis": {
     "commonNames": "common hackberry, northern hackberry",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 7165
   },
   "Cercidiphyllum japonicum": {
     "commonNames": "katsura",
-    "color": [227, 139, 29, 0.5]
+    "color": [
+      227,
+      139,
+      29,
+      0.5
+    ],
+    "count": 1134
   },
   "Cercis canadensis f. alba": {
     "commonNames": "white redbud",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 37
   },
   "Cercis canadensis 'Appalachian Red'": {
     "commonNames": "eastern redbud",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 135
   },
   "Cercis canadensis 'Crosswicks Red'": {
     "commonNames": "eastern redbud",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 2
   },
   "Cercis canadensis 'Columbus'": {
     "commonNames": "eastern redbud",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 3
   },
   "Cercis canadensis 'Forest Pansy'": {
     "commonNames": "eastern redbud",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 145
   },
   "Cercis canadensis 'Hearts of Gold'": {
     "commonNames": "eastern redbud",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 1
   },
   "Cercis canadensis 'Royal White'": {
     "commonNames": "eastern redbud",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 53
   },
   "Cercis canadensis": {
     "commonNames": "eastern redbud",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 8520
   },
   "Cercis chinensis 'Avondale'": {
     "commonNames": "Chinese redbud",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 0
   },
   "Cercis reniformis 'Oklahoma'": {
     "commonNames": "Oklahoma redbud",
-    "color": [118, 191, 84, 0.5],
-    "wikiTitle": "Cercis_canadensis#Subspecies"
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "wikiTitle": "Cercis_canadensis#Subspecies",
+    "count": 13
   },
   "Cercis reniformis": {
     "commonNames": "Oklahoma redbud",
-    "color": [118, 191, 84, 0.5],
-    "wikiTitle": "Cercis_canadensis#Subspecies"
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "wikiTitle": "Cercis_canadensis#Subspecies",
+    "count": 209
   },
   "Chamaecyparis lawsoniana": {
     "commonNames": "Port Orford cedar, Lawson cypress",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 33
   },
   "Chamaecyparis nootkatensis": {
     "commonNames": "Nootka cypress",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 3
   },
   "Chamaecyparis obtusa 'Crippsii'": {
     "commonNames": "Japanese cypress, hinoki cypress",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 81
   },
   "Chamaecyparis pisifera": {
     "commonNames": "Sawara cypress, Japanese false cypress",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 186
   },
   "Chamaecyparis thyoides": {
     "commonNames": "Atlantic white cedar, Atlantic white cypress, southern white cedar, whitecedar, white cypress",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 618
   },
   "Chionanthus virginicus": {
     "commonNames": "white fringetree",
-    "color": [126, 214, 187, 0.5]
+    "color": [
+      126,
+      214,
+      187,
+      0.5
+    ],
+    "count": 26
   },
   "Chionanthus retusus": {
     "commonNames": "Chinese fringetree",
-    "color": [126, 214, 187, 0.5]
+    "color": [
+      126,
+      214,
+      187,
+      0.5
+    ],
+    "count": 519
   },
   "Cladrastis kentukea 'Perkins Pink'": {
     "commonNames": "Kentucky yellowwood, American yellowwood",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 25
   },
   "Cladrastis kentukea 'Sweetshade'": {
     "commonNames": "Kentucky yellowwood, American yellowwood",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 7
   },
   "Cladrastis kentukea": {
     "commonNames": "Kentucky yellowwood, American yellowwood",
-    "color": [118, 191, 84, 0.5]
+    "color": [
+      118,
+      191,
+      84,
+      0.5
+    ],
+    "count": 1815
   },
   "Cornus alternifolia": {
     "commonNames": "alternate-leaved dogwood, alternateleaf dogwood, pagoda dogwood, green osier",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 231
   },
   "Cornus canadensis": {
     "commonNames": "bunchberry dogwood, Canadian bunchberry, creeping dogwood, quatre-temps",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 16
+  },
+  "Cornus controversa 'June Snow'": {
+    "commonNames": "wedding cake tree, giant dogwood",
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 15
   },
   "Cornus florida 'Appalachian Spring'": {
     "commonNames": "flowering dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 4
   },
   "Cornus florida 'Cherokee Brave'": {
     "commonNames": "flowering dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 62
   },
   "Cornus florida 'Cherokee Princess'": {
     "commonNames": "flowering dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 8
   },
   "Cornus florida 'Cherokee Sunset'": {
     "commonNames": "flowering dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 1
   },
   "Cornus florida": {
     "commonNames": "flowering dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 2947
   },
   "Cornus kousa 'Champion's Gold'": {
     "commonNames": "kousa, kousa dogwood, Chinese dogwood, Korean dogwood, Japanese dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 5
   },
   "Cornus kousa 'Radiant Rose'": {
     "commonNames": "kousa, kousa dogwood, Chinese dogwood, Korean dogwood, Japanese dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 5
   },
   "Cornus kousa 'Summer Stars'": {
     "commonNames": "kousa, kousa dogwood, Chinese dogwood, Korean dogwood, Japanese dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 1
   },
   "Cornus kousa var. chinensis": {
     "commonNames": "Chinese dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 61
   },
   "Cornus kousa": {
     "commonNames": "kousa, kousa dogwood, Chinese dogwood, Korean dogwood, Japanese dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 1283
   },
   "Cornus mas 'Golden Glory'": {
     "commonNames": "Cornelian cherry, cornel, Cornelian cherry dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 88
   },
   "Cornus mas 'Redstone'": {
     "commonNames": "Cornelian cherry, cornel, Cornelian cherry dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 12
   },
   "Cornus mas 'Spring Sun'": {
     "commonNames": "Cornelian cherry, cornel, Cornelian cherry dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 14
   },
   "Cornus mas": {
     "commonNames": "Cornelian cherry, cornel, Cornelian cherry dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 1686
   },
   "Cornus nuttallii": {
     "commonNames": "Pacific dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 23
   },
   "Cornus x rutban 'Aurora'": {
     "commonNames": "Pacific dogwood",
-    "color": [189, 80, 21, 0.5],
-    "wikiTitle": "Cornus kousa#Varieties,_hybrids_and_cultivars"
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "wikiTitle": "Cornus_kousa#Varieties,_hybrids_and_cultivars",
+    "count": 10
   },
   "Cornus 'Constellation'": {
     "commonNames": "dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 4
   },
   "Cornus 'Venus'": {
     "commonNames": "dogwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 42
   },
   "Corylus americana": {
     "commonNames": "American hazelnut, American hazel",
-    "color": [99, 34, 12, 0.5]
+    "color": [
+      99,
+      34,
+      12,
+      0.5
+    ],
+    "count": 24
   },
   "Corylus avellana": {
     "commonNames": "common hazel, common filbert",
-    "color": [99, 34, 12, 0.5]
+    "color": [
+      99,
+      34,
+      12,
+      0.5
+    ],
+    "count": 6
   },
   "Corylus colurna": {
     "commonNames": "Turkish hazel, Turkish filbert",
-    "color": [99, 34, 12, 0.5]
+    "color": [
+      99,
+      34,
+      12,
+      0.5
+    ],
+    "count": 443
   },
   "Corylus cornuta": {
     "commonNames": "beaked hazelnut",
-    "color": [99, 34, 12, 0.5]
+    "color": [
+      99,
+      34,
+      12,
+      0.5
+    ],
+    "count": 4
   },
   "Cotinus coggygria": {
     "commonNames": "smoketree, European smoketree, Eurasian smoketree, smoke tree, smoke bush, Venetian sumac",
-    "color": [125, 164, 107, 0.5]
+    "color": [
+      125,
+      164,
+      107,
+      0.5
+    ],
+    "count": 163
   },
   "Cotinus 'Grace'": {
     "commonNames": "smoketree",
-    "color": [125, 164, 107, 0.5]
+    "color": [
+      125,
+      164,
+      107,
+      0.5
+    ],
+    "count": 4
   },
   "Cotinus 'Royal Purple'": {
     "commonNames": "smoketree",
-    "color": [125, 164, 107, 0.5]
+    "color": [
+      125,
+      164,
+      107,
+      0.5
+    ],
+    "count": 4
   },
-  "Crataegus crusgalli var. inermis": {
+  "Crataegus crus-galli var. inermis": {
     "commonNames": "cockspur thorn, cockspur hawthorn",
-    "color": [127, 125, 108, 0.5],
-    "wikiTitle": "Crataegus crus-galli"
+    "color": [
+      127,
+      125,
+      108,
+      0.5
+    ],
+    "wikiTitle": "Crataegus_crus-galli",
+    "count": 616
   },
   "Crataegus phaenopyrum 'Washington'": {
     "commonNames": "Washington hawthorn",
-    "color": [127, 125, 108, 0.5]
+    "color": [
+      127,
+      125,
+      108,
+      0.5
+    ],
+    "count": 11
   },
-  "Crataegus viridis 'Winter King": {
+  "Crataegus viridis 'Winter King'": {
     "commonNames": "green hawthorn",
-    "color": [127, 125, 108, 0.5]
+    "color": [
+      127,
+      125,
+      108,
+      0.5
+    ],
+    "count": 175
   },
   "Crataegus 'Crimson Cloud'": {
     "commonNames": "hawthorn",
-    "color": [127, 125, 108, 0.5]
+    "color": [
+      127,
+      125,
+      108,
+      0.5
+    ],
+    "count": 6
   },
   "Crataegus 'Lavellus'": {
     "commonNames": "hawthorn",
-    "color": [127, 125, 108, 0.5]
+    "color": [
+      127,
+      125,
+      108,
+      0.5
+    ],
+    "count": 3
   },
   "Crataegus": {
     "commonNames": "hawthorn",
-    "color": [127, 125, 108, 0.5]
+    "color": [
+      127,
+      125,
+      108,
+      0.5
+    ],
+    "count": 5886
   },
   "Cryptomeria japonica 'Angelica'": {
     "commonNames": "Japanese cedar, sugi",
-    "color": [104, 165, 224, 0.5]
+    "color": [
+      104,
+      165,
+      224,
+      0.5
+    ],
+    "count": 4
   },
   "Cryptomeria japonica 'Yoshino'": {
     "commonNames": "Japanese cedar, sugi",
-    "color": [104, 165, 224, 0.5]
+    "color": [
+      104,
+      165,
+      224,
+      0.5
+    ],
+    "count": 31
   },
   "Cryptomeria japonica": {
     "commonNames": "Japanese cedar, sugi",
-    "color": [104, 165, 224, 0.5]
+    "color": [
+      104,
+      165,
+      224,
+      0.5
+    ],
+    "count": 287
   },
   "Diospyros virginiana": {
     "commonNames": "American persimmon, common persimmon",
-    "color": [236, 88, 0, 0.5]
+    "color": [
+      236,
+      88,
+      0,
+      0.5
+    ],
+    "count": 3
   },
   "Edgeworthia chrysantha": {
     "commonNames": "Oriental paperbush, mitsumata",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 9
   },
   "Elaeagnus angustifolia": {
     "commonNames": "Russian olive, silver berry, oleaster, wild olive",
-    "color": [5, 215, 175, 0.5]
+    "color": [
+      5,
+      215,
+      175,
+      0.5
+    ],
+    "count": 22
   },
   "Eucommia ulmoides 'Emerald Pointe'": {
     "commonNames": "Chinese rubber tree, hardy rubber tree",
-    "color": [221, 124, 81, 0.5]
+    "color": [
+      221,
+      124,
+      81,
+      0.5
+    ],
+    "count": 7
   },
   "Eucommia ulmoides": {
     "commonNames": "Chinese rubber tree, hardy rubber tree",
-    "color": [221, 124, 81, 0.5]
+    "color": [
+      221,
+      124,
+      81,
+      0.5
+    ],
+    "count": 3129
   },
   "Fagus grandifolia": {
     "commonNames": "American beech",
-    "color": [170, 114, 65, 0.5]
+    "color": [
+      170,
+      114,
+      65,
+      0.5
+    ],
+    "count": 932
   },
   "Fagus sylvatica 'Asplenifolia'": {
     "commonNames": "European beech, common beech",
-    "color": [170, 114, 65, 0.5]
+    "color": [
+      170,
+      114,
+      65,
+      0.5
+    ],
+    "count": 6
   },
   "Fagus sylvatica 'Dawyck'": {
     "commonNames": "European beech, common beech",
-    "color": [170, 114, 65, 0.5]
+    "color": [
+      170,
+      114,
+      65,
+      0.5
+    ],
+    "count": 2
   },
   "Fagus sylvatica 'Dawyck Purple'": {
     "commonNames": "European beech, common beech",
-    "color": [170, 114, 65, 0.5]
+    "color": [
+      170,
+      114,
+      65,
+      0.5
+    ],
+    "count": 4
   },
   "Fagus sylvatica 'Purple Fountain'": {
     "commonNames": "European beech, common beech",
-    "color": [170, 114, 65, 0.5]
+    "color": [
+      170,
+      114,
+      65,
+      0.5
+    ],
+    "count": 5
   },
   "Fagus sylvatica 'Riversii'": {
     "commonNames": "European beech, common beech",
-    "color": [170, 114, 65, 0.5]
+    "color": [
+      170,
+      114,
+      65,
+      0.5
+    ],
+    "count": 33
   },
   "Fagus sylvatica 'Tricolor'": {
     "commonNames": "European beech, common beech",
-    "color": [170, 114, 65, 0.5]
+    "color": [
+      170,
+      114,
+      65,
+      0.5
+    ],
+    "count": 30
   },
   "Fagus sylvatica": {
     "commonNames": "European beech, common beech",
-    "color": [170, 114, 65, 0.5]
+    "color": [
+      170,
+      114,
+      65,
+      0.5
+    ],
+    "count": 522
   },
   "Fraxinus americana": {
     "commonNames": "white ash, American ash",
-    "color": [126, 214, 187, 0.5]
+    "color": [
+      126,
+      214,
+      187,
+      0.5
+    ],
+    "count": 2809
   },
   "Fraxinus nigra": {
     "commonNames": "black ash",
-    "color": [126, 214, 187, 0.5]
+    "color": [
+      126,
+      214,
+      187,
+      0.5
+    ],
+    "count": 11
   },
   "Fraxinus pennsylvanica 'Leprechaun'": {
     "commonNames": "green ash, red ash",
-    "color": [126, 214, 187, 0.5]
+    "color": [
+      126,
+      214,
+      187,
+      0.5
+    ],
+    "count": 48
   },
   "Fraxinus pennsylvanica 'Patmore'": {
     "commonNames": "green ash, red ash",
-    "color": [126, 214, 187, 0.5]
+    "color": [
+      126,
+      214,
+      187,
+      0.5
+    ],
+    "count": 13
   },
   "Fraxinus pennsylvanica": {
     "commonNames": "green ash, red ash",
-    "color": [126, 214, 187, 0.5]
+    "color": [
+      126,
+      214,
+      187,
+      0.5
+    ],
+    "count": 16962
   },
   "Fraxinus profunda": {
     "commonNames": "pumpkin ash",
-    "color": [126, 214, 187, 0.5]
+    "color": [
+      126,
+      214,
+      187,
+      0.5
+    ],
+    "count": 329
   },
   "Fraxinus quadrangulata": {
     "commonNames": "blue ash",
-    "color": [126, 214, 187, 0.5]
+    "color": [
+      126,
+      214,
+      187,
+      0.5
+    ],
+    "count": 4
   },
   "Fraxinus": {
     "commonNames": "ash",
-    "color": [126, 214, 187, 0.5]
+    "color": [
+      126,
+      214,
+      187,
+      0.5
+    ],
+    "count": 3245
   },
   "Ginkgo biloba 'Autumn Gold'": {
     "commonNames": "ginkgo, maidenhair tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 340
   },
   "Ginkgo biloba 'Columnar'": {
     "commonNames": "ginkgo, maidenhair tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 54
   },
   "Ginkgo biloba 'Fairmont'": {
     "commonNames": "ginkgo, maidenhair tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 14
   },
-  "Ginkgo biloba 'Fastigate'": {
+  "Ginkgo biloba 'Fastigiate'": {
     "commonNames": "ginkgo, maidenhair tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 4
   },
   "Ginkgo biloba 'Golden Colonnade'": {
     "commonNames": "ginkgo, maidenhair tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 8
   },
   "Ginkgo biloba 'Magyar'": {
     "commonNames": "ginkgo, maidenhair tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 804
   },
   "Ginkgo biloba 'Princeton Sentry'": {
     "commonNames": "ginkgo, maidenhair tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 106
   },
   "Ginkgo biloba 'Shangri-La'": {
     "commonNames": "ginkgo, maidenhair tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 45
   },
   "Ginkgo biloba 'Windover Gold'": {
     "commonNames": "ginkgo, maidenhair tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 153
   },
   "Ginkgo biloba": {
     "commonNames": "ginkgo, maidenhair tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 23391
   },
   "Gleditsia triacanthos var. inermis 'Halka'": {
     "commonNames": "honey locust",
-    "color": [125, 164, 34, 0.5],
-    "wikiTitle": "Gleditsia triacanthos"
+    "color": [
+      125,
+      164,
+      34,
+      0.5
+    ],
+    "wikiTitle": "Gleditsia_triacanthos",
+    "count": 116
   },
   "Gleditsia triacanthos var. inermis 'Imperial'": {
     "commonNames": "honey locust",
-    "color": [125, 164, 34, 0.5],
-    "wikiTitle": "Gleditsia triacanthos"
+    "color": [
+      125,
+      164,
+      34,
+      0.5
+    ],
+    "wikiTitle": "Gleditsia_triacanthos",
+    "count": 38
   },
   "Gleditsia triacanthos var. inermis 'Shademaster'": {
     "commonNames": "honey locust",
-    "color": [125, 164, 34, 0.5],
-    "wikiTitle": "Gleditsia triacanthos"
+    "color": [
+      125,
+      164,
+      34,
+      0.5
+    ],
+    "wikiTitle": "Gleditsia_triacanthos",
+    "count": 17
   },
   "Gleditsia triacanthos var. inermis 'Skyline'": {
     "commonNames": "honey locust",
-    "color": [125, 164, 34, 0.5],
-    "wikiTitle": "Gleditsia triacanthos"
+    "color": [
+      125,
+      164,
+      34,
+      0.5
+    ],
+    "wikiTitle": "Gleditsia_triacanthos",
+    "count": 2189
   },
   "Gleditsia triacanthos var. inermis 'Streetkeeper'": {
     "commonNames": "honey locust",
-    "color": [125, 164, 34, 0.5],
-    "wikiTitle": "Gleditsia triacanthos"
+    "color": [
+      125,
+      164,
+      34,
+      0.5
+    ],
+    "wikiTitle": "Gleditsia_triacanthos",
+    "count": 272
   },
   "Gleditsia triacanthos var. inermis": {
     "commonNames": "honey locust",
-    "color": [125, 164, 34, 0.5],
-    "wikiTitle": "Gleditsia triacanthos"
+    "color": [
+      125,
+      164,
+      34,
+      0.5
+    ],
+    "wikiTitle": "Gleditsia_triacanthos",
+    "count": 73625
   },
   "Gymnocladus dioicus 'Espresso'": {
     "commonNames": "Kentucky coffeetree, coffeetree, American coffee berry, Kentucky mahogany, nicker tree, stump tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 1199
   },
   "Gymnocladus dioicus 'Prairie Titan'": {
     "commonNames": "Kentucky coffeetree, coffeetree, American coffee berry, Kentucky mahogany, nicker tree, stump tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 2
   },
   "Gymnocladus dioicus": {
     "commonNames": "Kentucky coffeetree, coffeetree, American coffee berry, Kentucky mahogany, nicker tree, stump tree",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 6964
   },
   "Halesia carolina 'Arnold Pink'": {
     "commonNames": "Carolina silverbell",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 5
   },
   "Halesia carolina": {
     "commonNames": "Carolina silverbell",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 184
   },
   "Halesia diptera": {
     "commonNames": "two-wing silverbell, two-winged snowdrop tree",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 139
   },
   "Halesia tetraptera var. monticola": {
     "commonNames": "mountain silverbell",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 1
   },
   "Halesia tetraptera": {
     "commonNames": "common silverbell",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 27
   },
   "Hamamelis vernalis": {
     "commonNames": "Ozark witch hazel",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 4
   },
   "Hamamelis virginiana": {
     "commonNames": "American witch hazel",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 185
   },
   "Hamamelis x intermedia 'Diane'": {
     "commonNames": "hybrid witch hazel",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 5
   },
   "Hamamelis x intermedia 'Jelena'": {
     "commonNames": "hybrid witch hazel",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 3
   },
   "Heptacodium miconioides": {
     "commonNames": "seven-son flower",
-    "color": [88, 89, 91, 0.5]
+    "color": [
+      88,
+      89,
+      91,
+      0.5
+    ],
+    "count": 4
   },
   "Hydrangea paniculata": {
     "commonNames": "panicled hydrangea",
-    "color": [88, 89, 91, 0.5]
+    "color": [
+      88,
+      89,
+      91,
+      0.5
+    ],
+    "count": 3
   },
   "Ilex aquifolium": {
     "commonNames": "English holly",
-    "color": [97, 88, 88, 0.5]
+    "color": [
+      97,
+      88,
+      88,
+      0.5
+    ],
+    "count": 14
   },
   "Ilex opaca": {
     "commonNames": "American holly",
-    "color": [97, 88, 88, 0.5]
+    "color": [
+      97,
+      88,
+      88,
+      0.5
+    ],
+    "count": 266
   },
   "Ilex x 'Nellie R. Stevens'": {
     "commonNames": "holly",
-    "color": [97, 88, 88, 0.5],
-    "wikiTitle": "Ilex cornuta"
+    "color": [
+      97,
+      88,
+      88,
+      0.5
+    ],
+    "wikiTitle": "Ilex_cornuta",
+    "count": 18
   },
   "Ilex": {
     "commonNames": "holly",
-    "color": [97, 88, 88, 0.5]
+    "color": [
+      97,
+      88,
+      88,
+      0.5
+    ],
+    "count": 872
   },
   "Juglans ailantifolia": {
     "commonNames": "Japanese walnut",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 19
   },
   "Juglans nigra": {
     "commonNames": "black walnut, eastern black walnut, American black walnut",
-    "color": [126, 150, 60, 0.5]
+    "color": [
+      126,
+      150,
+      60,
+      0.5
+    ],
+    "count": 506
   },
   "Juniperus chinensis 'Hetzii'": {
     "commonNames": "Chinese juniper",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 130
   },
   "Juniperus chinensis 'Keteleeri'": {
     "commonNames": "Chinese juniper",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 11
   },
   "Juniperus chinensis": {
     "commonNames": "Chinese juniper",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 401
   },
   "Juniperus scopulorum 'Blue Haven'": {
     "commonNames": "Rocky Mountain juniper",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 16
   },
   "Juniperus virginiana 'Cupressifolia'": {
     "commonNames": "eastern red cedar, red cedar, Virginian juniper, eastern juniper, red juniper",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 28
   },
   "Juniperus virginiana 'Glauca'": {
     "commonNames": "eastern red cedar, red cedar, Virginian juniper, eastern juniper, red juniper",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 44
   },
   "Juniperus virginiana": {
     "commonNames": "eastern red cedar, red cedar, Virginian juniper, eastern juniper, red juniper",
-    "color": [32, 147, 47, 0.5]
+    "color": [
+      32,
+      147,
+      47,
+      0.5
+    ],
+    "count": 3432
   },
   "Koelreuteria paniculata 'Fastigiata'": {
     "commonNames": "goldenrain tree, pride of India, China tree, varnish tree",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 42
   },
   "Koelreuteria paniculata 'Gold Candle'": {
     "commonNames": "goldenrain tree, pride of India, China tree, varnish tree",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 124
   },
   "Koelreuteria paniculata 'Rose Lanterns'": {
     "commonNames": "goldenrain tree, pride of India, China tree, varnish tree",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 56
   },
   "Koelreuteria paniculata 'Summerburst'": {
     "commonNames": "goldenrain tree, pride of India, China tree, varnish tree",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 2
   },
   "Koelreuteria paniculata": {
     "commonNames": "goldenrain tree, pride of India, China tree, varnish tree",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 5540
   },
   "Laburnum x watereri": {
     "commonNames": "golden chain tree",
-    "color": [102, 145, 30, 0.5]
+    "color": [
+      102,
+      145,
+      30,
+      0.5
+    ],
+    "count": 9
   },
   "Lagerstroemia indica 'Muskogee'": {
     "commonNames": "crape myrtle, crepe myrtle",
-    "color": [90, 229, 129, 0.5]
+    "color": [
+      90,
+      229,
+      129,
+      0.5
+    ],
+    "count": 45
   },
   "Lagerstroemia indica 'Sarah's Favorite'": {
     "commonNames": "crape myrtle, crepe myrtle",
-    "color": [90, 229, 129, 0.5]
+    "color": [
+      90,
+      229,
+      129,
+      0.5
+    ],
+    "count": 3
   },
   "Lagerstroemia indica 'Tuskegee'": {
     "commonNames": "crape myrtle, crepe myrtle",
-    "color": [90, 229, 129, 0.5]
+    "color": [
+      90,
+      229,
+      129,
+      0.5
+    ],
+    "count": 9
   },
   "Lagerstroemia 'Natchez'": {
     "commonNames": "crape myrtle, crepe myrtle",
-    "color": [90, 229, 129, 0.5]
+    "color": [
+      90,
+      229,
+      129,
+      0.5
+    ],
+    "count": 37
   },
   "Lagerstroemia": {
     "commonNames": "crape myrtle, crepe myrtle",
-    "color": [90, 229, 129, 0.5]
+    "color": [
+      90,
+      229,
+      129,
+      0.5
+    ],
+    "count": 1014
   },
   "Larix decidua": {
     "commonNames": "European larch",
-    "color": [73, 152, 194, 0.5]
+    "color": [
+      73,
+      152,
+      194,
+      0.5
+    ],
+    "count": 11
   },
   "Larix kaempferi": {
     "commonNames": "Japanese larch, karamatsu",
-    "color": [73, 152, 194, 0.5]
+    "color": [
+      73,
+      152,
+      194,
+      0.5
+    ],
+    "count": 2
   },
   "Larix laricina": {
     "commonNames": "tamarack, hackmatack, eastern larch, black larch, red larch, American larch",
-    "color": [73, 152, 194, 0.5]
+    "color": [
+      73,
+      152,
+      194,
+      0.5
+    ],
+    "count": 68
   },
   "Liquidambar styraciflua 'Cherokee'": {
     "commonNames": "sweetgum, American sweet gum, American storax, hazel pine, bilsted, redgum, satin-walnut, star-leaved gum, alligatorwood",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 53
   },
   "Liquidambar styraciflua 'Happidaze'": {
     "commonNames": "sweetgum, American sweet gum, American storax, hazel pine, bilsted, redgum, satin-walnut, star-leaved gum, alligatorwood",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 164
   },
   "Liquidambar styraciflua 'Grandmaster'": {
     "commonNames": "sweetgum, American sweet gum, American storax, hazel pine, bilsted, redgum, satin-walnut, star-leaved gum, alligatorwood",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 1
   },
   "Liquidambar styraciflua 'Moraine'": {
     "commonNames": "sweetgum, American sweet gum, American storax, hazel pine, bilsted, redgum, satin-walnut, star-leaved gum, alligatorwood",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 916
   },
   "Liquidambar styraciflua 'Slender Silhouette'": {
     "commonNames": "sweetgum, American sweet gum, American storax, hazel pine, bilsted, redgum, satin-walnut, star-leaved gum, alligatorwood",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 104
   },
   "Liquidambar styraciflua 'Worplesdon'": {
     "commonNames": "sweetgum, American sweet gum, American storax, hazel pine, bilsted, redgum, satin-walnut, star-leaved gum, alligatorwood",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 132
   },
   "Liquidambar styraciflua": {
     "commonNames": "sweetgum, American sweet gum, American storax, hazel pine, bilsted, redgum, satin-walnut, star-leaved gum, alligatorwood",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 17667
   },
   "Liriodendron tulipifera 'Arnold'": {
     "commonNames": "American tulip tree, tuliptree, tulipwood, tulip poplar, yellow poplar",
-    "color": [176, 201, 121, 0.5]
+    "color": [
+      176,
+      201,
+      121,
+      0.5
+    ],
+    "count": 9
   },
   "Liriodendron tulipifera 'Emerald City'": {
     "commonNames": "American tulip tree, tuliptree, tulipwood, tulip poplar, yellow poplar",
-    "color": [176, 201, 121, 0.5]
+    "color": [
+      176,
+      201,
+      121,
+      0.5
+    ],
+    "count": 26
   },
   "Liriodendron tulipifera": {
     "commonNames": "American tulip tree, tuliptree, tulipwood, tulip poplar, yellow poplar",
-    "color": [176, 201, 121, 0.5]
+    "color": [
+      176,
+      201,
+      121,
+      0.5
+    ],
+    "count": 2507
   },
-  "Maackia amurensis 'Rugged Charm'": {
+  "Maackia amurensis 'MaacNificent'": {
     "commonNames": "Amur maackia",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 8
   },
   "Maackia amurensis 'Starburst'": {
     "commonNames": "Amur maackia",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 7
   },
   "Maackia amurensis": {
     "commonNames": "Amur maackia",
-    "color": [3, 85, 5, 0.5]
+    "color": [
+      3,
+      85,
+      5,
+      0.5
+    ],
+    "count": 4043
   },
   "Maclura pomifera 'White Shield'": {
     "commonNames": "Osage orange",
-    "color": [176, 201, 121, 0.5]
+    "color": [
+      176,
+      201,
+      121,
+      0.5
+    ],
+    "count": 35
   },
   "Maclura pomifera": {
     "commonNames": "Osage orange",
-    "color": [176, 201, 121, 0.5]
+    "color": [
+      176,
+      201,
+      121,
+      0.5
+    ],
+    "count": 146
   },
   "Magnolia acuminata": {
     "commonNames": "cucumber tree, cucumber magnolia, blue magnolia",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 154
   },
   "Magnolia grandiflora": {
     "commonNames": "southern magnolia, bull bay",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 183
   },
   "Magnolia kobus": {
     "commonNames": "kobus magnolia, kobushi",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 14
   },
   "Magnolia macrophylla": {
     "commonNames": "bigleaf magnolia",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 7
   },
   "Magnolia stellata": {
     "commonNames": "star magnolia",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 25
   },
   "Magnolia tripetala": {
     "commonNames": "umbrella tree, umbrella magnolia",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 9
   },
   "Magnolia virginiana": {
     "commonNames": "sweetbay",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 88
   },
   "Magnolia x loebneri 'Merrill'": {
     "commonNames": "Loebner magnolia",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 10
   },
   "Magnolia x soulangeana 'Rustica Rubra'": {
     "commonNames": "saucer magnolia",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 8
   },
   "Magnolia x soulangeana": {
     "commonNames": "saucer magnolia",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 25
   },
   "Magnolia 'Butterflies'": {
     "commonNames": "magnolia",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 3
+  },
+  "Magnolia 'Elizabeth'": {
+    "commonNames": "magnolia",
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 1
   },
   "Magnolia 'Galaxy'": {
     "commonNames": "magnolia",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 18
   },
   "Magnolia 'Jane'": {
     "commonNames": "magnolia",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 10
   },
   "Magnolia": {
     "commonNames": "magnolia",
-    "color": [176, 201, 1, 0.5]
+    "color": [
+      176,
+      201,
+      1,
+      0.5
+    ],
+    "count": 1429
   },
   "Malus floribunda": {
     "commonNames": "Japanese flowering crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 390
   },
   "Malus hupehensis": {
     "commonNames": "Chinese crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 144
   },
   "Malus ioensis": {
     "commonNames": "prairie crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 54
   },
   "Malus sargentii 'Tina'": {
     "commonNames": "Sargent's apple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 8
   },
   "Malus sargentii": {
     "commonNames": "Sargent's apple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 49
   },
   "Malus x zumi var. calocarpa": {
     "commonNames": "Zumi crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 93
   },
   "Malus 'Adams'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 88
   },
   "Malus 'Dolgo'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1
   },
   "Malus 'Donald Wyman'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 80
   },
   "Malus 'Cardinal'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 31
   },
   "Malus 'Centurion'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
-  },
-  "Malus 'Elizabeth'": {
-    "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 48
   },
   "Malus 'Harvest Gold'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 104
   },
   "Malus 'Lancelot'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 2
   },
   "Malus 'Pink Spire'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1
   },
   "Malus 'Prairiefire'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 84
   },
   "Malus 'Profusion'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1
   },
   "Malus 'Red Jewel'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 35
   },
   "Malus 'Robinson'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 28
   },
   "Malus 'Royal Raindrops'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 236
   },
   "Malus 'Spring Snow'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 37
   },
   "Malus 'Sugartyme'": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 68
   },
   "Malus": {
     "commonNames": "apple, crabapple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 7402
   },
   "Metasequoia glyptostroboides 'Gold Rush'": {
     "commonNames": "dawn redwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 201
   },
   "Metasequoia glyptostroboides": {
     "commonNames": "dawn redwood",
-    "color": [189, 80, 21, 0.5]
+    "color": [
+      189,
+      80,
+      21,
+      0.5
+    ],
+    "count": 5268
   },
   "Morus": {
     "commonNames": "mulberry",
-    "color": [171, 218, 171, 0.5],
-    "wikiTitle": "Morus_(plant)"
+    "color": [
+      171,
+      218,
+      171,
+      0.5
+    ],
+    "wikiTitle": "Morus_(plant)",
+    "count": 6944
   },
   "Myrica pensylvanica": {
     "commonNames": "northern bayberry",
-    "color": [88, 89, 91, 0.5]
+    "color": [
+      88,
+      89,
+      91,
+      0.5
+    ],
+    "count": 1
   },
   "Nyssa sylvatica 'Forum'": {
     "commonNames": "black tupelo, tupelo, black gum, sour gum",
-    "color": [221, 172, 96, 0.5]
+    "color": [
+      221,
+      172,
+      96,
+      0.5
+    ],
+    "count": 8
   },
   "Nyssa sylvatica 'Gum Drop'": {
     "commonNames": "black tupelo, tupelo, black gum, sour gum",
-    "color": [221, 172, 96, 0.5]
+    "color": [
+      221,
+      172,
+      96,
+      0.5
+    ],
+    "count": 12
   },
   "Nyssa sylvatica 'Red Rage'": {
     "commonNames": "black tupelo, tupelo, black gum, sour gum",
-    "color": [221, 172, 96, 0.5]
+    "color": [
+      221,
+      172,
+      96,
+      0.5
+    ],
+    "count": 69
   },
   "Nyssa sylvatica 'Tupelo Tower'": {
     "commonNames": "black tupelo, tupelo, black gum, sour gum",
-    "color": [221, 172, 96, 0.5]
+    "color": [
+      221,
+      172,
+      96,
+      0.5
+    ],
+    "count": 32
   },
   "Nyssa sylvatica 'Wildfire'": {
     "commonNames": "black tupelo, tupelo, black gum, sour gum",
-    "color": [221, 172, 96, 0.5]
+    "color": [
+      221,
+      172,
+      96,
+      0.5
+    ],
+    "count": 24
   },
   "Nyssa sylvatica": {
     "commonNames": "black tupelo, tupelo, black gum, sour gum",
-    "color": [221, 172, 96, 0.5]
+    "color": [
+      221,
+      172,
+      96,
+      0.5
+    ],
+    "count": 980
   },
   "Ostrya virginiana": {
     "commonNames": "American hophornbeam, hop hornbeam, eastern hophornbeam, hardhack, ironwood, leverwood",
-    "color": [196, 51, 0, 0.5]
+    "color": [
+      196,
+      51,
+      0,
+      0.5
+    ],
+    "count": 1709
   },
   "Oxydendrum arboreum": {
     "commonNames": "sourwood, sorrel tree",
-    "color": [93, 226, 67, 0.5]
+    "color": [
+      93,
+      226,
+      67,
+      0.5
+    ],
+    "count": 22
   },
   "Parrotia persica 'Ruby Vase'": {
     "commonNames": "Persian ironwood",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 257
   },
   "Parrotia persica 'Vanessa'": {
     "commonNames": "Persian ironwood",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 1
   },
   "Parrotia persica": {
     "commonNames": "Persian ironwood",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 871
   },
   "Paulownia tomentosa": {
     "commonNames": "empress tree, princess tree, foxglove-tree",
-    "color": [146, 135, 32, 0.5]
+    "color": [
+      146,
+      135,
+      32,
+      0.5
+    ],
+    "count": 251
   },
   "Phellodendron amurense 'Eye Stopper'": {
     "commonNames": "Amur cork tree",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 3
   },
   "Phellodendron amurense": {
     "commonNames": "Amur cork tree",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 391
   },
   "Picea abies": {
     "commonNames": "Norway spruce, European spruce",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 545
   },
   "Picea glauca": {
     "commonNames": "white spruce",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 91
   },
   "Picea omorika": {
     "commonNames": "Serbian spruce",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 15
   },
   "Picea orientalis": {
     "commonNames": "Oriental spruce, Caucasian spruce",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 18
   },
   "Picea pungens 'Fat Albert'": {
     "commonNames": "blue spruce, green spruce, Colorado spruce",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 2
   },
   "Picea pungens 'Glauca'": {
     "commonNames": "blue spruce, green spruce, Colorado spruce",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 111
   },
   "Picea pungens 'Hoopsii'": {
     "commonNames": "blue spruce, green spruce, Colorado spruce",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 1
   },
   "Picea pungens": {
     "commonNames": "blue spruce, green spruce, Colorado spruce",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 390
   },
   "Picea": {
     "commonNames": "spruce",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 700
   },
   "Pinus cembra": {
     "commonNames": "Swiss stone pine, Swiss pine, Arolla pine, Austrian stone pine, stone pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 5
   },
   "Pinus flexilis 'Vanderwolf'": {
     "commonNames": "limber pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 8
   },
   "Pinus flexilis": {
     "commonNames": "limber pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 71
   },
   "Pinus nigra": {
     "commonNames": "Austrian pine, black pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 336
   },
   "Pinus ponderosa": {
     "commonNames": "Austrian pine, black pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 4
   },
   "Pinus pungens": {
     "commonNames": "Table Mountain pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 24
   },
   "Pinus resinosa": {
     "commonNames": "red pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 1579
   },
   "Pinus rigida": {
     "commonNames": "pitch pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 89
   },
   "Pinus strobiformis": {
     "commonNames": "southwestern white pine, Mexican white pine, Chihuahua white pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 30
   },
   "Pinus strobus 'Fastigiata'": {
     "commonNames": "eastern white pine, northern white pine, white pine, Weymouth pine, soft pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 4
   },
   "Pinus strobus": {
     "commonNames": "eastern white pine, northern white pine, white pine, Weymouth pine, soft pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 3801
   },
   "Pinus sylvestris": {
     "commonNames": "Scots pine, Scotch pine, Baltic pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 69
   },
   "Pinus taeda": {
     "commonNames": "loblolly pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 1
   },
   "Pinus thunbergii": {
     "commonNames": "Japanese black pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 18
   },
   "Pinus virginiana": {
     "commonNames": "Virginia pine, scrub pine, Jersey pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 35
   },
   "Pinus wallichiana": {
     "commonNames": "Bhutan pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 15
   },
   "Pinus": {
     "commonNames": "pine",
-    "color": [76, 198, 70, 0.5]
+    "color": [
+      76,
+      198,
+      70,
+      0.5
+    ],
+    "count": 1933
   },
   "Pistacia chinensis": {
     "commonNames": "Chinese pistache",
-    "color": [190, 197, 145, 0.5]
+    "color": [
+      190,
+      197,
+      145,
+      0.5
+    ],
+    "count": 83
   },
   "Platanus occidentalis": {
     "commonNames": "American sycamore",
-    "color": [6, 128, 5, 0.5]
+    "color": [
+      6,
+      128,
+      5,
+      0.5
+    ],
+    "count": 1000
   },
   "Platanus x acerifolia 'Bloodgood'": {
     "commonNames": "London plane, London planetree, hybrid plane",
-    "color": [6, 128, 5, 0.5]
+    "color": [
+      6,
+      128,
+      5,
+      0.5
+    ],
+    "count": 907
   },
   "Platanus x acerifolia 'Columbia'": {
     "commonNames": "London plane, London planetree, hybrid plane",
-    "color": [6, 128, 5, 0.5]
+    "color": [
+      6,
+      128,
+      5,
+      0.5
+    ],
+    "count": 817
   },
   "Platanus x acerifolia 'Exclamation'": {
     "commonNames": "London plane, London planetree, hybrid plane",
-    "color": [6, 128, 5, 0.5]
+    "color": [
+      6,
+      128,
+      5,
+      0.5
+    ],
+    "count": 865
   },
   "Platanus x acerifolia": {
     "commonNames": "London plane, London planetree, hybrid plane",
-    "color": [6, 128, 5, 0.5]
+    "color": [
+      6,
+      128,
+      5,
+      0.5
+    ],
+    "count": 102883
   },
   "Populus deltoides": {
     "commonNames": "eastern cottonwood, necklace poplar",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1333
   },
   "Populus grandidentata": {
     "commonNames": "bigtooth aspen, large-tooth aspen, American aspen, Canadian poplar, white poplar",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 79
   },
   "Populus tremuloides": {
     "commonNames": "quaking aspen, trembling aspen, American aspen, mountain aspen, golden aspen, trembling poplar, white poplar, popple",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 213
   },
   "Prunus cerasifera 'Crimson Point'": {
     "commonNames": "cherry plum, myrobalan plum, purple leaf plum",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 25
   },
   "Prunus cerasifera 'Krauter Vesuvius'": {
     "commonNames": "cherry plum, myrobalan plum, purple leaf plum",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 16
   },
   "Prunus cerasifera 'Mount St. Helens'": {
     "commonNames": "cherry plum, myrobalan plum, purple leaf plum",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 4
   },
   "Prunus cerasifera 'Newport'": {
     "commonNames": "cherry plum, myrobalan plum, purple leaf plum",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 130
   },
   "Prunus cerasifera 'Thundercloud'": {
     "commonNames": "cherry plum, myrobalan plum, purple leaf plum",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 24
   },
   "Prunus cerasifera": {
     "commonNames": "cherry plum, myrobalan plum, purple leaf plum",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 7613
   },
   "Prunus fruticosa 'Globosa'": {
     "commonNames": "European dwarf cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 8
   },
   "Prunus padus 'Merlot'": {
     "commonNames": "European bird cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 367
   },
   "Prunus padus 'Summer Glow'": {
     "commonNames": "European bird cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1
   },
   "Prunus padus": {
     "commonNames": "European bird cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 40
   },
   "Prunus sargentii 'Columnaris'": {
     "commonNames": "Sargent cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 38
   },
   "Prunus sargentii 'Pink Flair'": {
     "commonNames": "Sargent cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 26
   },
   "Prunus sargentii 'Rancho'": {
     "commonNames": "Sargent cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 6
   },
   "Prunus sargentii": {
     "commonNames": "Sargent cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 278
   },
   "Prunus serotina": {
     "commonNames": "black cherry, wild black cherry, rum cherry, mountain black cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 5981
   },
   "Prunus serrulata 'Accolade'": {
     "commonNames": "Japanese flowering cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 28
   },
-  "Prunus serrulata 'Green Leaf'": {
+  "Prunus serrulata 'green-leaved'": {
     "commonNames": "Japanese flowering cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 26904
   },
   "Prunus serrulata 'Kanzan'": {
     "commonNames": "Japanese flowering cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1849
   },
   "Prunus serrulata 'Royal Burgundy'": {
     "commonNames": "Japanese flowering cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 27
   },
   "Prunus serrulata 'Shirofugen'": {
     "commonNames": "Japanese flowering cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 44
   },
   "Prunus serrulata 'Shirotae'": {
     "commonNames": "Japanese flowering cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 11
   },
-  "Prunus serrulata 'Not Green Leaf'": {
+  "Prunus serrulata 'not green-leaved'": {
     "commonNames": "Japanese flowering cherry",
-    "color": [77, 157, 59, 0.5]
-  },  
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 5033
+  },
   "Prunus serrulata": {
     "commonNames": "Japanese flowering cherry",
-    "color": [77, 157, 59, 0.5]
-  },  
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 551
+  },
   "Prunus virginiana 'Canada Red'": {
     "commonNames": "bitter-berry, chokecherry, Virginia bird cherry, western chokecherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 578
   },
   "Prunus virginiana": {
     "commonNames": "bitter-berry, chokecherry, Virginia bird cherry, western chokecherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 553
   },
   "Prunus x cistena 'Schmidt's'": {
     "commonNames": "purple leaf sand cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 8
   },
   "Prunus x hillieri 'Spires'": {
     "commonNames": "flowering cherry",
-    "color": [77, 157, 59, 0.5]
-  },  
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 37
+  },
   "Prunus x subhirtella 'Autumnalis'": {
     "commonNames": "higan cherry, winter-flowering cherry",
-    "color": [77, 157, 59, 0.5]
-  },  
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 636
+  },
   "Prunus x subhirtella 'Pendula'": {
     "commonNames": "higan cherry, winter-flowering cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 13
   },
   "Prunus x yedoensis 'Cascade Snow'": {
     "commonNames": "Yoshino cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 3
   },
   "Prunus x yedoensis 'Akebono'": {
     "commonNames": "Yoshino cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 350
   },
   "Prunus x yedoensis": {
     "commonNames": "Yoshino cherry",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 576
   },
   "Prunus 'Amanowagawa'": {
     "commonNames": "plum, cherry blossom",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 14
   },
   "Prunus 'Dreamcatcher'": {
     "commonNames": "plum, cherry blossom",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 3
   },
   "Prunus 'Holly Jolivette'": {
     "commonNames": "plum, cherry blossom",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 4
   },
   "Prunus 'Mt. Fuji'": {
     "commonNames": "plum, cherry blossom",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 313
   },
   "Prunus 'Okame'": {
     "commonNames": "plum, cherry blossom",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 220
   },
   "Prunus 'Princeton Snowcloud'": {
     "commonNames": "plum, cherry blossom",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ]
   },
   "Prunus 'Snow Goose'": {
     "commonNames": "plum, cherry blossom",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 369
   },
   "Prunus": {
     "commonNames": "plum, cherry blossom",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 7209
   },
   "Pseudotsuga menziesii": {
     "commonNames": "Douglas fir, Douglas spruce, Oregon pine, Columbian pine",
-    "color": [6, 128, 5, 0.5]
+    "color": [
+      6,
+      128,
+      5,
+      0.5
+    ],
+    "count": 288
   },
   "Pyrus calleryana 'Aristocrat'": {
     "commonNames": "Callery pear",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 41
   },
   "Pyrus calleryana 'Chanticleer'": {
     "commonNames": "Callery pear",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 68
   },
   "Pyrus calleryana 'Cleveland Select'": {
     "commonNames": "Callery pear",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 4
   },
   "Pyrus calleryana 'Holmford'": {
     "commonNames": "Callery pear",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 5
   },
   "Pyrus calleryana 'Jack Pear'": {
     "commonNames": "Callery pear",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 14
   },
   "Pyrus calleryana 'Silver Ball'": {
     "commonNames": "Callery pear",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1
   },
   "Pyrus calleryana 'Stone Hill'": {
     "commonNames": "Callery pear",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1
   },
   "Pyrus calleryana": {
     "commonNames": "Callery pear",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 58911
   },
   "Pyrus fauriei 'Korean Sun'": {
     "commonNames": "Callery pear",
-    "color": [77, 157, 59, 0.5],
-    "wikiTitle": "Pyrus calleryana#Subtaxa"
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "wikiTitle": "Pyrus_calleryana#Subtaxa",
+    "count": 10
   },
   "Quercus acutissima": {
     "commonNames": "sawtooth oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 4051
   },
   "Quercus alba": {
     "commonNames": "white oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 3443
   },
   "Quercus bicolor 'American Dream'": {
     "commonNames": "swamp white oak, bicolor oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 22
   },
   "Quercus bicolor 'Beacon'": {
     "commonNames": "swamp white oak, bicolor oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 21
   },
   "Quercus bicolor": {
     "commonNames": "swamp white oak, bicolor oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 11269
   },
   "Quercus cerris": {
     "commonNames": "European turkey oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 18
   },
   "Quercus coccinea": {
     "commonNames": "scarlet oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 2615
   },
   "Quercus dentata": {
     "commonNames": "Korean oak, Japanese emperor oak, daimyo oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 1
   },
   "Quercus ellipsoidalis": {
     "commonNames": "northern pin oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 1965
   },
   "Quercus falcata": {
     "commonNames": "southern red oak, Spanish oak, bottomland red oak, three-lobed red oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 139
   },
   "Quercus garryana": {
     "commonNames": "Oregon white oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 5
   },
   "Quercus ilex": {
     "commonNames": "holly oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 14
   },
   "Quercus imbricaria": {
     "commonNames": "shingle oak, laurel oak, small-leaved oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 2618
   },
   "Quercus laevis": {
     "commonNames": "turkey oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 11
   },
   "Quercus laurifolia": {
     "commonNames": "laurel oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 18
   },
   "Quercus lyrata": {
     "commonNames": "overcup oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 96
   },
   "Quercus macrocarpa 'Urban Pinnacle'": {
     "commonNames": "bur oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 2
   },
   "Quercus macrocarpa": {
     "commonNames": "bur oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 1298
   },
   "Quercus marilandica": {
     "commonNames": "blackjack oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 12
   },
   "Quercus montana": {
     "commonNames": "chestnut oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 37
   },
   "Quercus muehlenbergii": {
     "commonNames": "chinquapin oak, chinkapin oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 418
   },
   "Quercus nigra": {
     "commonNames": "water oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 2
   },
   "Quercus nuttallii": {
     "commonNames": "Nuttall's oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 38
   },
   "Quercus palustris 'Green Pillar'": {
     "commonNames": "pin oak, swamp Spanish oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 126
   },
   "Quercus palustris 'Pacific Brilliance'": {
     "commonNames": "pin oak, swamp Spanish oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 50
   },
   "Quercus palustris": {
     "commonNames": "pin oak, swamp Spanish oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 69268
   },
   "Quercus phellos 'Hightower'": {
     "commonNames": "willow oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 13
   },
   "Quercus phellos 'Upperton'": {
     "commonNames": "willow oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 5
   },
   "Quercus phellos": {
     "commonNames": "willow oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 5709
   },
   "Quercus robur var. fastigiata": {
     "commonNames": "upright English oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 88
   },
   "Quercus robur 'Skyrocket'": {
     "commonNames": "upright English oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ]
   },
   "Quercus robur x bicolor 'Kindred Spirit'": {
     "commonNames": "hybrid oak",
-    "color": [56, 103, 3, 0.5],
-    "wikiTitle": "Quercus x warei"
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "wikiTitle": "Quercus_x_warei",
+    "count": 9
   },
   "Quercus robur": {
     "commonNames": "English oak, pedunculate oak, common oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 1828
   },
   "Quercus rubra": {
     "commonNames": "northern red oak, red oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 15259
   },
   "Quercus shumardii": {
     "commonNames": "Shumard oak, spotted oak, Schneck oak, swamp red oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 1821
   },
   "Quercus stellata": {
     "commonNames": "post oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 23
   },
   "Quercus texana": {
     "commonNames": "Nuttall's oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ]
   },
   "Quercus velutina": {
     "commonNames": "black oak, eastern black oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 1912
   },
   "Quercus virginiana": {
     "commonNames": "Southern live oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 55
   },
   "Quercus x comptoniae": {
     "commonNames": "Compton oak",
-    "color": [56, 103, 3, 0.5],
-    "wikiTitle": "Quercus subg. Quercus#Section_Quercus"
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "wikiTitle": "Quercus_subg._Quercus#Section_Quercus"
   },
   "Quercus x sargentii": {
     "commonNames": "Sargent oak",
-    "color": [56, 103, 3, 0.5],
-    "wikiTitle": "Quercus subg. Quercus#Section_Quercus"
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "wikiTitle": "Quercus_subg._Quercus#Section_Quercus",
+    "count": 13
   },
   "Quercus 'Regal Prince'": {
     "commonNames": "oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 184
   },
   "Quercus": {
     "commonNames": "oak",
-    "color": [56, 103, 3, 0.5]
+    "color": [
+      56,
+      103,
+      3,
+      0.5
+    ],
+    "count": 3675
   },
   "Robinia hispida": {
     "commonNames": "bristly locust, rose-acacia, moss locust",
-    "color": [125, 164, 107, 0.5]
+    "color": [
+      125,
+      164,
+      107,
+      0.5
+    ],
+    "count": 114
   },
   "Robinia pseudoacacia 'Frisia'": {
     "commonNames": "black locust, false acacia",
-    "color": [125, 164, 107, 0.5]
+    "color": [
+      125,
+      164,
+      107,
+      0.5
+    ],
+    "count": 66
   },
   "Robinia pseudoacacia 'Purple Robe'": {
     "commonNames": "black locust, false acacia",
-    "color": [125, 164, 107, 0.5]
+    "color": [
+      125,
+      164,
+      107,
+      0.5
+    ],
+    "count": 8
   },
   "Robinia pseudoacacia": {
     "commonNames": "black locust, false acacia",
-    "color": [125, 164, 107, 0.5]
+    "color": [
+      125,
+      164,
+      107,
+      0.5
+    ],
+    "count": 5784
   },
   "Salix alba 'Niobe'": {
     "commonNames": "white willow",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1
   },
   "Salix alba": {
     "commonNames": "white willow",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 156
   },
   "Salix babylonica": {
     "commonNames": "weeping willow, Babylon willow",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 497
   },
-  "Salix": {
+  "Salix sp.": {
     "commonNames": "willow",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 154
   },
   "Sassafras albidum": {
     "commonNames": "sassafras, white sassafras, red sassafras, silky sassafras",
-    "color": [90, 229, 129, 0.5]
+    "color": [
+      90,
+      229,
+      129,
+      0.5
+    ],
+    "count": 640
   },
   "Sequoiadendron giganteum": {
     "commonNames": "giant sequoia",
-    "color": [178, 44, 30, 0.5]
+    "color": [
+      178,
+      44,
+      30,
+      0.5
+    ],
+    "count": 1
   },
   "Sorbus alnifolia": {
     "commonNames": "Korean mountain ash, Korean whitebeam, alder-leafed whitebeam",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 1
   },
   "Sorbus americana": {
     "commonNames": "American mountain ash",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 7
   },
   "Sorbus aucuparia 'Cardinal Royal'": {
     "commonNames": "rowan, mountain ash",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 2
   },
   "Sorbus aucuparia": {
     "commonNames": "rowan, mountain ash",
-    "color": [77, 157, 59, 0.5]
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "count": 8
   },
   "Sorbus hybrida": {
     "commonNames": "oakleaf mountain ash",
-    "color": [77, 157, 59, 0.5],
-    "wikiTitle": "Hedlundia hybrida"
+    "color": [
+      77,
+      157,
+      59,
+      0.5
+    ],
+    "wikiTitle": "Hedlundia_hybrida",
+    "count": 5
   },
   "Stewartia koreana": {
     "commonNames": "Korean stewartia",
-    "color": [88, 89, 91, 0.5],
-    "wikiTitle": "Stewartia pseudocamellia#Varieties"
+    "color": [
+      88,
+      89,
+      91,
+      0.5
+    ],
+    "wikiTitle": "Stewartia_pseudocamellia#Varieties",
+    "count": 1
   },
   "Stewartia pseudocamellia": {
     "commonNames": "Japanese stewartia, deciduous camellia",
-    "color": [88, 89, 91, 0.5]
+    "color": [
+      88,
+      89,
+      91,
+      0.5
+    ],
+    "count": 173
   },
   "Styphnolobium japonicum 'Millstone'": {
     "commonNames": "Japanese pagoda tree, Chinese scholar tree, pagoda tree",
-    "color": [145, 170, 117, 0.5]
+    "color": [
+      145,
+      170,
+      117,
+      0.5
+    ],
+    "count": 816
   },
   "Styphnolobium japonicum 'Regent'": {
     "commonNames": "Japanese pagoda tree, Chinese scholar tree, pagoda tree",
-    "color": [145, 170, 117, 0.5]
+    "color": [
+      145,
+      170,
+      117,
+      0.5
+    ],
+    "count": 411
   },
   "Styphnolobium japonicum": {
     "commonNames": "Japanese pagoda tree, Chinese scholar tree, pagoda tree",
-    "color": [145, 170, 117, 0.5]
+    "color": [
+      145,
+      170,
+      117,
+      0.5
+    ],
+    "count": 20901
   },
   "Styrax americanus": {
     "commonNames": "American snowbell",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 27
   },
   "Styrax japonicus 'Emerald Pagoda'": {
     "commonNames": "Japanese snowbell",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 195
   },
   "Styrax japonicus 'Snowcone'": {
     "commonNames": "Japanese snowbell",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 309
   },
   "Styrax japonicus 'Snow Charm'": {
     "commonNames": "Japanese snowbell",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 63
   },
   "Styrax japonicus": {
     "commonNames": "Japanese snowbell",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 565
   },
   "Styrax obassia": {
     "commonNames": "fragrant snowbell",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 26
   },
   "Syringa meyeri 'Palibin'": {
     "commonNames": "Meyer lilac, Korean lilac",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 3
   },
   "Syringa pekinensis 'Beijing Gold'": {
     "commonNames": "Chinese tree lilac, Peking lilac",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 210
   },
   "Syringa pekinensis 'China Snow'": {
     "commonNames": "Chinese tree lilac, Peking lilac",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 147
   },
   "Syringa pekinensis 'Great Wall'": {
     "commonNames": "Chinese tree lilac, Peking lilac",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 6
   },
   "Syringa pekinensis 'Summer Charm'": {
     "commonNames": "Chinese tree lilac, Peking lilac",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 407
   },
   "Syringa pekinensis": {
     "commonNames": "Chinese tree lilac, Peking lilac",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 657
   },
   "Syringa reticulata 'Ivory Silk'": {
     "commonNames": "Japanese tree lilac",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 789
   },
   "Syringa reticulata 'Snowcap'": {
     "commonNames": "Japanese tree lilac",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 68
   },
   "Syringa reticulata": {
     "commonNames": "Japanese tree lilac",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 5662
   },
   "Tamarix chinensis": {
     "commonNames": "five-stamen tamarisk, Chinese tamarisk, saltcedar",
-    "color": [88, 89, 91, 0.5]
+    "color": [
+      88,
+      89,
+      91,
+      0.5
+    ],
+    "count": 5
   },
   "Taxodium ascendens 'Morris Debonair'": {
     "commonNames": "pond cypress",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 59
   },
   "Taxodium ascendens 'Nutans'": {
     "commonNames": "pond cypress",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 3
   },
   "Taxodium ascendens": {
     "commonNames": "pond cypress",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 149
   },
   "Taxodium distichum 'Shawnee Brave'": {
     "commonNames": "bald cypress, swamp cypress, white cypress, tidewater red cypress, gulf cypress",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 441
   },
   "Taxodium distichum 'Skyward'": {
     "commonNames": "bald cypress, swamp cypress, white cypress, tidewater red cypress, gulf cypress",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 6
   },
   "Taxodium distichum": {
     "commonNames": "bald cypress, swamp cypress, white cypress, tidewater red cypress, gulf cypress",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 2449
   },
   "Taxus baccata": {
     "commonNames": "English yew",
-    "color": [88, 89, 91, 0.5]
+    "color": [
+      88,
+      89,
+      91,
+      0.5
+    ],
+    "count": 127
   },
   "Thuja occidentalis": {
     "commonNames": "arborvitae, northern white-cedar, eastern white-cedar",
-    "color": [196, 51, 0, 0.5]
+    "color": [
+      196,
+      51,
+      0,
+      0.5
+    ],
+    "count": 1055
   },
   "Thuja 'Green Giant'": {
     "commonNames": "arborvitae, northern white-cedar, eastern white-cedar",
-    "color": [196, 51, 0, 0.5]
+    "color": [
+      196,
+      51,
+      0,
+      0.5
+    ],
+    "count": 44
   },
   "Thuja plicata": {
     "commonNames": "western redcedar",
-    "color": [196, 51, 0, 0.5]
+    "color": [
+      196,
+      51,
+      0,
+      0.5
+    ],
+    "count": 25
   },
   "Tilia americana 'Continental Appeal'": {
     "commonNames": "American basswood, American linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 33
   },
   "Tilia americana 'Frontyard'": {
     "commonNames": "American basswood, American linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 3
   },
   "Tilia americana 'Legend'": {
     "commonNames": "American basswood, American linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 56
   },
   "Tilia americana 'McSentry'": {
     "commonNames": "American basswood, American linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 68
   },
   "Tilia americana 'Redmond'": {
     "commonNames": "American basswood, American linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 1727
   },
   "Tilia americana": {
     "commonNames": "American basswood, American linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 13979
   },
   "Tilia cordata 'Corinthian'": {
     "commonNames": "littleleaf linden, small-leaved lime, small-leaved linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 35
   },
   "Tilia cordata 'Glenlevyn'": {
     "commonNames": "littleleaf linden, small-leaved lime, small-leaved linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 56
   },
   "Tilia cordata 'Greenspire'": {
     "commonNames": "littleleaf linden, small-leaved lime, small-leaved linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 896
   },
   "Tilia cordata 'Prestige'": {
     "commonNames": "littleleaf linden, small-leaved lime, small-leaved linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 7
   },
   "Tilia cordata 'Shamrock'": {
     "commonNames": "littleleaf linden, small-leaved lime, small-leaved linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 8
   },
   "Tilia cordata 'Unizam'": {
     "commonNames": "littleleaf linden, small-leaved lime, small-leaved linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 4
   },
   "Tilia cordata": {
     "commonNames": "littleleaf linden, small-leaved lime, small-leaved linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 31702
   },
   "Tilia mongolica 'Harvest Gold'": {
     "commonNames": "Mongolian linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 566
   },
   "Tilia platyphyllos": {
     "commonNames": "largeleaf linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 169
   },
   "Tilia tomentosa 'Green Mountain'": {
     "commonNames": "silver linden, silver lime, European white linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 24
   },
   "Tilia tomentosa 'Satin Shadow'": {
     "commonNames": "silver linden, silver lime, European white linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 2
   },
   "Tilia tomentosa 'Silver Lining'": {
     "commonNames": "silver linden, silver lime, European white linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 56
   },
   "Tilia tomentosa 'Sterling'": {
     "commonNames": "silver linden, silver lime, European white linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 1612
   },
   "Tilia tomentosa 'Szeleste'": {
     "commonNames": "silver linden, silver lime, European white linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 8
   },
   "Tilia tomentosa": {
     "commonNames": "silver linden, silver lime, European white linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 8967
   },
   "Tilia x euchlora 'Laurelhurst'": {
     "commonNames": "Caucasian linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 8
   },
   "Tilia x euchlora": {
     "commonNames": "Caucasian linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 349
   },
   "Tilia x europaea 'Pallida'": {
     "commonNames": "common linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 5
   },
   "Tilia x europaea": {
     "commonNames": "common linden",
-    "color": [162, 84, 37, 0.5]
+    "color": [
+      162,
+      84,
+      37,
+      0.5
+    ],
+    "count": 1622
   },
   "Tsuga canadensis": {
     "commonNames": "eastern hemlock, eastern hemlock-spruce, Canadian hemlock",
-    "color": [224, 183, 69, 0.5]
+    "color": [
+      224,
+      183,
+      69,
+      0.5
+    ],
+    "count": 278
   },
   "Ulmus americana 'Princeton'": {
     "commonNames": "American elm, white elm, water elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 950
   },
   "Ulmus americana 'Valley Forge'": {
     "commonNames": "American elm, white elm, water elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 23
   },
   "Ulmus americana": {
     "commonNames": "American elm, white elm, water elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 12778
   },
   "Ulmus minor 'Atinia'": {
     "commonNames": "English elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 7
   },
   "Ulmus parvifolia 'Allee'": {
     "commonNames": "Chinese elm, lacebark elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 48
   },
   "Ulmus parvifolia 'Bosque'": {
     "commonNames": "Chinese elm, lacebark elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 5
   },
   "Ulmus parvifolia 'Dynasty'": {
     "commonNames": "Chinese elm, lacebark elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 17
   },
   "Ulmus parvifolia 'Everclear'": {
     "commonNames": "Chinese elm, lacebark elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 9
   },
   "Ulmus parvifolia": {
     "commonNames": "Chinese elm, lacebark elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 4745
   },
   "Ulmus propinqua 'Emerald Sunshine'": {
     "commonNames": "Japanese elm",
-    "color": [9, 153, 34, 0.5],
-    "wikiTitle": "Ulmus davidiana var. japonica"
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "wikiTitle": "Ulmus_davidiana_var._japonica",
+    "count": 217
   },
   "Ulmus pumila": {
     "commonNames": "Siberian elm, Asiatic elm, dwarf elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 3626
   },
   "Ulmus wilsoniana 'Prospector'": {
     "commonNames": "Chinese elm, lacebark elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 34
   },
   "Ulmus 'Accolade'": {
     "commonNames": "elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 61
   },
   "Ulmus 'Athena'": {
     "commonNames": "elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 77
   },
   "Ulmus 'Frontier'": {
     "commonNames": "elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 38
   },
   "Ulmus 'Homestead'": {
     "commonNames": "elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 286
   },
   "Ulmus 'Jefferson'": {
     "commonNames": "elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 58
   },
   "Ulmus 'Morton Glossy'": {
     "commonNames": "elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 2
   },
   "Ulmus 'New Harmony'": {
     "commonNames": "elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 13
   },
   "Ulmus 'New Horizon'": {
     "commonNames": "elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 52
   },
   "Ulmus 'Patriot'": {
     "commonNames": "elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 180
   },
   "Ulmus 'Pioneer'": {
     "commonNames": "elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 6
   },
   "Ulmus 'Triumph'": {
     "commonNames": "elm",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 62
   },
   "Unknown": {
     "commonNames": "",
-    "color": [0, 0, 0, 0.5]
+    "color": [
+      0,
+      0,
+      0,
+      0.5
+    ],
+    "count": 13887
   },
   "Vitex agnus-castus": {
     "commonNames": "lilac chastetree, vitex, monk's pepper",
-    "color": [241, 150, 104, 0.5]
+    "color": [
+      241,
+      150,
+      104,
+      0.5
+    ],
+    "count": 9
   },
   "Xanthoceras sorbifolium": {
     "commonNames": "yellowhorn",
-    "color": [244, 227, 130, 0.5]
+    "color": [
+      244,
+      227,
+      130,
+      0.5
+    ],
+    "count": 1
   },
   "Zelkova serrata 'City Sprite'": {
     "commonNames": "Japanese zelkova, Japanese elm, keyaki",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 534
   },
   "Zelkova serrata 'Green Vase'": {
     "commonNames": "Japanese zelkova, Japanese elm, keyaki",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 2545
   },
   "Zelkova serrata 'Halka'": {
     "commonNames": "Japanese zelkova, Japanese elm, keyaki",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 10
   },
   "Zelkova serrata 'Kiwi Sunset'": {
     "commonNames": "Japanese zelkova, Japanese elm, keyaki",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 2
   },
   "Zelkova serrata 'Musashino'": {
     "commonNames": "Japanese zelkova, Japanese elm, keyaki",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 706
   },
   "Zelkova serrata 'Variegata'": {
     "commonNames": "Japanese zelkova, Japanese elm, keyaki",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 7
   },
   "Zelkova serrata 'Village Green'": {
     "commonNames": "Japanese zelkova, Japanese elm, keyaki",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 700
   },
   "Zelkova serrata 'Wireless'": {
     "commonNames": "Japanese zelkova, Japanese elm, keyaki",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 563
   },
   "Zelkova serrata": {
     "commonNames": "Japanese zelkova, Japanese elm, keyaki",
-    "color": [9, 153, 34, 0.5]
+    "color": [
+      9,
+      153,
+      34,
+      0.5
+    ],
+    "count": 33820
   }
 }
