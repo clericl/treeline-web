@@ -30,7 +30,7 @@ function TreesLoadingModal({ open }: TreesLoadingModalProps) {
 }
 
 export default function TreesLoading({ open }: TreesLoadingProps) {
-  const bodyElement = document.body
+  const bodyElement = typeof window !== 'undefined' ? window.document.body : null
 
   return (bodyElement && createPortal(
     <TreesLoadingModal open={open} />,

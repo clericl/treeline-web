@@ -7,18 +7,15 @@ const typedSpeciesDetails: SpeciesDetailsType = speciesDetails
 
 function getColorFromDatum(
   treeMarkerDatum: TreeMarkerType,
-  baseLineColor: number[],
   selectedMarkerId?: number,
 ): number[] {
   const colorArr = typedSpeciesDetails[treeMarkerDatum.species].color
 
-  return selectedMarkerId === treeMarkerDatum.id
-    ? baseLineColor
-    : [
-        colorArr[0],
-        colorArr[1],
-        colorArr[2],
-      ]
+  return [
+    colorArr[0],
+    colorArr[1],
+    colorArr[2],
+  ]
 }
 
 function getPositionFromDatum(treeMarkerDatum: TreeMarkerType) {
@@ -30,22 +27,6 @@ function getPositionFromDatum(treeMarkerDatum: TreeMarkerType) {
 
 function getRadiusFromDatum(treeMarkerDatum: TreeMarkerType) {
   return Math.pow(treeMarkerDatum.diameter / 3, 1 / 2)
-}
-
-function getLineColor(
-  treeMarkerDatum: TreeMarkerType,
-  baseLineColor: number[],
-  selectedMarkerId?: number,
-) {
-  const colorArr = typedSpeciesDetails[treeMarkerDatum.species].color
-
-  return selectedMarkerId === treeMarkerDatum.id
-    ? [
-        colorArr[0],
-        colorArr[1],
-        colorArr[2],
-      ]
-    : baseLineColor
 }
 
 export default function createTreeMarkerLayer(
@@ -67,8 +48,8 @@ export default function createTreeMarkerLayer(
     autoHighlight: true,
     data,
     filled: true,
-    getLineColor: (d) => getLineColor(d, lineColor, selectedMarkerId) as any,
-    getFillColor: (d) => getColorFromDatum(d, lineColor, selectedMarkerId) as any,
+    getLineColor: lineColor as any,
+    getFillColor: (d) => getColorFromDatum(d, selectedMarkerId) as any,
     getPosition: getPositionFromDatum as any,
     getRadius: getRadiusFromDatum as any,
     highlightColor,

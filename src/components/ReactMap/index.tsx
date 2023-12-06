@@ -20,6 +20,7 @@ import { speciesDetails } from "@/data"
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useTreesQuery } from '@/hooks'
 import TreesLoading from '../TreesLoading'
+import createSelectedTreeLayer from '@/layers/selectedTreeLayer'
 
 const MAPBOX_ACCESS_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
 
@@ -150,7 +151,11 @@ export default function ReactMap() {
       {
         onClick: handleTreeMarkerClick,
       }
-    )
+    ),
+    createSelectedTreeLayer(
+      selectedTree,
+      mapStyle,
+    ),
   ]), [
     mapStyle,
     selectedTree,
