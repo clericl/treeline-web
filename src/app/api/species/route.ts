@@ -1,4 +1,4 @@
-import Redis from '@/redis'
+import Redis from '@/utils/redis'
 import { NextRequest, NextResponse } from "next/server";
 import { RedisGeoSearchType } from "@/types";
 
@@ -23,7 +23,7 @@ export async function GET(request: NextRequest) {
     const transformed = data
       .flat()
       .map(
-        ({ member, coordinates, species }: RedisGeoSearchType) => {
+        ({ member, coordinates }: RedisGeoSearchType) => {
           const returnObj = JSON.parse(member);
           
           returnObj.species = species

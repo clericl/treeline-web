@@ -31,7 +31,6 @@ export interface RedisGeoSearchType {
     longitude: string;
     latitude: string;
   };
-  species: string;
 }
 
 export type TreeMarkerType = {
@@ -43,6 +42,7 @@ export type TreeMarkerType = {
     longitude: number;
     latitude: number;
   };
+  structure: string;
 };
 
 export type NtaDatumType = {
@@ -69,7 +69,7 @@ export interface SpeciesDetailsType {
   [key: string]: {
     commonNames: string;
     color: number[];
-    description: string;
+    count: number;
     wikiTitle?: string;
   };
 }

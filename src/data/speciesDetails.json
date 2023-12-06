@@ -559,7 +559,7 @@
     ],
     "count": 270
   },
-  "Acer": {
+  "Acer sp.": {
     "commonNames": "maple",
     "color": [
       118,
@@ -801,7 +801,7 @@
     ],
     "count": 401
   },
-  "Amelanchier": {
+  "Amelanchier sp.": {
     "commonNames": "shadbush, shadblow, serviceberry, sugarplum, saskatoon, juneberry",
     "color": [
       77,
@@ -1051,7 +1051,7 @@
     ],
     "count": 125
   },
-  "Carya": {
+  "Carya sp.": {
     "commonNames": "hickory",
     "color": [
       126,
@@ -1121,7 +1121,7 @@
     ],
     "count": 0
   },
-  "Catalpa": {
+  "Catalpa sp.": {
     "commonNames": "catalpa, catawba",
     "color": [
       244,
@@ -1805,7 +1805,7 @@
     ],
     "count": 3
   },
-  "Crataegus": {
+  "Crataegus sp.": {
     "commonNames": "hawthorn",
     "color": [
       127,
@@ -2045,7 +2045,7 @@
     ],
     "count": 4
   },
-  "Fraxinus": {
+  "Fraxinus sp.": {
     "commonNames": "ash",
     "color": [
       126,
@@ -2392,7 +2392,7 @@
     "wikiTitle": "Ilex_cornuta",
     "count": 18
   },
-  "Ilex": {
+  "Ilex sp.": {
     "commonNames": "holly",
     "color": [
       97,
@@ -2592,7 +2592,7 @@
     ],
     "count": 37
   },
-  "Lagerstroemia": {
+  "Lagerstroemia sp.": {
     "commonNames": "crape myrtle, crepe myrtle",
     "color": [
       90,
@@ -2922,7 +2922,7 @@
     ],
     "count": 10
   },
-  "Magnolia": {
+  "Magnolia sp.": {
     "commonNames": "magnolia",
     "color": [
       176,
@@ -3142,7 +3142,7 @@
     ],
     "count": 68
   },
-  "Malus": {
+  "Malus sp.": {
     "commonNames": "apple, crabapple",
     "color": [
       77,
@@ -3172,7 +3172,7 @@
     ],
     "count": 5268
   },
-  "Morus": {
+  "Morus sp.": {
     "commonNames": "mulberry",
     "color": [
       171,
@@ -3413,7 +3413,7 @@
     ],
     "count": 390
   },
-  "Picea": {
+  "Picea sp.": {
     "commonNames": "spruce",
     "color": [
       76,
@@ -3583,7 +3583,7 @@
     ],
     "count": 15
   },
-  "Pinus": {
+  "Pinus sp.": {
     "commonNames": "pine",
     "color": [
       76,
@@ -4053,15 +4053,6 @@
     ],
     "count": 220
   },
-  "Prunus 'Princeton Snowcloud'": {
-    "commonNames": "plum, cherry blossom",
-    "color": [
-      77,
-      157,
-      59,
-      0.5
-    ]
-  },
   "Prunus 'Snow Goose'": {
     "commonNames": "plum, cherry blossom",
     "color": [
@@ -4072,7 +4063,7 @@
     ],
     "count": 369
   },
-  "Prunus": {
+  "Prunus sp.": {
     "commonNames": "plum, cherry blossom",
     "color": [
       77,
@@ -4483,15 +4474,6 @@
     ],
     "count": 88
   },
-  "Quercus robur 'Skyrocket'": {
-    "commonNames": "upright English oak",
-    "color": [
-      56,
-      103,
-      3,
-      0.5
-    ]
-  },
   "Quercus robur x bicolor 'Kindred Spirit'": {
     "commonNames": "hybrid oak",
     "color": [
@@ -4543,15 +4525,6 @@
     ],
     "count": 23
   },
-  "Quercus texana": {
-    "commonNames": "Nuttall's oak",
-    "color": [
-      56,
-      103,
-      3,
-      0.5
-    ]
-  },
   "Quercus velutina": {
     "commonNames": "black oak, eastern black oak",
     "color": [
@@ -4571,16 +4544,6 @@
       0.5
     ],
     "count": 55
-  },
-  "Quercus x comptoniae": {
-    "commonNames": "Compton oak",
-    "color": [
-      56,
-      103,
-      3,
-      0.5
-    ],
-    "wikiTitle": "Quercus_subg._Quercus#Section_Quercus"
   },
   "Quercus x sargentii": {
     "commonNames": "Sargent oak",
@@ -4603,7 +4566,7 @@
     ],
     "count": 184
   },
-  "Quercus": {
+  "Quercus sp.": {
     "commonNames": "oak",
     "color": [
       56,

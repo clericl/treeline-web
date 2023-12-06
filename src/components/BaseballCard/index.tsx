@@ -163,6 +163,7 @@ export default function BaseballCard() {
           top: '50%',
           transform: 'translateY(-50%)',
           width: '20vw',
+          overflow: 'visible',
         }}
       >
         <CardContent sx={{ height: '100%', paddingTop: 0 }}>
