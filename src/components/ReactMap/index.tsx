@@ -19,6 +19,7 @@ import { alpha, useMediaQuery, useTheme } from '@mui/material'
 import { speciesDetails } from "@/data"
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useTreesQuery } from '@/hooks'
+import TreesLoading from '../TreesLoading'
 
 const MAPBOX_ACCESS_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
 
@@ -67,7 +68,7 @@ export default function ReactMap() {
     zoom: 15,
   })
   const [treeData, setTreeData] = useState<TreeMarkerType[]>([])
-  const { data } = useTreesQuery(mapParams)
+  const { data, isLoading } = useTreesQuery(mapParams)
   const mapRef = useRef<MapRef>(null)
   const mapStyle = useMapStyle.use.style()
   const selectedSpecies = useSelectedSpecies.use.species()
@@ -183,20 +184,23 @@ export default function ReactMap() {
   }, [isMobile, selectedTree])
 
   return (
-    <Map
-      initialViewState={INITIAL_VIEW_STATE}
-      mapboxAccessToken={MAPBOX_ACCESS_TOKEN}
-      mapStyle={MAP_STYLES[mapStyle]}
-      onMoveEnd={handleViewStateChange}
-      ref={mapRef}
-    >
-      <DeckGLOverlay
-        getCursor={() => 'inherit'}
-        getTooltip={getTooltip}
-        interleaved={true}
-        layers={layers}
-      />
-      <Geocontrol />
-    </Map>
+    <>
+      <Map
+        initialViewState={INITIAL_VIEW_STATE}
+        mapboxAccessToken={MAPBOX_ACCESS_TOKEN}
+        mapStyle={MAP_STYLES[mapStyle]}
+        onMoveEnd={handleViewStateChange}
+        ref={mapRef}
+      >
+        <DeckGLOverlay
+          getCursor={() => 'inherit'}
+          getTooltip={getTooltip}
+          interleaved={true}
+          layers={layers}
+        />
+        <Geocontrol />
+      </Map>
+      <TreesLoading open={isLoading} />
+    </>
   )
 }

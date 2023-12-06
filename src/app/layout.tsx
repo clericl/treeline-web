@@ -30,7 +30,7 @@ export default function RootLayout({
   
   return (
     <html lang="en">
-      <body className={`${roboto.variable} font-mui`}>
+      <body className={`${roboto.variable} font-mui relative`}>
         <QueryClientProvider client={queryClient}>
           {children}
         </QueryClientProvider>

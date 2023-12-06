@@ -11,7 +11,6 @@ import { AddressComponent } from "@googlemaps/google-maps-services-js"
 const typedSpeciesDetails: SpeciesDetailsType = speciesDetails
 
 const buildAddressFromComponents = (components: AddressComponent[]) => {
-  console.log(components)
   const streetNumber = components.find((component) => component.types.find((type) => type === 'street_number'))?.['long_name'] || ''
   const route = components.find((component) => component.types.find((type) => type === 'route'))?.['short_name'] || ''
   const sublocality = components.find((component) => component.types.find((type) => type === 'sublocality'))?.['long_name'] || ''
