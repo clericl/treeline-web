@@ -7,7 +7,6 @@ const typedSpeciesDetails: SpeciesDetailsType = speciesDetails
 
 function getColorFromDatum(
   treeMarkerDatum: TreeMarkerType,
-  selectedMarkerId?: number,
 ): number[] {
   const colorArr = typedSpeciesDetails[treeMarkerDatum.species].color
 
@@ -32,7 +31,6 @@ function getRadiusFromDatum(treeMarkerDatum: TreeMarkerType) {
 export default function createTreeMarkerLayer(
   data: TreeMarkerType[] = [],
   mapStyle: MapStyle,
-  selectedMarkerId?: number,
   props?: Partial<ScatterplotLayer>,
 ) {
   let lineColor = [25, 25, 25]
@@ -49,7 +47,7 @@ export default function createTreeMarkerLayer(
     data,
     filled: true,
     getLineColor: lineColor as any,
-    getFillColor: (d) => getColorFromDatum(d, selectedMarkerId) as any,
+    getFillColor: (d) => getColorFromDatum(d) as any,
     getPosition: getPositionFromDatum as any,
     getRadius: getRadiusFromDatum as any,
     highlightColor,

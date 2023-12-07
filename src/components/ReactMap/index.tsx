@@ -147,7 +147,6 @@ export default function ReactMap() {
     createTreeMarkerLayer(
       treeData,
       mapStyle,
-      selectedTree?.id,
       {
         onClick: handleTreeMarkerClick,
       }
