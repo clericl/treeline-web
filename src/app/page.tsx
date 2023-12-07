@@ -6,12 +6,14 @@ import { Container, CssBaseline, ThemeProvider, createTheme } from '@mui/materia
 import { createContext, useEffect, useMemo, useState } from 'react';
 import { useMapStyle } from '@/zustand';
 import Modal from '@/components/Modal';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 const ColorModeContext = createContext({
   toggleColorMode: () => {},
 })
 
 export default function Home() {
+  const [queryClient] = useState(new QueryClient())
   const [mode, setMode] = useState<'light' | 'dark'>('dark')
   const mapStyle = useMapStyle.use.style()
   const colorMode = useMemo(() => ({
@@ -35,15 +37,17 @@ export default function Home() {
   }, [mapStyle])
 
   return (
-    <ColorModeContext.Provider value={colorMode}>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Container disableGutters={true} maxWidth={false} sx={{ height: '100vh' }}>
-          <Modal />
-          <Layout />
-          <DrawerMenu />
-        </Container>
-      </ThemeProvider>
-    </ColorModeContext.Provider>
+    <QueryClientProvider client={queryClient}>
+      <ColorModeContext.Provider value={colorMode}>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          <Container disableGutters={true} maxWidth={false} sx={{ height: '100vh' }}>
+            <Modal />
+            <Layout />
+            <DrawerMenu />
+          </Container>
+        </ThemeProvider>
+      </ColorModeContext.Provider>
+    </QueryClientProvider>
   )
 }

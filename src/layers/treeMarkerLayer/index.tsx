@@ -57,6 +57,7 @@ export default function createTreeMarkerLayer(
     opacity: 0.7,
     pickable: true,
     radiusMinPixels: 8,
+    radiusMaxPixels: 48,
     radiusScale: 6,
     radiusUnits: 'pixels',
     stroked: true,
