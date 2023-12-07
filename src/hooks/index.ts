@@ -1,2 +1,2 @@
-export * from './useTreesQuery'
-export * from './useWikiQuery'
+export * from "./useTreesQuery";
+export * from "./useWikiQuery";

@@ -1,47 +1,63 @@
-'use client'
+"use client";
 
-import DrawerMenu from '@/components/DrawerMenu';
-import Layout from '../components/Layout';
-import { Container, CssBaseline, ThemeProvider, createTheme } from '@mui/material';
-import { createContext, useEffect, useMemo, useState } from 'react';
-import { useMapStyle } from '@/zustand';
-import Modal from '@/components/Modal';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import DrawerMenu from "@/components/DrawerMenu";
+import Layout from "../components/Layout";
+import {
+  Container,
+  CssBaseline,
+  ThemeProvider,
+  createTheme,
+} from "@mui/material";
+import { createContext, useEffect, useMemo, useState } from "react";
+import { useMapStyle } from "@/zustand";
+import Modal from "@/components/Modal";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const ColorModeContext = createContext({
   toggleColorMode: () => {},
-})
+});
 
 export default function Home() {
-  const [queryClient] = useState(new QueryClient())
-  const [mode, setMode] = useState<'light' | 'dark'>('dark')
-  const mapStyle = useMapStyle.use.style()
-  const colorMode = useMemo(() => ({
-    toggleColorMode: () => {
-      setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'))
-    },
-  }), [])
+  const [queryClient] = useState(new QueryClient());
+  const [mode, setMode] = useState<"light" | "dark">("dark");
+  const mapStyle = useMapStyle.use.style();
+  const colorMode = useMemo(
+    () => ({
+      toggleColorMode: () => {
+        setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
+      },
+    }),
+    [],
+  );
 
-  const theme = useMemo(() => createTheme({
-    palette: {
-      mode,
-    },
-  }), [mode])
+  const theme = useMemo(
+    () =>
+      createTheme({
+        palette: {
+          mode,
+        },
+      }),
+    [mode],
+  );
 
   useEffect(() => {
-    if (['Dark', 'Navigation (Night)'].includes(mapStyle)) {
-      setMode('dark')
+    if (["Dark", "Navigation (Night)"].includes(mapStyle)) {
+      setMode("dark");
     } else {
-      setMode('light')
+      setMode("light");
     }
-  }, [mapStyle])
+  }, [mapStyle]);
 
   return (
     <QueryClientProvider client={queryClient}>
       <ColorModeContext.Provider value={colorMode}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          <Container disableGutters={true} maxWidth={false} sx={{ height: '100vh' }}>
+          <Container
+            disableGutters={true}
+            maxWidth={false}
+            sx={{ height: "100vh" }}
+          >
             <Modal />
             <Layout />
             <DrawerMenu />
@@ -49,5 +65,5 @@ export default function Home() {
         </ThemeProvider>
       </ColorModeContext.Provider>
     </QueryClientProvider>
-  )
+  );
 }

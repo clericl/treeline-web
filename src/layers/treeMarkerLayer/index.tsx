@@ -1,31 +1,25 @@
-import { MapStyle } from '@/zustand'
-import { ScatterplotLayer } from '@deck.gl/layers/typed'
-import { SpeciesDetailsType, TreeMarkerType } from "@/types"
-import { speciesDetails } from '@/data'
+import { MapStyle } from "@/zustand";
+import { ScatterplotLayer } from "@deck.gl/layers/typed";
+import { SpeciesDetailsType, TreeMarkerType } from "@/types";
+import { speciesDetails } from "@/data";
 
-const typedSpeciesDetails: SpeciesDetailsType = speciesDetails
+const typedSpeciesDetails: SpeciesDetailsType = speciesDetails;
 
-function getColorFromDatum(
-  treeMarkerDatum: TreeMarkerType,
-): number[] {
-  const colorArr = typedSpeciesDetails[treeMarkerDatum.species].color
+function getColorFromDatum(treeMarkerDatum: TreeMarkerType): number[] {
+  const colorArr = typedSpeciesDetails[treeMarkerDatum.species].color;
 
-  return [
-    colorArr[0],
-    colorArr[1],
-    colorArr[2],
-  ]
+  return [colorArr[0], colorArr[1], colorArr[2]];
 }
 
 function getPositionFromDatum(treeMarkerDatum: TreeMarkerType) {
   return [
     treeMarkerDatum.location.longitude,
     treeMarkerDatum.location.latitude,
-  ]
+  ];
 }
 
 function getRadiusFromDatum(treeMarkerDatum: TreeMarkerType) {
-  return Math.pow(treeMarkerDatum.diameter / 3, 1 / 2)
+  return Math.pow(treeMarkerDatum.diameter / 3, 1 / 2);
 }
 
 export default function createTreeMarkerLayer(
@@ -33,12 +27,12 @@ export default function createTreeMarkerLayer(
   mapStyle: MapStyle,
   props?: Partial<ScatterplotLayer>,
 ) {
-  let lineColor = [25, 25, 25]
-  let highlightColor = [0, 0, 0, 100]
+  let lineColor = [25, 25, 25];
+  let highlightColor = [0, 0, 0, 100];
 
-  if (['Dark', 'Navigation (Night)'].includes(mapStyle)) {
-    lineColor = [255, 255, 255]
-    highlightColor = [255, 255, 255, 100]
+  if (["Dark", "Navigation (Night)"].includes(mapStyle)) {
+    lineColor = [255, 255, 255];
+    highlightColor = [255, 255, 255, 100];
   }
 
   return new ScatterplotLayer({
@@ -51,7 +45,7 @@ export default function createTreeMarkerLayer(
     getPosition: getPositionFromDatum as any,
     getRadius: getRadiusFromDatum as any,
     highlightColor,
-    id: 'tree-point-layer',
+    id: "tree-point-layer",
     lineWidthMaxPixels: 2,
     lineWidthMinPixels: 2,
     opacity: 0.7,
@@ -59,7 +53,7 @@ export default function createTreeMarkerLayer(
     radiusMinPixels: 8,
     radiusMaxPixels: 48,
     radiusScale: 6,
-    radiusUnits: 'pixels',
+    radiusUnits: "pixels",
     stroked: true,
-  })
+  });
 }

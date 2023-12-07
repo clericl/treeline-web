@@ -1,1 +1,1 @@
-export { default as speciesDetails } from './speciesDetails.json'
+export { default as speciesDetails } from "./speciesDetails.json";

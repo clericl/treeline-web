@@ -1,49 +1,54 @@
-'use client'
+"use client";
 
-import {
-  Box,
-  IconButton,
-  SwipeableDrawer,
-  useTheme,
-} from '@mui/material'
-import { KeyboardEvent, MouseEvent, useCallback, useState } from 'react';
-import MapStyleList from '../MapStyleList';
-import MenuIcon from '@mui/icons-material/Menu'
+import { Box, IconButton, SwipeableDrawer, useTheme } from "@mui/material";
+import { KeyboardEvent, MouseEvent, useCallback, useState } from "react";
+import MapStyleList from "../MapStyleList";
+import MenuIcon from "@mui/icons-material/Menu";
 
 export default function DrawerMenu() {
-  const [drawerOpen, setDrawerOpen] = useState<boolean>(false)
-  const theme = useTheme()
+  const [drawerOpen, setDrawerOpen] = useState<boolean>(false);
+  const theme = useTheme();
 
-  const colorMode = theme.palette.mode
+  const colorMode = theme.palette.mode;
 
-  const toggleDrawer = useCallback((open: boolean) =>
-    (e: KeyboardEvent | MouseEvent) => {
+  const toggleDrawer = useCallback(
+    (open: boolean) => (e: KeyboardEvent | MouseEvent) => {
       if (
-        e.type === 'keydown' &&
-        ((e as KeyboardEvent).key === 'Tab' ||
-        (e as KeyboardEvent).key === 'Shift')
+        e.type === "keydown" &&
+        ((e as KeyboardEvent).key === "Tab" ||
+          (e as KeyboardEvent).key === "Shift")
       ) {
         return;
       }
 
-      setDrawerOpen(open)
-    }, [])
+      setDrawerOpen(open);
+    },
+    [],
+  );
 
   return (
     <>
       <IconButton
         aria-label="menu"
         onClick={toggleDrawer(true)}
-        style={{ backgroundColor: colorMode === 'dark' ? 'rgba(0 0 0 / 0.6)' : 'rgba(255 255 255 / 0.8)' }}
+        style={{
+          backgroundColor:
+            colorMode === "dark"
+              ? "rgba(0 0 0 / 0.6)"
+              : "rgba(255 255 255 / 0.8)",
+        }}
         sx={{
-          position: 'absolute',
+          position: "absolute",
           left: 10,
           top: 10,
           boxShadow: 3,
           borderRadius: 2,
         }}
       >
-        <MenuIcon fontSize="medium" sx={{ color: colorMode === 'dark' ? 'white' : 'black' }} />
+        <MenuIcon
+          fontSize="medium"
+          sx={{ color: colorMode === "dark" ? "white" : "black" }}
+        />
       </IconButton>
       <SwipeableDrawer
         className="side-drawer"
@@ -61,5 +66,5 @@ export default function DrawerMenu() {
         </Box>
       </SwipeableDrawer>
     </>
-  )
+  );
 }

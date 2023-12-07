@@ -1,14 +1,14 @@
-import { MapParams } from "@/components/ReactMap"
-import { useQuery } from "@tanstack/react-query"
-import { useSelectedSpecies } from "@/zustand"
+import { MapParams } from "@/components/ReactMap";
+import { useQuery } from "@tanstack/react-query";
+import { useSelectedSpecies } from "@/zustand";
 
 export function useTreesQuery(mapParams: MapParams) {
-  const { latitude, longitude, radius } = mapParams
-  const selectedSpecies = useSelectedSpecies.use.species()
+  const { latitude, longitude, radius } = mapParams;
+  const selectedSpecies = useSelectedSpecies.use.species();
 
   const queryRes = useQuery({
     queryKey: [
-      'trees',
+      "trees",
       {
         latitude,
         longitude,
@@ -17,37 +17,36 @@ export function useTreesQuery(mapParams: MapParams) {
       },
     ],
     queryFn: async () => {
-      let apiUrl
-      
+      let apiUrl;
+
       if (selectedSpecies.size) {
-        const speciesString = Array
-          .from(selectedSpecies)
+        const speciesString = Array.from(selectedSpecies)
           .map((species) => species.id)
-          .join(',')
+          .join(",");
 
         apiUrl = new URL(
           window.location.origin +
-          '/api/species' +
-          `?species=${speciesString}&latitude=${latitude}&longitude=${longitude}&radius=${radius}`
-        )
+            "/api/species" +
+            `?species=${speciesString}&latitude=${latitude}&longitude=${longitude}&radius=${radius}`,
+        );
       } else {
         apiUrl = new URL(
           window.location.origin +
-          '/api/trees' +
-          `?latitude=${latitude}&longitude=${longitude}&radius=${radius}`
-        )
+            "/api/trees" +
+            `?latitude=${latitude}&longitude=${longitude}&radius=${radius}`,
+        );
       }
 
-      const dataRes = await fetch(apiUrl)
-  
+      const dataRes = await fetch(apiUrl);
+
       if (!dataRes.ok) {
-        throw new Error('something went wrong!')
+        throw new Error("something went wrong!");
       }
-      
-      const { data } = await dataRes.json()
-      return data
-    },
-  })
 
-  return queryRes
+      const { data } = await dataRes.json();
+      return data;
+    },
+  });
+
+  return queryRes;
 }

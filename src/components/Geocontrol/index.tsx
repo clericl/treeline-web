@@ -1,26 +1,26 @@
-import { GeolocateControl, useMap } from "react-map-gl"
-import { GeolocateControl as GeolocateControlBase } from 'mapbox-gl'
-import { useCallback, useEffect, useRef } from "react"
-import { useModal } from '@/zustand'
+import { GeolocateControl, useMap } from "react-map-gl";
+import { GeolocateControl as GeolocateControlBase } from "mapbox-gl";
+import { useCallback, useEffect, useRef } from "react";
+import { useModal } from "@/zustand";
 
 export default function Geocontrol() {
-  const map = useMap()
-  const geocontrolRef = useRef<GeolocateControlBase>(null)
-  const setGeocontrolOpen = useModal.use.setGeocontrol()
-  const setOutOfRangeOpen = useModal.use.setOutOfRange()
+  const map = useMap();
+  const geocontrolRef = useRef<GeolocateControlBase>(null);
+  const setGeocontrolOpen = useModal.use.setGeocontrol();
+  const setOutOfRangeOpen = useModal.use.setOutOfRange();
 
   const handleMapLoad = useCallback(() => {
-    geocontrolRef.current?.trigger()
-  }, [])
+    geocontrolRef.current?.trigger();
+  }, []);
 
   const handleOutOfMaxBounds = useCallback(() => {
-    setOutOfRangeOpen(true)
-    setGeocontrolOpen(false)
-  }, [setGeocontrolOpen, setOutOfRangeOpen])
+    setOutOfRangeOpen(true);
+    setGeocontrolOpen(false);
+  }, [setGeocontrolOpen, setOutOfRangeOpen]);
 
   useEffect(() => {
-    map.current?.on('load', handleMapLoad)
-  }, [handleMapLoad, map])
+    map.current?.on("load", handleMapLoad);
+  }, [handleMapLoad, map]);
 
   return (
     <GeolocateControl
@@ -37,5 +37,5 @@ export default function Geocontrol() {
       trackUserLocation={true}
       ref={geocontrolRef}
     />
-  ) 
+  );
 }

@@ -3,26 +3,27 @@ import {
   ListItemButton,
   ListItemText,
   ListSubheader,
-} from '@mui/material'
-import { MAP_STYLES } from '../ReactMap';
-import { MapStyle, useMapStyle } from '@/zustand';
-import { useCallback } from 'react';
+} from "@mui/material";
+import { MAP_STYLES } from "../ReactMap";
+import { MapStyle, useMapStyle } from "@/zustand";
+import { useCallback } from "react";
 
 export default function MapStyleList() {
-  const mapStyle = useMapStyle.use.style()
-  const setMapStyle = useMapStyle.use.set()
+  const mapStyle = useMapStyle.use.style();
+  const setMapStyle = useMapStyle.use.set();
 
-  const handleListItemClick = useCallback((newMapStyle: MapStyle) => {
-    setMapStyle(newMapStyle)
-  }, [setMapStyle])
+  const handleListItemClick = useCallback(
+    (newMapStyle: MapStyle) => {
+      setMapStyle(newMapStyle);
+    },
+    [setMapStyle],
+  );
 
   return (
     <List
       dense={true}
       subheader={
-        <ListSubheader sx={{ fontWeight: 700 }}>
-          Map Styles
-        </ListSubheader>
+        <ListSubheader sx={{ fontWeight: 700 }}>Map Styles</ListSubheader>
       }
     >
       {Object.keys(MAP_STYLES).map((mapStyleName) => (
@@ -35,5 +36,5 @@ export default function MapStyleList() {
         </ListItemButton>
       ))}
     </List>
-  )
+  );
 }

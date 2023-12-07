@@ -1,5 +1,5 @@
-import { Geometry } from 'geojson';
-import { ReactNode } from 'react';
+import { Geometry } from "geojson";
+import { ReactNode } from "react";
 
 /** The state of a controller */
 export type InteractionState = {
@@ -13,7 +13,7 @@ export type InteractionState = {
   isRotating?: boolean;
   /** If the view is being zoomed, either from user input or transition */
   isZooming?: boolean;
-}
+};
 
 /** Parameters passed to the onViewStateChange callback */
 export type ViewStateChangeParameters = {
@@ -23,7 +23,7 @@ export type ViewStateChangeParameters = {
   interactionState: InteractionState;
   /** The current view state */
   oldViewState?: Record<string, any>;
-}
+};
 
 export interface RedisGeoSearchType {
   member: string;

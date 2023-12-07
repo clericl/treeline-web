@@ -6,7 +6,7 @@ function getPositionFromDatum(treeMarkerDatum: TreeMarkerType) {
   return [
     treeMarkerDatum.location.longitude,
     treeMarkerDatum.location.latitude,
-  ]
+  ];
 }
 
 export default function createSelectedTreeLayer(
@@ -14,22 +14,23 @@ export default function createSelectedTreeLayer(
   mapStyle: MapStyle,
   props?: Partial<IconLayer>,
 ) {
-  const wrappedData = data ? [data] : []
+  const wrappedData = data ? [data] : [];
 
-  let lineColor = [25, 25, 25]
+  let lineColor = [25, 25, 25];
 
-  if (['Dark', 'Navigation (Night)'].includes(mapStyle)) {
-    lineColor = [255, 255, 255]
+  if (["Dark", "Navigation (Night)"].includes(mapStyle)) {
+    lineColor = [255, 255, 255];
   }
 
   return new IconLayer({
     ...props,
     data: wrappedData,
     getColor: lineColor as any,
-    getIcon: () => 'marker',
+    getIcon: () => "marker",
     getPosition: getPositionFromDatum as any,
     getSize: 10,
-    iconAtlas: 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/icon-atlas.png',
+    iconAtlas:
+      "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/icon-atlas.png",
     iconMapping: {
       marker: {
         x: 0,
@@ -37,11 +38,11 @@ export default function createSelectedTreeLayer(
         width: 128,
         height: 128,
         anchorY: 128,
-        mask: true
-      }
+        mask: true,
+      },
     },
-    id: 'selected-tree-layer',
+    id: "selected-tree-layer",
     pickable: true,
     sizeScale: 4,
-  })
+  });
 }
