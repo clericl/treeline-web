@@ -12,6 +12,7 @@ import { SpeciesDetailsType, TreeMarkerType } from '@/types'
 import {
   StylesList,
   useMapStyle,
+  useModal,
   useSelectedSpecies,
   useSelectedTree,
 } from '@/zustand'
@@ -77,6 +78,7 @@ export default function ReactMap() {
   const setSelectedTree = useSelectedTree.use.set()
   const theme = useTheme()
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
+  const setLoadingModal = useModal.use.setLoadingData()
 
   const getTooltip = useCallback(({ object }: PickingInfo) => {
     if (!object) return null
@@ -170,6 +172,10 @@ export default function ReactMap() {
   }, [data])
 
   useEffect(() => {
+    setLoadingModal(isLoading)
+  }, [isLoading])
+
+  useEffect(() => {
     if (mapRef.current && selectedTree) {
       const { location } = selectedTree
 
@@ -194,6 +200,10 @@ export default function ReactMap() {
         initialViewState={INITIAL_VIEW_STATE}
         mapboxAccessToken={MAPBOX_ACCESS_TOKEN}
         mapStyle={MAP_STYLES[mapStyle]}
+        maxBounds={[
+          [-74.271527747487, 40.48357873750893],
+          [-73.69679451173128, 40.921886095747496]
+        ]}
         onMoveEnd={handleViewStateChange}
         ref={mapRef}
       >
@@ -205,7 +215,6 @@ export default function ReactMap() {
         />
         <Geocontrol />
       </Map>
-      <TreesLoading open={isLoading} />
     </>
   )
 }

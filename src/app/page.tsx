@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import { Container, CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import { createContext, useEffect, useMemo, useState } from 'react';
 import { useMapStyle } from '@/zustand';
+import Modal from '@/components/Modal';
 
 const ColorModeContext = createContext({
   toggleColorMode: () => {},
@@ -38,6 +39,7 @@ export default function Home() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Container disableGutters={true} maxWidth={false} sx={{ height: '100vh' }}>
+          <Modal />
           <Layout />
           <DrawerMenu />
         </Container>

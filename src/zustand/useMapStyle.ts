@@ -2,7 +2,7 @@ import { create } from 'zustand'
 import { createSelectors } from './createSelectors'
 
 export type MapStyle =
-  | 'Streets'
+  'Streets'
   | 'Outdoors'
   | 'Light'
   | 'Dark'
