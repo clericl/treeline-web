@@ -1,7 +1,7 @@
 import { Client } from "@googlemaps/google-maps-services-js";
 import { NextRequest, NextResponse } from "next/server";
 
-const API_KEY = "AIzaSyBNnou3kJau47ibL0_QPCzZEa6O4Gwn9GA";
+const apiKey = process.env.NEXT_PUBLIC_GEOCODE_API_KEY
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
@@ -19,7 +19,7 @@ export async function GET(request: NextRequest) {
 
       const location = await client.reverseGeocode({
         params: {
-          key: API_KEY,
+          key: apiKey || '',
           latlng,
         },
       });
