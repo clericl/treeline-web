@@ -59,8 +59,6 @@ function Modal() {
   const outOfRange = useModal.use.outOfRange()
   const loadingData = useModal.use.loadingData()
 
-  console.log({ geocontrol, outOfRange, loadingData })
-
   const modalContent = useMemo(() => {
     switch (currentModal) {
       case 'geocontrol':

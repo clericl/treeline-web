@@ -25,7 +25,6 @@ export default function createSelectedTreeLayer(
 
   return new IconLayer({
     ...props,
-    autoHighlight: true,
     data: wrappedData,
     getColor: lineColor as any,
     getIcon: () => 'marker',

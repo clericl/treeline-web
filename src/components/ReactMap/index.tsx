@@ -20,8 +20,8 @@ import { alpha, useMediaQuery, useTheme } from '@mui/material'
 import { speciesDetails } from "@/data"
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useTreesQuery } from '@/hooks'
-import TreesLoading from '../TreesLoading'
 import createSelectedTreeLayer from '@/layers/selectedTreeLayer'
+import debounce from 'lodash.debounce'
 
 const MAPBOX_ACCESS_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
 
@@ -42,8 +42,6 @@ export const INITIAL_VIEW_STATE = {
   latitude: 40.7128,
   longitude: -73.9872,
   zoom: 15,
-  maxZoom: 20,
-  minZoom: 12,
 }
 
 export type MapParams = {
@@ -67,7 +65,7 @@ export default function ReactMap() {
     latitude: INITIAL_VIEW_STATE.latitude,
     longitude: INITIAL_VIEW_STATE.longitude,
     radius: 1.04232281904622,
-    zoom: 15,
+    zoom: INITIAL_VIEW_STATE.zoom,
   })
   const [treeData, setTreeData] = useState<TreeMarkerType[]>([])
   const { data, isLoading } = useTreesQuery(mapParams)
@@ -111,7 +109,7 @@ export default function ReactMap() {
     return false
   }, [setSelectedTree])
 
-  const handleViewStateChange = useCallback(({ viewState }: ViewStateChangeEvent) => {
+  const handleViewStateChange = useCallback(debounce(({ viewState }: ViewStateChangeEvent) => {
     const { longitude, latitude, zoom } = viewState
     const canvas = mapRef.current?.getCanvas()
 
@@ -143,7 +141,7 @@ export default function ReactMap() {
       radius,
       zoom,
     })
-  }, [selectedSpecies])
+  }, 800), [selectedSpecies])
 
   const layers = useMemo(() => ([
     createTreeMarkerLayer(
@@ -204,6 +202,8 @@ export default function ReactMap() {
           [-74.271527747487, 40.48357873750893],
           [-73.69679451173128, 40.921886095747496]
         ]}
+        minZoom={13}
+        maxZoom={18}
         onMoveEnd={handleViewStateChange}
         ref={mapRef}
       >
