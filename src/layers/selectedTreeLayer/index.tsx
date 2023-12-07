@@ -3,7 +3,6 @@ import { IconLayer } from "@deck.gl/layers/typed";
 import { MapStyle } from "@/zustand";
 
 function getPositionFromDatum(treeMarkerDatum: TreeMarkerType) {
-  console.log(treeMarkerDatum)
   return [
     treeMarkerDatum.location.longitude,
     treeMarkerDatum.location.latitude,
