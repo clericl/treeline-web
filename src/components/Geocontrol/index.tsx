@@ -16,7 +16,7 @@ export default function Geocontrol() {
   const handleOutOfMaxBounds = useCallback(() => {
     setOutOfRangeOpen(true)
     setGeocontrolOpen(false)
-  }, [])
+  }, [setGeocontrolOpen, setOutOfRangeOpen])
 
   useEffect(() => {
     map.current?.on('load', handleMapLoad)

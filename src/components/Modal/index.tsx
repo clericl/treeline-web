@@ -26,10 +26,10 @@ function OutOfRangeModal() {
   return (
     <>
       <Typography variant="h4">
-        <span className="text-white">Wait, you're not in NYC!</span>
+        <span className="text-white">Wait, you&apos;re not in NYC!</span>
       </Typography>
       <Typography variant="body1">
-        <span className="text-white">This map doesn't cover your present location.</span>
+        <span className="text-white">This map doesn&apos;t cover your present location.</span>
       </Typography>
       <Box>
         <Button
@@ -90,7 +90,7 @@ function Modal() {
         setCurrentModal(null)
       }
     }, !currentModal ? 0 : 700)
-  }, [geocontrol, outOfRange, loadingData])
+  }, [currentModal, geocontrol, outOfRange, loadingData])
 
   return (
     <div className={

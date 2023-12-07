@@ -109,39 +109,41 @@ export default function ReactMap() {
     return false
   }, [setSelectedTree])
 
-  const handleViewStateChange = useCallback(debounce(({ viewState }: ViewStateChangeEvent) => {
-    const { longitude, latitude, zoom } = viewState
-    const canvas = mapRef.current?.getCanvas()
-
-    let width = 1
-    let height = 1
-
-    if (canvas) {
-      width = canvas.width
-      height = canvas.height
-    }
-    
-    const bounds = geoViewport.bounds(
-      { lon: longitude, lat: latitude },
-      zoom,
-      [width, height],
-      512,
-    )
-    const distanceBetween = distance(
-      [bounds[0], latitude],
-      [bounds[2], latitude],
-    )
-    const radius = selectedSpecies.size ?
-      distanceBetween / 2 :
-      Math.min(distanceBetween / 2, 2)
-
-    setMapParams({
-      latitude,
-      longitude,
-      radius,
-      zoom,
-    })
-  }, 800), [selectedSpecies])
+  const handleViewStateChange = useMemo(() => {
+    return debounce(({ viewState }: ViewStateChangeEvent) => {
+      const { longitude, latitude, zoom } = viewState
+      const canvas = mapRef.current?.getCanvas()
+  
+      let width = 1
+      let height = 1
+  
+      if (canvas) {
+        width = canvas.width
+        height = canvas.height
+      }
+      
+      const bounds = geoViewport.bounds(
+        { lon: longitude, lat: latitude },
+        zoom,
+        [width, height],
+        512,
+      )
+      const distanceBetween = distance(
+        [bounds[0], latitude],
+        [bounds[2], latitude],
+      )
+      const radius = selectedSpecies.size ?
+        distanceBetween / 2 :
+        Math.min(distanceBetween / 2, 2)
+  
+      setMapParams({
+        latitude,
+        longitude,
+        radius,
+        zoom,
+      })
+    }, 800)
+  }, [selectedSpecies])
 
   const layers = useMemo(() => ([
     createTreeMarkerLayer(
@@ -170,7 +172,7 @@ export default function ReactMap() {
 
   useEffect(() => {
     setLoadingModal(isLoading)
-  }, [isLoading])
+  }, [isLoading, setLoadingModal])
 
   useEffect(() => {
     if (mapRef.current && selectedTree) {
