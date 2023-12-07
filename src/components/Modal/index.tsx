@@ -77,8 +77,6 @@ function Modal() {
   }, [currentModal])
   
   useEffect(() => {
-    setOpen(false)
-
     setTimeout(() => {
       if (geocontrol) {
         setCurrentModal('geocontrol')
