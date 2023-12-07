@@ -175,6 +175,14 @@ export default function TreeDetail() {
               </span>
             </p>
           )}
+          {selectedTree?.species && (
+            <p className="w-full flex justify-between mb-2">
+              <span>Species count</span>
+              <span className="text-right">
+                {typedSpeciesDetails[selectedTree?.species].count.toLocaleString('en-US')}
+              </span>
+            </p>
+          )}
         </Typography>
         {wikiLoading || !wikiData ? (
           <Box
