@@ -156,13 +156,13 @@ export default function TreeDetail() {
           <p className="w-full flex justify-between mb-2">
             <span>Longitude</span>
             <span className="text-right">
-              {selectedTree?.location.longitude}
+              {Math.round((selectedTree?.location.longitude || 0) * 1000000) / 1000000}
             </span>
           </p>
           <p className="w-full flex justify-between mb-2">
             <span>Latitude</span>
             <span className="text-right">
-              {selectedTree?.location.latitude}
+            {Math.round((selectedTree?.location.latitude || 0) * 1000000) / 1000000}
             </span>
           </p>
           {(address || locationLoading) && (

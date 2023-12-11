@@ -338,7 +338,8 @@
   "Aesculus sp.": {
     "commonNames": "horse-chestnut",
     "color": [126, 150, 60, 0.5],
-    "count": 97
+    "count": 97,
+    "wikiTitle": "Aesculus"
   },
   "Ailanthus altissima": {
     "commonNames": "tree of heaven, ailanthus, varnish tree",
@@ -404,7 +405,8 @@
   "Amelanchier sp.": {
     "commonNames": "shadbush, shadblow, serviceberry, sugarplum, saskatoon, juneberry",
     "color": [77, 157, 59, 0.5],
-    "count": 2795
+    "count": 2795,
+    "wikiTitle": "Amelanchier"
   },
   "Aralia spinosa": {
     "commonNames": "devil's walkingstick",
@@ -529,7 +531,8 @@
   "Carya sp.": {
     "commonNames": "hickory",
     "color": [126, 150, 60, 0.5],
-    "count": 10
+    "count": 10,
+    "wikiTitle": "Carya"
   },
   "Castanea dentata": {
     "commonNames": "American chestnut",
@@ -564,7 +567,8 @@
   "Catalpa sp.": {
     "commonNames": "catalpa, catawba",
     "color": [244, 121, 25, 0.5],
-    "count": 805
+    "count": 805,
+    "wikiTitle": "Catalpa"
   },
   "Cedrus atlantica": {
     "commonNames": "Atlas cedar",
@@ -908,7 +912,8 @@
   "Crataegus sp.": {
     "commonNames": "hawthorn",
     "color": [127, 125, 108, 0.5],
-    "count": 5886
+    "count": 5886,
+    "wikiTitle": "Crataegus"
   },
   "Cryptomeria japonica 'Angelica'": {
     "commonNames": "Japanese cedar, sugi",
@@ -1028,7 +1033,8 @@
   "Fraxinus sp.": {
     "commonNames": "ash",
     "color": [126, 214, 187, 0.5],
-    "count": 3245
+    "count": 3245,
+    "wikiTitle": "Fraxinus"
   },
   "Ginkgo biloba 'Autumn Gold'": {
     "commonNames": "ginkgo, maidenhair tree",
@@ -1205,7 +1211,8 @@
   "Ilex sp.": {
     "commonNames": "holly",
     "color": [97, 88, 88, 0.5],
-    "count": 872
+    "count": 872,
+    "wikiTitle": "Ilex"
   },
   "Juglans ailantifolia": {
     "commonNames": "Japanese walnut",
@@ -1305,7 +1312,8 @@
   "Lagerstroemia sp.": {
     "commonNames": "crape myrtle, crepe myrtle",
     "color": [90, 229, 129, 0.5],
-    "count": 1014
+    "count": 1014,
+    "wikiTitle": "Lagerstroemia"
   },
   "Larix decidua": {
     "commonNames": "European larch",
@@ -1470,7 +1478,8 @@
   "Magnolia sp.": {
     "commonNames": "magnolia",
     "color": [176, 201, 1, 0.5],
-    "count": 1429
+    "count": 1429,
+    "wikiTitle": "Magnolia"
   },
   "Malus floribunda": {
     "commonNames": "Japanese flowering crabapple",
@@ -1580,7 +1589,8 @@
   "Malus sp.": {
     "commonNames": "apple, crabapple",
     "color": [77, 157, 59, 0.5],
-    "count": 7402
+    "count": 7402,
+    "wikiTitle": "Malus"
   },
   "Metasequoia glyptostroboides 'Gold Rush'": {
     "commonNames": "dawn redwood",
@@ -1716,7 +1726,8 @@
   "Picea sp.": {
     "commonNames": "spruce",
     "color": [76, 198, 70, 0.5],
-    "count": 700
+    "count": 700,
+    "wikiTitle": "Picea"
   },
   "Pinus cembra": {
     "commonNames": "Swiss stone pine, Swiss pine, Arolla pine, Austrian stone pine, stone pine",
@@ -1801,7 +1812,8 @@
   "Pinus sp.": {
     "commonNames": "pine",
     "color": [76, 198, 70, 0.5],
-    "count": 1933
+    "count": 1933,
+    "wikiTitle": "Pinus"
   },
   "Pistacia chinensis": {
     "commonNames": "Chinese pistache",
@@ -2041,7 +2053,8 @@
   "Prunus sp.": {
     "commonNames": "plum, cherry blossom",
     "color": [77, 157, 59, 0.5],
-    "count": 7209
+    "count": 7209,
+    "wikiTitle": "Prunus"
   },
   "Pseudotsuga menziesii": {
     "commonNames": "Douglas fir, Douglas spruce, Oregon pine, Columbian pine",
@@ -2294,7 +2307,8 @@
   "Quercus sp.": {
     "commonNames": "oak",
     "color": [56, 103, 3, 0.5],
-    "count": 3675
+    "count": 3675,
+    "wikiTitle": "Quercus"
   },
   "Robinia hispida": {
     "commonNames": "bristly locust, rose-acacia, moss locust",
@@ -2334,7 +2348,8 @@
   "Salix sp.": {
     "commonNames": "willow",
     "color": [77, 157, 59, 0.5],
-    "count": 154
+    "count": 154,
+    "wikiTitle": "Salix"
   },
   "Sassafras albidum": {
     "commonNames": "sassafras, white sassafras, red sassafras, silky sassafras",

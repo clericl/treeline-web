@@ -147,9 +147,9 @@ export default function ReactMap() {
         : Math.min(distanceBetween / 2, 2);
 
       setMapParams({
-        latitude,
-        longitude,
-        radius,
+        latitude: Math.round(latitude * 1000000) / 1000000,
+        longitude: Math.round(longitude * 1000000) / 1000000,
+        radius: Math.round(radius * 1000000) / 1000000,
         zoom,
       });
     }, 800);
