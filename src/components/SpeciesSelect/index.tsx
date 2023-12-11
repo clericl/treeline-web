@@ -116,6 +116,13 @@ export default function SpeciesSelect() {
   return (
     <Box sx={{ pl: 0, pr: 0, pt: isMobile ? 1 : 3, pb: 3 }}>
       <Autocomplete
+        componentsProps={isMobile ? {
+          paper: {
+            sx: {
+              height: '33vh',
+            },
+          },
+        } : {}}
         disablePortal
         inputValue={inputValue}
         filterOptions={autocompleteOptions}
