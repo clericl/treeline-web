@@ -55,7 +55,7 @@ export default function BaseballCard() {
   const [tabValue, setTabValue] = useState(0);
   const selectedTree = useSelectedTree.use.tree();
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const isDesktop = useMediaQuery(theme.breakpoints.up("sm"));
 
   const handleOnClose = useCallback(() => {
     setMobileOpen(false);
@@ -85,7 +85,39 @@ export default function BaseballCard() {
     }
   }, [selectedTree]);
 
-  return isMobile ? (
+  return isDesktop ? (
+    <Card
+      elevation={3}
+      variant="elevation"
+      sx={{
+        backgroundColor: alpha(theme.palette.background.default, 0.95),
+        minHeight: "250px",
+        position: "absolute",
+        right: "10px",
+        top: "50%",
+        transform: "translateY(-50%)",
+        width: "20vw",
+        overflow: "visible",
+      }}
+    >
+      <CardContent sx={{ height: "100%", paddingTop: 0 }}>
+        <Tabs onChange={handleTabChange} value={tabValue} variant="fullWidth">
+          <Tab label="Map Filters" id="map filters tab" />
+          <Tab
+            label="Tree Detail"
+            id="tree detail tab"
+            disabled={!selectedTree}
+          />
+        </Tabs>
+        <CustomTabPanel index={0} value={tabValue} id="map filters panel">
+          <SpeciesSelect />
+        </CustomTabPanel>
+        <CustomTabPanel index={1} value={tabValue} id="tree detail panel">
+          <TreeDetail />
+        </CustomTabPanel>
+      </CardContent>
+    </Card>
+  ) : (
     <SwipeableDrawer
       anchor="bottom"
       className="bottom-drawer"
@@ -140,37 +172,5 @@ export default function BaseballCard() {
         </CustomTabPanel>
       </Box>
     </SwipeableDrawer>
-  ) : (
-    <Card
-      elevation={3}
-      variant="elevation"
-      sx={{
-        backgroundColor: alpha(theme.palette.background.default, 0.95),
-        minHeight: "250px",
-        position: "absolute",
-        right: "10px",
-        top: "50%",
-        transform: "translateY(-50%)",
-        width: "20vw",
-        overflow: "visible",
-      }}
-    >
-      <CardContent sx={{ height: "100%", paddingTop: 0 }}>
-        <Tabs onChange={handleTabChange} value={tabValue} variant="fullWidth">
-          <Tab label="Map Filters" id="map filters tab" />
-          <Tab
-            label="Tree Detail"
-            id="tree detail tab"
-            disabled={!selectedTree}
-          />
-        </Tabs>
-        <CustomTabPanel index={0} value={tabValue} id="map filters panel">
-          <SpeciesSelect />
-        </CustomTabPanel>
-        <CustomTabPanel index={1} value={tabValue} id="tree detail panel">
-          <TreeDetail />
-        </CustomTabPanel>
-      </CardContent>
-    </Card>
   );
 }
