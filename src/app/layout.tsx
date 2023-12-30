@@ -1,6 +1,8 @@
 import { Roboto } from "next/font/google";
 
 import type { Metadata } from "next";
+import type { Viewport } from "next/dist/lib/metadata/types/extra-types";
+
 
 import "./globals.css";
 import "@/styles/mapbox.css";
@@ -16,6 +18,10 @@ export const metadata: Metadata = {
   title: "Treeline NYC",
   description: "Discover the trees of New York City",
 };
+
+export const viewport: Viewport = {
+  userScalable: false,
+}
 
 export default function RootLayout({
   children,
