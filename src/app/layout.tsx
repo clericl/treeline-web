@@ -1,7 +1,6 @@
 import { Roboto } from "next/font/google";
 
-import type { Metadata } from "next";
-import type { Viewport } from "next/dist/lib/metadata/types/extra-types";
+import type { Metadata, Viewport } from "next";
 
 
 import "./globals.css";
